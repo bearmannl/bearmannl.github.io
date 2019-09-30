@@ -6,15 +6,24 @@
     <description>Recent content on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 May 2016 20:26:03 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 26 May 2016 14:45:26 +0200</lastBuildDate>
     
 	<atom:link href="http://blog.bearman.nl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Sfb Ha Sql Dag Configuration</title>
+      <link>http://blog.bearman.nl/posts/sfb-ha-sql-dag-configuration/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>http://blog.bearman.nl/posts/sfb-ha-sql-dag-configuration/</guid>
+      <description>One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.</description>
+    </item>
+    
+    <item>
       <title>Customers Dont Have a Frakking Clue</title>
       <link>http://blog.bearman.nl/posts/customers-dont-have-a-frakking-clue/</link>
-      <pubDate>Tue, 24 May 2016 20:26:03 +0200</pubDate>
+      <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
       
       <guid>http://blog.bearman.nl/posts/customers-dont-have-a-frakking-clue/</guid>
       <description>Part 1: The origin story
