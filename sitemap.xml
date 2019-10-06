@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bearman.nl/2017/</loc>
-    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bearman.nl/tags/automation/</loc>
     <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
@@ -29,6 +24,11 @@
   
   <url>
     <loc>https://bearman.nl/tags/infrastructure/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bearman.nl/posts/</loc>
     <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
@@ -110,11 +110,6 @@
   <url>
     <loc>https://bearman.nl/tags/remoteapp-and-desktop-connection/</loc>
     <lastmod>2017-04-10T13:11:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bearman.nl/2016/</loc>
-    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
   </url>
   
   <url>
