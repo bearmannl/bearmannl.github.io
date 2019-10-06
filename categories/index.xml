@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bearman.NL</title>
-    <link>https://blog.bearman.nl/categories/</link>
+    <link>https://bearman.nl/categories/</link>
     <description>Recent content in Categories on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 May 2016 14:45:26 +0200</lastBuildDate>
     
-	<atom:link href="https://blog.bearman.nl/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bearman.nl/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>tech</title>
-      <link>https://blog.bearman.nl/categories/tech/</link>
+      <link>https://bearman.nl/categories/tech/</link>
       <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/categories/tech/</guid>
+      <guid>https://bearman.nl/categories/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>consulting</title>
-      <link>https://blog.bearman.nl/categories/consulting/</link>
+      <link>https://bearman.nl/categories/consulting/</link>
       <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/categories/consulting/</guid>
+      <guid>https://bearman.nl/categories/consulting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>it</title>
-      <link>https://blog.bearman.nl/categories/it/</link>
+      <link>https://bearman.nl/categories/it/</link>
       <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/categories/it/</guid>
+      <guid>https://bearman.nl/categories/it/</guid>
       <description></description>
     </item>
     

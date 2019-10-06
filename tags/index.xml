@@ -2,372 +2,372 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bearman.NL</title>
-    <link>https://blog.bearman.nl/tags/</link>
+    <link>https://bearman.nl/tags/</link>
     <description>Recent content in Tags on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Aug 2017 11:56:45 +0200</lastBuildDate>
     
-	<atom:link href="https://blog.bearman.nl/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bearman.nl/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>automation</title>
-      <link>https://blog.bearman.nl/tags/automation/</link>
+      <link>https://bearman.nl/tags/automation/</link>
       <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/automation/</guid>
+      <guid>https://bearman.nl/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>firewall-ports</title>
-      <link>https://blog.bearman.nl/tags/firewall-ports/</link>
+      <link>https://bearman.nl/tags/firewall-ports/</link>
       <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/firewall-ports/</guid>
+      <guid>https://bearman.nl/tags/firewall-ports/</guid>
       <description></description>
     </item>
     
     <item>
       <title>infrastructure</title>
-      <link>https://blog.bearman.nl/tags/infrastructure/</link>
+      <link>https://bearman.nl/tags/infrastructure/</link>
       <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/infrastructure/</guid>
+      <guid>https://bearman.nl/tags/infrastructure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>powershell</title>
-      <link>https://blog.bearman.nl/tags/powershell/</link>
+      <link>https://bearman.nl/tags/powershell/</link>
       <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/powershell/</guid>
+      <guid>https://bearman.nl/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scripts</title>
-      <link>https://blog.bearman.nl/tags/scripts/</link>
+      <link>https://bearman.nl/tags/scripts/</link>
       <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/scripts/</guid>
+      <guid>https://bearman.nl/tags/scripts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>least-privileged-account</title>
-      <link>https://blog.bearman.nl/tags/least-privileged-account/</link>
+      <link>https://bearman.nl/tags/least-privileged-account/</link>
       <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/least-privileged-account/</guid>
+      <guid>https://bearman.nl/tags/least-privileged-account/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sharepoint</title>
-      <link>https://blog.bearman.nl/tags/sharepoint/</link>
+      <link>https://bearman.nl/tags/sharepoint/</link>
       <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/sharepoint/</guid>
+      <guid>https://bearman.nl/tags/sharepoint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uls</title>
-      <link>https://blog.bearman.nl/tags/uls/</link>
+      <link>https://bearman.nl/tags/uls/</link>
       <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/uls/</guid>
+      <guid>https://bearman.nl/tags/uls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>creators-update</title>
-      <link>https://blog.bearman.nl/tags/creators-update/</link>
+      <link>https://bearman.nl/tags/creators-update/</link>
       <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/creators-update/</guid>
+      <guid>https://bearman.nl/tags/creators-update/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google</title>
-      <link>https://blog.bearman.nl/tags/google/</link>
+      <link>https://bearman.nl/tags/google/</link>
       <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/google/</guid>
+      <guid>https://bearman.nl/tags/google/</guid>
       <description></description>
     </item>
     
     <item>
       <title>microsoft-edge</title>
-      <link>https://blog.bearman.nl/tags/microsoft-edge/</link>
+      <link>https://bearman.nl/tags/microsoft-edge/</link>
       <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/microsoft-edge/</guid>
+      <guid>https://bearman.nl/tags/microsoft-edge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows-10</title>
-      <link>https://blog.bearman.nl/tags/windows-10/</link>
+      <link>https://bearman.nl/tags/windows-10/</link>
       <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/windows-10/</guid>
+      <guid>https://bearman.nl/tags/windows-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gateway</title>
-      <link>https://blog.bearman.nl/tags/gateway/</link>
+      <link>https://bearman.nl/tags/gateway/</link>
       <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/gateway/</guid>
+      <guid>https://bearman.nl/tags/gateway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rdp</title>
-      <link>https://blog.bearman.nl/tags/rdp/</link>
+      <link>https://bearman.nl/tags/rdp/</link>
       <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/rdp/</guid>
+      <guid>https://bearman.nl/tags/rdp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>remoteapp-and-desktop-connection</title>
-      <link>https://blog.bearman.nl/tags/remoteapp-and-desktop-connection/</link>
+      <link>https://bearman.nl/tags/remoteapp-and-desktop-connection/</link>
       <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/remoteapp-and-desktop-connection/</guid>
+      <guid>https://bearman.nl/tags/remoteapp-and-desktop-connection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>active-directory</title>
-      <link>https://blog.bearman.nl/tags/active-directory/</link>
+      <link>https://bearman.nl/tags/active-directory/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/active-directory/</guid>
+      <guid>https://bearman.nl/tags/active-directory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ad</title>
-      <link>https://blog.bearman.nl/tags/ad/</link>
+      <link>https://bearman.nl/tags/ad/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/ad/</guid>
+      <guid>https://bearman.nl/tags/ad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>email</title>
-      <link>https://blog.bearman.nl/tags/email/</link>
+      <link>https://bearman.nl/tags/email/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/email/</guid>
+      <guid>https://bearman.nl/tags/email/</guid>
       <description></description>
     </item>
     
     <item>
       <title>expiration</title>
-      <link>https://blog.bearman.nl/tags/expiration/</link>
+      <link>https://bearman.nl/tags/expiration/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/expiration/</guid>
+      <guid>https://bearman.nl/tags/expiration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notification</title>
-      <link>https://blog.bearman.nl/tags/notification/</link>
+      <link>https://bearman.nl/tags/notification/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/notification/</guid>
+      <guid>https://bearman.nl/tags/notification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>password</title>
-      <link>https://blog.bearman.nl/tags/password/</link>
+      <link>https://bearman.nl/tags/password/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/password/</guid>
+      <guid>https://bearman.nl/tags/password/</guid>
       <description></description>
     </item>
     
     <item>
       <title>script</title>
-      <link>https://blog.bearman.nl/tags/script/</link>
+      <link>https://bearman.nl/tags/script/</link>
       <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/script/</guid>
+      <guid>https://bearman.nl/tags/script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>consultancy</title>
-      <link>https://blog.bearman.nl/tags/consultancy/</link>
+      <link>https://bearman.nl/tags/consultancy/</link>
       <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/consultancy/</guid>
+      <guid>https://bearman.nl/tags/consultancy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>metaphor</title>
-      <link>https://blog.bearman.nl/tags/metaphor/</link>
+      <link>https://bearman.nl/tags/metaphor/</link>
       <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/metaphor/</guid>
+      <guid>https://bearman.nl/tags/metaphor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>microsoft</title>
-      <link>https://blog.bearman.nl/tags/microsoft/</link>
+      <link>https://bearman.nl/tags/microsoft/</link>
       <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/microsoft/</guid>
+      <guid>https://bearman.nl/tags/microsoft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>office365</title>
-      <link>https://blog.bearman.nl/tags/office365/</link>
+      <link>https://bearman.nl/tags/office365/</link>
       <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/office365/</guid>
+      <guid>https://bearman.nl/tags/office365/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>https://blog.bearman.nl/tags/security/</link>
+      <link>https://bearman.nl/tags/security/</link>
       <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/security/</guid>
+      <guid>https://bearman.nl/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azurewebsites</title>
-      <link>https://blog.bearman.nl/tags/azurewebsites/</link>
+      <link>https://bearman.nl/tags/azurewebsites/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/azurewebsites/</guid>
+      <guid>https://bearman.nl/tags/azurewebsites/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom-hostnames</title>
-      <link>https://blog.bearman.nl/tags/custom-hostnames/</link>
+      <link>https://bearman.nl/tags/custom-hostnames/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/custom-hostnames/</guid>
+      <guid>https://bearman.nl/tags/custom-hostnames/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom-url</title>
-      <link>https://blog.bearman.nl/tags/custom-url/</link>
+      <link>https://bearman.nl/tags/custom-url/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/custom-url/</guid>
+      <guid>https://bearman.nl/tags/custom-url/</guid>
       <description></description>
     </item>
     
     <item>
       <title>redirect</title>
-      <link>https://blog.bearman.nl/tags/redirect/</link>
+      <link>https://bearman.nl/tags/redirect/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/redirect/</guid>
+      <guid>https://bearman.nl/tags/redirect/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>https://blog.bearman.nl/tags/tech/</link>
+      <link>https://bearman.nl/tags/tech/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/tech/</guid>
+      <guid>https://bearman.nl/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>url-rewrite</title>
-      <link>https://blog.bearman.nl/tags/url-rewrite/</link>
+      <link>https://bearman.nl/tags/url-rewrite/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/url-rewrite/</guid>
+      <guid>https://bearman.nl/tags/url-rewrite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wordpress</title>
-      <link>https://blog.bearman.nl/tags/wordpress/</link>
+      <link>https://bearman.nl/tags/wordpress/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/wordpress/</guid>
+      <guid>https://bearman.nl/tags/wordpress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dag</title>
-      <link>https://blog.bearman.nl/tags/dag/</link>
+      <link>https://bearman.nl/tags/dag/</link>
       <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/dag/</guid>
+      <guid>https://bearman.nl/tags/dag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database-availability-group</title>
-      <link>https://blog.bearman.nl/tags/database-availability-group/</link>
+      <link>https://bearman.nl/tags/database-availability-group/</link>
       <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/database-availability-group/</guid>
+      <guid>https://bearman.nl/tags/database-availability-group/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sfb</title>
-      <link>https://blog.bearman.nl/tags/sfb/</link>
+      <link>https://bearman.nl/tags/sfb/</link>
       <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/sfb/</guid>
+      <guid>https://bearman.nl/tags/sfb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>skype-for-business</title>
-      <link>https://blog.bearman.nl/tags/skype-for-business/</link>
+      <link>https://bearman.nl/tags/skype-for-business/</link>
       <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/skype-for-business/</guid>
+      <guid>https://bearman.nl/tags/skype-for-business/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql-server</title>
-      <link>https://blog.bearman.nl/tags/sql-server/</link>
+      <link>https://bearman.nl/tags/sql-server/</link>
       <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/sql-server/</guid>
+      <guid>https://bearman.nl/tags/sql-server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>it</title>
-      <link>https://blog.bearman.nl/tags/it/</link>
+      <link>https://bearman.nl/tags/it/</link>
       <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/tags/it/</guid>
+      <guid>https://bearman.nl/tags/it/</guid>
       <description></description>
     </item>
     

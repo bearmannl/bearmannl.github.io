@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rdp on Bearman.NL</title>
-    <link>https://blog.bearman.nl/tags/rdp/</link>
+    <link>https://bearman.nl/tags/rdp/</link>
     <description>Recent content in rdp on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Apr 2017 13:11:47 +0200</lastBuildDate>
     
-	<atom:link href="https://blog.bearman.nl/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bearman.nl/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
-      <link>https://blog.bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
+      <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
       <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
+      <guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
       <description>Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well... true so far except for one minor issue! When I had to connect to a client&#39;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &#34;</description>
     </item>
     

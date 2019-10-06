@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>custom-hostnames on Bearman.NL</title>
-    <link>https://blog.bearman.nl/tags/custom-hostnames/</link>
+    <link>https://bearman.nl/tags/custom-hostnames/</link>
     <description>Recent content in custom-hostnames on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jun 2016 15:13:27 +0200</lastBuildDate>
     
-	<atom:link href="https://blog.bearman.nl/tags/custom-hostnames/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bearman.nl/tags/custom-hostnames/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Custom Domain Names With Azurewebsites</title>
-      <link>https://blog.bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
+      <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
       <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
+      <guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
       <description>I&#39;ve only recently set up this blog and since it&#39;s always busy at work, I don&#39;t always have the time to sort out those &#39;nice to haves&#39;. I&#39;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&#39;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &#39;bearman.nl&#39; hostname I&#39;m using now. Shame on me, Microsoft consultant couldn&#39;t figure out a simple IIS redirect rule.</description>
     </item>
     

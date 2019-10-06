@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>creators-update on Bearman.NL</title>
-    <link>https://blog.bearman.nl/tags/creators-update/</link>
+    <link>https://bearman.nl/tags/creators-update/</link>
     <description>Recent content in creators-update on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Apr 2017 12:12:02 +0200</lastBuildDate>
     
-	<atom:link href="https://blog.bearman.nl/tags/creators-update/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bearman.nl/tags/creators-update/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
-      <link>https://blog.bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
+      <link>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
       <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
+      <guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
       <description>Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&#39;ve also upgraded.  This *only* happened with Google, no other site had this issue... furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome...  Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.</description>
     </item>
     
     <item>
       <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
-      <link>https://blog.bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
+      <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
       <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
       
-      <guid>https://blog.bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
+      <guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
       <description>Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well... true so far except for one minor issue! When I had to connect to a client&#39;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &#34;</description>
     </item>
     
