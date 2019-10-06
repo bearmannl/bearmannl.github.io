@@ -114,7 +114,117 @@
   
   <url>
     <loc>https://blog.bearman.nl/2016/</loc>
-    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/active-directory/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/ad/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/email/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/expiration/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/notification/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/password/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2016/06/23/password-change-notification-script/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/script/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/consultancy/</loc>
+    <lastmod>2016-06-22T14:36:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/metaphor/</loc>
+    <lastmod>2016-06-22T14:36:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/microsoft/</loc>
+    <lastmod>2016-06-22T14:36:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/office365/</loc>
+    <lastmod>2016-06-22T14:36:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/security/</loc>
+    <lastmod>2016-06-22T14:36:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</loc>
+    <lastmod>2016-06-22T14:36:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/azurewebsites/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/custom-hostnames/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/custom-url/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/redirect/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/tech/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/url-rewrite/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/wordpress/</loc>
+    <lastmod>2016-06-16T15:13:27+02:00</lastmod>
   </url>
   
   <url>
@@ -158,16 +268,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bearman.nl/tags/tech/</loc>
-    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bearman.nl/tags/consultancy/</loc>
-    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.bearman.nl/categories/consulting/</loc>
     <lastmod>2016-05-24T06:45:03+02:00</lastmod>
   </url>
@@ -184,11 +284,6 @@
   
   <url>
     <loc>https://blog.bearman.nl/categories/it/</loc>
-    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.bearman.nl/tags/microsoft/</loc>
     <lastmod>2016-05-24T06:45:03+02:00</lastmod>
   </url>
   

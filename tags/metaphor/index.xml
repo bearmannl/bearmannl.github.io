@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>metaphor on Bearman.NL</title>
+    <link>https://blog.bearman.nl/tags/metaphor/</link>
+    <description>Recent content in metaphor on Bearman.NL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2016 14:36:47 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.bearman.nl/tags/metaphor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Castle the City and the Outlands</title>
+      <link>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</link>
+      <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</guid>
+      <description>The education sector In consultancy we see a wide range of business sectors. From healthcare, to banking, but also the education sector. Yesterday I was providing advice on user adoption and migration strategies for a large educational institute. In attempting to explain the security architecture of Office365 and SharePoint Online I used several metaphors. To summarize what I had told him, my customer offered a metaphor of his own in return which I found to be very effective.</description>
+    </item>
+    
+  </channel>
+</rss>

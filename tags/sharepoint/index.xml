@@ -20,5 +20,14 @@
       <description>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files. Incidentally I found a Event Log error with the code:Â&amp;nbsp;Session &#34;WSSUSAGESESSION15&#34; failed to start with the following error: 0xC0000022 Other posts mention adding the service account (or the WSS_WPG group) for the &#39;SharePoint Tracing Service&#39; Windows Service to the administrators group, tested that, this indeed fixes the problem.</description>
     </item>
     
+    <item>
+      <title>The Castle the City and the Outlands</title>
+      <link>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</link>
+      <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</guid>
+      <description>The education sector In consultancy we see a wide range of business sectors. From healthcare, to banking, but also the education sector. Yesterday I was providing advice on user adoption and migration strategies for a large educational institute. In attempting to explain the security architecture of Office365 and SharePoint Online I used several metaphors. To summarize what I had told him, my customer offered a metaphor of his own in return which I found to be very effective.</description>
+    </item>
+    
   </channel>
 </rss>

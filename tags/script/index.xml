@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>script on Bearman.NL</title>
+    <link>https://blog.bearman.nl/tags/script/</link>
+    <description>Recent content in script on Bearman.NL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jun 2016 14:09:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.bearman.nl/tags/script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Password Change Notification Script</title>
+      <link>https://blog.bearman.nl/2016/06/23/password-change-notification-script/</link>
+      <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/06/23/password-change-notification-script/</guid>
+      <description>Version 1.4 Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, checked it, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman over at the Technet Gallery. For Office365 compatibility check his post here…</description>
+    </item>
+    
+  </channel>
+</rss>

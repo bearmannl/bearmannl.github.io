@@ -6,10 +6,37 @@
     <description>Recent content in 2016s on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 May 2016 14:45:26 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jun 2016 14:09:50 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.bearman.nl/2016/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Password Change Notification Script</title>
+      <link>https://blog.bearman.nl/2016/06/23/password-change-notification-script/</link>
+      <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/06/23/password-change-notification-script/</guid>
+      <description>Version 1.4 Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, checked it, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman over at the Technet Gallery. For Office365 compatibility check his post here…</description>
+    </item>
+    
+    <item>
+      <title>The Castle the City and the Outlands</title>
+      <link>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</link>
+      <pubDate>Wed, 22 Jun 2016 14:36:47 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</guid>
+      <description>The education sector In consultancy we see a wide range of business sectors. From healthcare, to banking, but also the education sector. Yesterday I was providing advice on user adoption and migration strategies for a large educational institute. In attempting to explain the security architecture of Office365 and SharePoint Online I used several metaphors. To summarize what I had told him, my customer offered a metaphor of his own in return which I found to be very effective.</description>
+    </item>
+    
+    <item>
+      <title>Custom Domain Names With Azurewebsites</title>
+      <link>https://blog.bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
+      <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
+      <description>I&#39;ve only recently set up this blog and since it&#39;s always busy at work, I don&#39;t always have the time to sort out those &#39;nice to haves&#39;. I&#39;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&#39;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &#39;bearman.nl&#39; hostname I&#39;m using now. Shame on me, Microsoft consultant couldn&#39;t figure out a simple IIS redirect rule.</description>
+    </item>
     
     <item>
       <title>Sfb Ha Sql Dag Configuration</title>
