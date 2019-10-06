@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta property="og:title" content=" Firewall Port Status Test Script &middot;  Bearman.NL" />
+  
+  <meta property="og:site_name" content="Bearman.NL" />
+  <meta property="og:url" content="https://blog.bearman.nl/2017/08/19/firewall-port-status-test-script/" />
+  
+  
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:article:published_time" content="2017-08-19T11:56:45&#43;02:00" />
+  
+  <meta property="og:article:tag" content="automation" />
+  
+  <meta property="og:article:tag" content="firewall-ports" />
+  
+  <meta property="og:article:tag" content="infrastructure" />
+  
+  <meta property="og:article:tag" content="powershell" />
+  
+  <meta property="og:article:tag" content="scripts" />
+  
+  
+
+  <title>
+     Firewall Port Status Test Script &middot;  Bearman.NL
+  </title>
+
+  <link rel="stylesheet" href="https://blog.bearman.nl/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://blog.bearman.nl/css/main.css" />
+  <link rel="stylesheet" href="https://blog.bearman.nl/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://blog.bearman.nl/css/github.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
+  <link rel="shortcut icon" href="https://blog.bearman.nl/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://blog.bearman.nl/images/apple-touch-icon.png" />
+  
+</head>
+<body>
+    <header class="global-header"  style="background-image:url( /images/bg.jpg )">
+    <section class="header-text">
+      <h1><a href="https://blog.bearman.nl/">Bearman.NL</a></h1>
+      
+      <div class="sns-links hidden-print">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+      
+      <a href="https://blog.bearman.nl/" class="btn-header btn-back hidden-xs">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        &nbsp;Home
+      </a>
+      
+      
+    </section>
+  </header>
+  <main class="container">
+
+
+<article>
+  <header>
+    <h1 class="text-primary">Firewall Port Status Test Script</h1>
+    <div class="post-meta clearfix">
+    
+      <div class="post-date pull-left">
+        Posted on
+        <time datetime="2017-08-19T11:56:45&#43;02:00">
+          Aug 19, 2017
+        </time>
+      </div>
+    
+      <div class="pull-right">
+        
+        <span class="post-tag small"><a href="https://blog.bearman.nl//tags/automation">#automation</a></span>
+        
+        <span class="post-tag small"><a href="https://blog.bearman.nl//tags/firewall-ports">#firewall-ports</a></span>
+        
+        <span class="post-tag small"><a href="https://blog.bearman.nl//tags/infrastructure">#infrastructure</a></span>
+        
+        <span class="post-tag small"><a href="https://blog.bearman.nl//tags/powershell">#powershell</a></span>
+        
+        <span class="post-tag small"><a href="https://blog.bearman.nl//tags/scripts">#scripts</a></span>
+        
+      </div>
+    </div>
+  </header>
+  <section>
+    <article class="blog-post content-item">
+
+    <div>
+<div><span>Recently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues.</span></div>
+<br>
+<div><span>While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server. However when the time came to repeat the command on several servers I started automating things with my own script. Soon enough the project manager asked me if I could output the results of my script to Excel and send him the files by mail.</span></div>
+<br>
+<div><span>Logging into several servers to collate the results and manually mail them seemed like a task that could be handled better, so once again I started to redesign and automate the process.</span></div>
+<br>
+<div><span>What resulted is a script with which you can map out local servers and their outbound server connections by port numbers. You can then run the script (scheduled if you want) on each server locally and it will output to a .htm file. I've configured it to output it to an IIS hosted file, so the IT operations guys can check the firewall status remotely whenever they want.</span></div>
+<br>
+<div><span>Obviously scheduling a check to ensure firewall ports are still open is not ideal, but should you need it I hope my work will save you some effort!</span></div>
+<div><span></span></div>
+<div><span><a href="https://github.com/bearmannl/posh/blob/master/Scripts/Test-NetConnections.ps1">Test-NetConnections.ps1</a></span></div>
+<div><span><a href="https://github.com/bearmannl/posh/blob/master/Scripts/Test-NetConnections.json">Test-NetConnections.json</a></span></div>
+</div>
+
+</article>
+
+  </section>
+  <footer>
+    
+    
+    
+    <section class="author-info row">
+      <div class="author-avatar col-md-2">
+        
+      </div>
+      <div class="author-meta col-md-6">
+        
+        
+      </div>
+      
+    </section>
+    <ul class="pager">
+      
+      <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+      
+      
+      <li class="next"><a href="https://blog.bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      
+    </ul>
+  </footer>
+</article>
+
+  </main>
+  <footer class="container global-footer">
+    <div class="copyright-note pull-left">
+      
+    </div>
+    <div class="sns-links hidden-print">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <script src="https://blog.bearman.nl/js/highlight.pack.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+  
+</body>
+</html>
+

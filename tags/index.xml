@@ -6,9 +6,226 @@
     <description>Recent content in Tags on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 19 Aug 2017 11:56:45 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.bearman.nl/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>automation</title>
+      <link>https://blog.bearman.nl/tags/automation/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firewall-ports</title>
+      <link>https://blog.bearman.nl/tags/firewall-ports/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/firewall-ports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infrastructure</title>
+      <link>https://blog.bearman.nl/tags/infrastructure/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://blog.bearman.nl/tags/powershell/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripts</title>
+      <link>https://blog.bearman.nl/tags/scripts/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>least-privileged-account</title>
+      <link>https://blog.bearman.nl/tags/least-privileged-account/</link>
+      <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/least-privileged-account/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sharepoint</title>
+      <link>https://blog.bearman.nl/tags/sharepoint/</link>
+      <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/sharepoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uls</title>
+      <link>https://blog.bearman.nl/tags/uls/</link>
+      <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/uls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>creators-update</title>
+      <link>https://blog.bearman.nl/tags/creators-update/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/creators-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://blog.bearman.nl/tags/google/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft-edge</title>
+      <link>https://blog.bearman.nl/tags/microsoft-edge/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/microsoft-edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-10</title>
+      <link>https://blog.bearman.nl/tags/windows-10/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gateway</title>
+      <link>https://blog.bearman.nl/tags/gateway/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/gateway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rdp</title>
+      <link>https://blog.bearman.nl/tags/rdp/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/rdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remoteapp-and-desktop-connection</title>
+      <link>https://blog.bearman.nl/tags/remoteapp-and-desktop-connection/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/remoteapp-and-desktop-connection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dag</title>
+      <link>https://blog.bearman.nl/tags/dag/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/dag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database-availability-group</title>
+      <link>https://blog.bearman.nl/tags/database-availability-group/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/database-availability-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sfb</title>
+      <link>https://blog.bearman.nl/tags/sfb/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/sfb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>skype-for-business</title>
+      <link>https://blog.bearman.nl/tags/skype-for-business/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/skype-for-business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql-server</title>
+      <link>https://blog.bearman.nl/tags/sql-server/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://blog.bearman.nl/tags/tech/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consultancy</title>
+      <link>https://blog.bearman.nl/tags/consultancy/</link>
+      <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/consultancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>it</title>
+      <link>https://blog.bearman.nl/tags/it/</link>
+      <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>https://blog.bearman.nl/tags/microsoft/</link>
+      <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/tags/microsoft/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

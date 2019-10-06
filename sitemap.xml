@@ -3,31 +3,193 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.bearman.nl/2017/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/automation/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.bearman.nl/</loc>
-    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.bearman.nl/posts/</loc>
-    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+    <loc>https://blog.bearman.nl/2017/08/19/firewall-port-status-test-script/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.bearman.nl/posts/sfb-ha-sql-dag-configuration/</loc>
-    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+    <loc>https://blog.bearman.nl/tags/firewall-ports/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.bearman.nl/posts/customers-dont-have-a-frakking-clue/</loc>
-    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
+    <loc>https://blog.bearman.nl/tags/infrastructure/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.bearman.nl/categories/</loc>
+    <loc>https://blog.bearman.nl/tags/powershell/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/scripts/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.bearman.nl/tags/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/least-privileged-account/</loc>
+    <lastmod>2017-04-18T13:58:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/sharepoint/</loc>
+    <lastmod>2017-04-18T13:58:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</loc>
+    <lastmod>2017-04-18T13:58:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/uls/</loc>
+    <lastmod>2017-04-18T13:58:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</loc>
+    <lastmod>2017-04-13T12:12:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/creators-update/</loc>
+    <lastmod>2017-04-13T12:12:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/google/</loc>
+    <lastmod>2017-04-13T12:12:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/microsoft-edge/</loc>
+    <lastmod>2017-04-13T12:12:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/windows-10/</loc>
+    <lastmod>2017-04-13T12:12:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</loc>
+    <lastmod>2017-04-10T13:11:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/gateway/</loc>
+    <lastmod>2017-04-10T13:11:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/rdp/</loc>
+    <lastmod>2017-04-10T13:11:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/remoteapp-and-desktop-connection/</loc>
+    <lastmod>2017-04-10T13:11:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2016/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/categories/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/dag/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/database-availability-group/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/sfb/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/skype-for-business/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/sql-server/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/categories/tech/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/tech/</loc>
+    <lastmod>2016-05-26T14:45:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/consultancy/</loc>
+    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/categories/consulting/</loc>
+    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/</loc>
+    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/it/</loc>
+    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/categories/it/</loc>
+    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.bearman.nl/tags/microsoft/</loc>
+    <lastmod>2016-05-24T06:45:03+02:00</lastmod>
   </url>
   
 </urlset>

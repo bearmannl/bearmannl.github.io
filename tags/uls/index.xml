@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uls on Bearman.NL</title>
+    <link>https://blog.bearman.nl/tags/uls/</link>
+    <description>Recent content in uls on Bearman.NL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2017 13:58:57 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.bearman.nl/tags/uls/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sharepoint Uls Log Files Empty</title>
+      <link>https://blog.bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</link>
+      <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</guid>
+      <description>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files. Incidentally I found a Event Log error with the code:Â&amp;nbsp;Session &#34;WSSUSAGESESSION15&#34; failed to start with the following error: 0xC0000022 Other posts mention adding the service account (or the WSS_WPG group) for the &#39;SharePoint Tracing Service&#39; Windows Service to the administrators group, tested that, this indeed fixes the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bearman.NL</title>
-    <link>https://blog.bearman.nl/</link>
-    <description>Recent content on Bearman.NL</description>
+    <title>2017s on Bearman.NL</title>
+    <link>https://blog.bearman.nl/2017/</link>
+    <description>Recent content in 2017s on Bearman.NL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Aug 2017 11:56:45 +0200</lastBuildDate>
     
-	<atom:link href="https://blog.bearman.nl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.bearman.nl/2017/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -45,25 +45,6 @@
       
       <guid>https://blog.bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
       <description>Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well... true so far except for one minor issue! When I had to connect to a client&#39;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &#34;</description>
-    </item>
-    
-    <item>
-      <title>Sfb Ha Sql Dag Configuration</title>
-      <link>https://blog.bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
-      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
-      
-      <guid>https://blog.bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
-      <description>One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.</description>
-    </item>
-    
-    <item>
-      <title>Customers Dont Have a Frakking Clue</title>
-      <link>https://blog.bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/</link>
-      <pubDate>Tue, 24 May 2016 06:45:03 +0200</pubDate>
-      
-      <guid>https://blog.bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/</guid>
-      <description>Part 1: The origin story
-The origin story As a consultant in the IT industry it is expected to have a thorough understanding of all IT related products in one’s portfolio. When considering what these solutions are intended to provide, we all know the problems our customers face. Right? Wrong. Often enough I’ve heard colleagues in IT mention customers don’t have a clue and vice versa. What everyone should consider is that we’re both wrong unless we listen to each other!</description>
     </item>
     
   </channel>

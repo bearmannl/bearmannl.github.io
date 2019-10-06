@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powershell on Bearman.NL</title>
+    <link>https://blog.bearman.nl/tags/powershell/</link>
+    <description>Recent content in powershell on Bearman.NL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Aug 2017 11:56:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.bearman.nl/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firewall Port Status Test Script</title>
+      <link>https://blog.bearman.nl/2017/08/19/firewall-port-status-test-script/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2017/08/19/firewall-port-status-test-script/</guid>
+      <description>Recently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues. While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server.</description>
+    </item>
+    
+  </channel>
+</rss>

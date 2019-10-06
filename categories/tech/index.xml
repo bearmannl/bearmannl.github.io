@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Bearman.NL</title>
+    <link>https://blog.bearman.nl/categories/tech/</link>
+    <description>Recent content in tech on Bearman.NL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 May 2016 14:45:26 +0200</lastBuildDate>
+    
+	<atom:link href="https://blog.bearman.nl/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sfb Ha Sql Dag Configuration</title>
+      <link>https://blog.bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      
+      <guid>https://blog.bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
+      <description>One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.</description>
+    </item>
+    
+  </channel>
+</rss>
