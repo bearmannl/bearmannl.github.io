@@ -79,7 +79,8 @@
     </div>
   </header>
   <div>
-    Recently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues. While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server.
+    Recently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues.
+While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server.
   </div>
   
   <footer>
@@ -104,7 +105,10 @@
     </div>
   </header>
   <div>
-    Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files. Incidentally I found a Event Log error with the code:Â&nbsp;Session "WSSUSAGESESSION15" failed to start with the following error: 0xC0000022 Other posts mention adding the service account (or the WSS_WPG group) for the 'SharePoint Tracing Service' Windows Service to the administrators group, tested that, this indeed fixes the problem.
+    Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
+Incidentally I found a Event Log error with the code:
+&ldquo;A Session &ldquo;WSSUSAGESESSION15&rdquo; failed to start with the following error: 0xC0000022&rdquo;
+Other posts mention adding the service account (or the WSS_WPG group) for the &lsquo;SharePoint Tracing Service&rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem.
   </div>
   
   <footer>
@@ -129,7 +133,9 @@
     </div>
   </header>
   <div>
-    Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I've also upgraded.  This *only* happened with Google, no other site had this issue... furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome...  Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.
+    Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
+This only happened with Google, no other site had this issue&hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&hellip;
+Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.
   </div>
   
   <footer>
@@ -154,7 +160,7 @@
     </div>
   </header>
   <div>
-    Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well... true so far except for one minor issue! When I had to connect to a client's RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: "
+    Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&hellip; true so far except for one minor issue! When I had to connect to a client&rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &ldquo;Your computer can’t connect to the Remote Desktop Gateway server.
   </div>
   
   <footer>

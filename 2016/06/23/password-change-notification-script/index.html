@@ -111,410 +111,213 @@
     </div>
   </header>
   <section>
-    <article class="blog-post content-item">
+    
 
-    <h1>Version 1.4</h1>
-<p>Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, <em>checked it</em>, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman <a href="https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27"><span style="text-decoration: underline;">over at the Technet Gallery</span></a>. For Office365 compatibility check <a href="https://windowsserveressentials.com/2015/01/23/office-365-email-password-reminder/"><span style="text-decoration: underline;">his post here</span></a>…</p>
+<h1 id="version-1-4">Version 1.4</h1>
 
-<h1>Version 2.0</h1>
-<p>But then… that annoying little Mutant-OCD gene (those of you who have it surely recognize it!) crept up on me today and I started fiddling with it anyway. I told myself the script needed to include some customizations for my company, but who am I kidding, I would lose sleep if I didn’t give in to my OCD quirks every once in a while. In general, I changed the script to include a proper description block, parameters, cleanup of casing for variables and refactoring of some Boolean uses to shorten the if statements. The part I needed to change specifically for Silverside was the Filter for the Get-ADUser command, this allows me to filter out Admin accounts in our organization:
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#960050;background-color:#1e0010">…</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">and</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">_</span>.<span style="color:#a6e22e">UserPrincipalName</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">notlike</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">adm</span><span style="color:#f92672">*</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#960050;background-color:#1e0010">…</span></code></pre></td></tr></table>
-</div>
-</div>
+<p>Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, <em>checked it</em>, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman <a href="https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27">over at the Technet Gallery</a>. For Office365 compatibility check <a href="https://windowsserveressentials.com/2015/01/23/office-365-email-password-reminder/">his post here</a>…</p>
 
-Overall the script is now easier to deploy out of the box with the use of parameters (including defaults), so long as you remember to adjust <strong><em><strong>at least</strong></em></strong> the <strong>$smtpServer</strong> and <strong>$from</strong> variables under the config section:
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">smtpServer</span> = <span style="color:#e6db74">&#34;mail.yourdomain.local&#34;</span>
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">from</span> = <span style="color:#e6db74">&#34;Your Company IT noreply@yourdomain.com&#34;</span></code></pre></td></tr></table>
-</div>
-</div>
-</p>
+<h1 id="version-2-0">Version 2.0</h1>
 
-<h1>The script</h1>
-<p>As you no doubt found this post after efficiently searching for a free scipt online, feel free to use, I hope it saves you some time. Just remember to include the original author as described in the comments. You can also find the latest version at my GitHub account,&nbsp;<a href="https://github.com/bearmannl/posh/blob/master/Scripts/Send-PasswordChangeNotification.ps1">Send-PasswordChangeNotification.ps1</a> 
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 31
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 32
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 33
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 34
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 35
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 36
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 37
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 38
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 39
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 40
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 41
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 42
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 43
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 44
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 45
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 46
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 47
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 48
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 49
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 50
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 51
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 52
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 53
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 54
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 55
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 56
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 57
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 58
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 59
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 60
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 61
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 62
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 63
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 64
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 65
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 66
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 67
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 68
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 69
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 70
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 71
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 72
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 73
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 74
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 75
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 76
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 77
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 78
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 79
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 80
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 81
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 82
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 83
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 84
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 85
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 86
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 87
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 88
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 89
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 90
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 91
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 92
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 93
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 94
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 95
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 96
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 97
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 98
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 99
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">100
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">101
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">102
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">103
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">104
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">105
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">106
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">107
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">108
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">109
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">110
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">111
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">112
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">113
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">114
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">115
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">116
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">117
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">118
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">119
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">120
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">121
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">122
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">123
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">124
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">125
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">126
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">127
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">128
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">129
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">130
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">131
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">132
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">133
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">134
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">135
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">136
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">137
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">138
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">139
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">140
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">141
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">142
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">143
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">144
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">145
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">146
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">147
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">148
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">149
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">150
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">151
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">152
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">153
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">154
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">155
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">156
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">157
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">158
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">159
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">160
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">161
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">162
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">163
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">164
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">165
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">166
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">167
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">168
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">169
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">170
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">171
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">172
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">173
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">174
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">175
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">176
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">177
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">178
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">179
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">180
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">181
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">182
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">183
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">&lt;<span style="color:#960050;background-color:#1e0010">#</span>
-.<span style="color:#a6e22e">SYNOPSIS</span>
-    <span style="color:#a6e22e">Get</span> <span style="color:#a6e22e">all</span> <span style="color:#a6e22e">users</span> <span style="color:#a6e22e">with</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">soon</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">expire</span> <span style="color:#a6e22e">password</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">send</span> <span style="color:#a6e22e">them</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">reminder</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">do</span> <span style="color:#a6e22e">so</span>.
+<p>But then… that annoying little OCD gene (those of you who have it surely recognize it!) crept up on me today and I started fiddling with it anyway. I told myself the script needed to include some customizations for my company, but who am I kidding, I would lose sleep if I didn’t give in to my OCD quirks every once in a while. In general, I changed the script to include a proper description block, parameters, cleanup of casing for variables and refactoring of some Boolean uses to shorten the if statements. The part I needed to change specifically for Silverside was the Filter for the Get-ADUser command, this allows me to filter out Admin accounts in our organization:</p>
 
-.<span style="color:#a6e22e">DESCRIPTION</span>
-    <span style="color:#a6e22e">This</span> <span style="color:#a6e22e">script</span> <span style="color:#a6e22e">gets</span> <span style="color:#a6e22e">all</span> <span style="color:#a6e22e">users</span> <span style="color:#a6e22e">with</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">soon</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">expire</span> <span style="color:#a6e22e">password</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">sends</span> <span style="color:#a6e22e">them</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">reminder</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">do</span> <span style="color:#a6e22e">so</span>. <span style="color:#a6e22e">This</span> <span style="color:#a6e22e">script</span> <span style="color:#a6e22e">was</span> <span style="color:#a6e22e">originally</span> <span style="color:#a6e22e">created</span> <span style="color:#a6e22e">by</span> <span style="color:#a6e22e">Robert</span> <span style="color:#a6e22e">Pearman</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">posted</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">technet</span> <span style="color:#a6e22e">gallery</span>. <span style="color:#a6e22e">Since</span> <span style="color:#a6e22e">modified</span> <span style="color:#a6e22e">by</span> <span style="color:#a6e22e">Mike</span> <span style="color:#a6e22e">Beerman</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">include</span> <span style="color:#a6e22e">changes</span> <span style="color:#a6e22e">specific</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">Silverside</span>. <span style="color:#a6e22e">Settings</span> <span style="color:#a6e22e">such</span> <span style="color:#a6e22e">as</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">destination</span> <span style="color:#a6e22e">SMTP</span> <span style="color:#a6e22e">server</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">From</span> <span style="color:#a6e22e">address</span> <span style="color:#a6e22e">can</span> <span style="color:#a6e22e">only</span> <span style="color:#a6e22e">be</span> <span style="color:#a6e22e">configured</span> <span style="color:#a6e22e">within</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">script</span>.
+<pre><code class="language-powershell">… -and $_.UserPrincipalName -notlike 'adm*' …
+</code></pre>
 
-.<span style="color:#a6e22e">PARAMETER</span> <span style="color:#a6e22e">ExpireInDays</span>
-    <span style="color:#a6e22e">Optional</span> <span style="color:#a6e22e">input</span> <span style="color:#a6e22e">allowing</span> <span style="color:#a6e22e">an</span> <span style="color:#a6e22e">override</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">number</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">days</span> <span style="color:#a6e22e">at</span> <span style="color:#a6e22e">which</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">script</span> <span style="color:#a6e22e">will</span> <span style="color:#a6e22e">send</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">reminder</span>. <span style="color:#a6e22e">Defaults</span> <span style="color:#a6e22e">to</span> <span style="color:#ae81ff">30</span> <span style="color:#a6e22e">days</span>.
+<p>Overall the script is now easier to deploy out of the box with the use of parameters (including defaults), so long as you remember to adjust <strong><em>at least</em></strong> the <strong>$smtpServer</strong> and <strong>$from</strong> variables under the config section:</p>
 
-.<span style="color:#a6e22e">PARAMETER</span> <span style="color:#a6e22e">Logging</span>
-    <span style="color:#a6e22e">Switch</span> <span style="color:#a6e22e">which</span> <span style="color:#a6e22e">determines</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">seperate</span> <span style="color:#a6e22e">CSV</span> <span style="color:#a6e22e">logfile</span> <span style="color:#a6e22e">should</span> <span style="color:#a6e22e">be</span> <span style="color:#a6e22e">created</span>. <span style="color:#a6e22e">Default</span> <span style="color:#a6e22e">to</span> <span style="color:#66d9ef">false</span> <span style="color:#a6e22e">without</span> <span style="color:#a6e22e">the</span> <span style="color:#66d9ef">switch</span>.
+<pre><code class="language-powershell">$smtpServer = &quot;mail.yourdomain.local&quot;
+$from = &quot;Your Company IT noreply@yourdomain.com&quot;
+</code></pre>
 
-.<span style="color:#a6e22e">PARAMETER</span> <span style="color:#a6e22e">LogPath</span>
-    <span style="color:#a6e22e">Folderpath</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">logfile</span>, <span style="color:#a6e22e">plain</span> <span style="color:#66d9ef">string</span> <span style="color:#a6e22e">format</span>.
+<h1 id="the-script">The script</h1>
 
-.<span style="color:#a6e22e">PARAMETER</span> <span style="color:#a6e22e">Testing</span>
-    <span style="color:#a6e22e">Switch</span> <span style="color:#a6e22e">which</span> <span style="color:#a6e22e">determines</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">emails</span> <span style="color:#a6e22e">should</span> <span style="color:#a6e22e">be</span> <span style="color:#a6e22e">sent</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">test</span> <span style="color:#a6e22e">recipient</span> <span style="color:#a6e22e">instead</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">actual</span> <span style="color:#a6e22e">users</span>. <span style="color:#a6e22e">Default</span> <span style="color:#a6e22e">to</span> <span style="color:#66d9ef">false</span> <span style="color:#a6e22e">without</span> <span style="color:#a6e22e">the</span> <span style="color:#66d9ef">switch</span>.
+<p>As you no doubt found this post after efficiently searching for a free scipt online, feel free to use, I hope it saves you some time. Just remember to include the original author as described in the comments. You can also find the latest version at my GitHub account, <a href="https://github.com/bearmannl/posh/blob/master/Scripts/Send-PasswordChangeNotification.ps1">Send-PasswordChangeNotification.ps1</a></p>
 
-.<span style="color:#a6e22e">PARAMETER</span> <span style="color:#a6e22e">TestRecipient</span>
-    <span style="color:#a6e22e">Optional</span> <span style="color:#66d9ef">string</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">setting</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">different</span> <span style="color:#a6e22e">recipient</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">testing</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">testing</span> <span style="color:#a6e22e">purposes</span>. <span style="color:#a6e22e">Will</span> <span style="color:#a6e22e">not</span> <span style="color:#a6e22e">be</span> <span style="color:#a6e22e">used</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">Testing</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">not</span> <span style="color:#a6e22e">included</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">command</span> <span style="color:#a6e22e">or</span> <span style="color:#a6e22e">email</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">disabled</span>.
+<pre><code class="language-powershell">&lt;#
+.SYNOPSIS
+    Get all users with a soon to expire password and send them a reminder to do so.
 
-.<span style="color:#a6e22e">PARAMETER</span> <span style="color:#a6e22e">TestMailDisabled</span>
-    <span style="color:#a6e22e">Switch</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">disabling</span> <span style="color:#a6e22e">email</span> <span style="color:#a6e22e">functionality</span>.
+.DESCRIPTION
+    This script gets all users with a soon to expire password and sends them a reminder to do so. This script was originally created by Robert Pearman and posted on the technet gallery. Since modified by Mike Beerman to include changes specific for Silverside. Settings such as the destination SMTP server and From address can only be configured within the script.
 
-.<span style="color:#a6e22e">EXAMPLE</span>
-<span style="color:#a6e22e">Send</span><span style="color:#f92672">-</span><span style="color:#a6e22e">PasswordChangeNotification</span>.<span style="color:#a6e22e">ps1</span>
-<span style="color:#a6e22e">Send</span><span style="color:#f92672">-</span><span style="color:#a6e22e">PasswordChangeNotification</span>.<span style="color:#a6e22e">ps1</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">Expire</span> <span style="color:#ae81ff">60</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">Logging</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">Logile</span> <span style="color:#e6db74">&#34;C:\Logs\PasswordChangeNotifications.csv&#34;</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">Testing</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">TestRecipient</span> <span style="color:#e6db74">&#34;yourname@yourdomain.com&#34;</span>
+.PARAMETER ExpireInDays
+    Optional input allowing an override to the number of days at which the script will send a reminder. Defaults to 30 days.
 
-.<span style="color:#a6e22e">LINK</span>
-    <span style="color:#a6e22e">https</span>:<span style="color:#75715e">//gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27
-</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">http</span>:<span style="color:#75715e">//bearman.nl/2016/06/23/password-change-notification-script
-</span><span style="color:#75715e"></span>
-.<span style="color:#a6e22e">NOTES</span>
-    <span style="color:#a6e22e">Authors</span> : <span style="color:#a6e22e">Mike</span> <span style="color:#a6e22e">Beerman</span>
-    <span style="color:#a6e22e">Company</span> : <span style="color:#a6e22e">Silverside</span>
-    <span style="color:#a6e22e">Date</span> : <span style="color:#ae81ff">2016</span><span style="color:#f92672">-</span><span style="color:#ae81ff">06</span><span style="color:#f92672">-</span><span style="color:#ae81ff">23</span>
-    <span style="color:#a6e22e">Version</span> : <span style="color:#ae81ff">2.0</span>
+.PARAMETER Logging
+    Switch which determines if a seperate CSV logfile should be created. Default to false without the switch.
 
-    <span style="color:#a6e22e">Authors</span> : <span style="color:#a6e22e">Robert</span> <span style="color:#a6e22e">Pearman</span> (<span style="color:#a6e22e">WSSMB</span> <span style="color:#a6e22e">MVP</span>)
-    <span style="color:#a6e22e">Company</span> : <span style="color:#a6e22e">Windows</span> <span style="color:#a6e22e">Server</span> <span style="color:#a6e22e">Essentials</span>
-    <span style="color:#a6e22e">Date</span> : <span style="color:#ae81ff">2016</span><span style="color:#f92672">-</span><span style="color:#ae81ff">02</span><span style="color:#f92672">-</span><span style="color:#ae81ff">03</span>
-    <span style="color:#a6e22e">Version</span> : <span style="color:#ae81ff">1.4</span>
-<span style="color:#960050;background-color:#1e0010">#</span>&gt;
+.PARAMETER LogPath
+    Folderpath for the logfile, plain string format.
 
-<span style="color:#a6e22e">param</span> (
-    [<span style="color:#a6e22e">ValidateRange</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">365</span>)][<span style="color:#66d9ef">int</span>]<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">ExpireInDays</span> = <span style="color:#ae81ff">30</span>,
-    [<span style="color:#66d9ef">switch</span>]<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">Logging</span>,
-    [<span style="color:#66d9ef">string</span>]<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">LogPath</span> = <span style="color:#e6db74">&#34;C:\Logs&#34;</span>,
-    [<span style="color:#66d9ef">switch</span>]<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">Testing</span>,
-    [<span style="color:#66d9ef">string</span>]<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">TestRecipient</span> = <span style="color:#e6db74">&#34;yourname@yourdomain.com&#34;</span>,
-    [<span style="color:#66d9ef">switch</span>]<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">TestMailDisabled</span>
+.PARAMETER Testing
+    Switch which determines if the emails should be sent to the test recipient instead of the actual users. Default to false without the switch.
+
+.PARAMETER TestRecipient
+    Optional string for setting a different recipient in testing for testing purposes. Will not be used if Testing is not included in the command or email is disabled.
+
+.PARAMETER TestMailDisabled
+    Switch for disabling email functionality.
+
+.EXAMPLE
+Send-PasswordChangeNotification.ps1
+Send-PasswordChangeNotification.ps1 -Expire 60 -Logging -Logile &quot;C:\Logs\PasswordChangeNotifications.csv&quot; -Testing -TestRecipient &quot;yourname@yourdomain.com&quot;
+
+.LINK
+    https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27
+    https://bearman.nl/2016/06/23/password-change-notification-script
+
+.NOTES
+    Authors : Mike Beerman
+    Company : Silverside
+    Date : 2016-06-23
+    Version : 2.0
+
+    Authors : Robert Pearman (WSSMB MVP)
+    Company : Windows Server Essentials
+    Date : 2016-02-03
+    Version : 1.4
+#&gt;
+
+param (
+    [ValidateRange(1,365)][int]$ExpireInDays = 30,
+    [switch]$Logging,
+    [string]$LogPath = &quot;C:\Logs&quot;,
+    [switch]$Testing,
+    [string]$TestRecipient = &quot;yourname@yourdomain.com&quot;,
+    [switch]$TestMailDisabled
 )
 
-<span style="color:#960050;background-color:#1e0010">##</span>
-<span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">Config</span> <span style="color:#a6e22e">values</span>
-<span style="color:#960050;background-color:#1e0010">##</span>
+##
+# Config values
+##
 
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">smtpServer</span> = <span style="color:#e6db74">&#34;mail.yourdomain.local&#34;</span>
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">from</span> = <span style="color:#e6db74">&#34;Your Company IT &lt;noreply@yourdomain.com&gt;&#34;</span>
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">textEncoding</span> = [<span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">Text</span>.<span style="color:#a6e22e">Encoding</span>]::<span style="color:#a6e22e">UTF8</span>
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">logDate</span> = <span style="color:#a6e22e">Get</span><span style="color:#f92672">-</span><span style="color:#a6e22e">Date</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">Format</span> <span style="color:#a6e22e">yyyyMMdd</span>
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">LogPath</span> = (<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">LogPath</span>).<span style="color:#a6e22e">TrimEnd</span>(<span style="color:#e6db74">&#34;\&#34;)
-</span><span style="color:#e6db74">$logFile = $LogPath + &#34;</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">PasswordChangeNotifications</span>.<span style="color:#a6e22e">csv</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">##
-</span><span style="color:#e6db74">#Initiate PowerShell session
-</span><span style="color:#e6db74">##
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"># Set threading
-</span><span style="color:#e6db74">$ver = $host | Select-Object Version
-</span><span style="color:#e6db74">if($ver.Version.Major -gt 1) {$Host.Runspace.ThreadOptions = &#34;</span><span style="color:#a6e22e">ReuseThread</span><span style="color:#e6db74">&#34;}
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"># Load Active Directory PowerShell snap-in
-</span><span style="color:#e6db74">Import-Module ActiveDirectory
-</span><span style="color:#e6db74">Write-Verbose (&#34;</span>[{<span style="color:#ae81ff">0</span>}] <span style="color:#f92672">-</span> <span style="color:#a6e22e">AD</span> <span style="color:#a6e22e">PowerShell</span> <span style="color:#a6e22e">SnapIn</span> <span style="color:#a6e22e">loaded</span><span style="color:#e6db74">&#34; -f (Get-Date -Format T))
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">$verbosePreference = &#39;Continue&#39;
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"># Check Logging Settings
-</span><span style="color:#e6db74">if ($Logging) {
-</span><span style="color:#e6db74">    # Test Log Folder Path and create new directory if false
-</span><span style="color:#e6db74">    if ($null -eq (Test-Path $LogPath)) {
-</span><span style="color:#e6db74">        # Create CSV File and Headers
-</span><span style="color:#e6db74">        New-Item $LogPath -ItemType Directory | Out-Null
-</span><span style="color:#e6db74">        Write-Verbose (&#34;</span>[{<span style="color:#ae81ff">0</span>}] <span style="color:#f92672">-</span> <span style="color:#a6e22e">New</span> <span style="color:#a6e22e">folder</span> <span style="color:#a6e22e">created</span> <span style="color:#a6e22e">at</span> [{<span style="color:#ae81ff">1</span>}]<span style="color:#e6db74">&#34; -f (Get-Date -Format T), $LogPath)
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">    # Test Log File Path and create new file if false
-</span><span style="color:#e6db74">    if ($null -eq (Test-Path $logFile)) {
-</span><span style="color:#e6db74">        # Create CSV File and Headers
-</span><span style="color:#e6db74">        New-Item $logFile -ItemType File | Out-Null
-</span><span style="color:#e6db74">        Add-Content $logFile &#34;</span><span style="color:#a6e22e">Date</span>,<span style="color:#a6e22e">Name</span>,<span style="color:#a6e22e">EmailAddress</span>,<span style="color:#a6e22e">DaystoExpire</span>,<span style="color:#a6e22e">ExpiresOn</span>,<span style="color:#a6e22e">Notified</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">        Write-Verbose (&#34;</span>[{<span style="color:#ae81ff">0</span>}] <span style="color:#f92672">-</span> <span style="color:#a6e22e">New</span> <span style="color:#a6e22e">logfile</span> <span style="color:#a6e22e">created</span> <span style="color:#a6e22e">at</span> [{<span style="color:#ae81ff">1</span>}]<span style="color:#e6db74">&#34; -f (Get-Date -Format T), $logFile)
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">} # End Logging Check
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">$DefaultmaxPasswordAge = (Get-ADDefaultDomainPasswordPolicy).MaxPasswordAge
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"># Get Users From AD who are Enabled, Passwords Expire and are Not Currently Expired
-</span><span style="color:#e6db74">$users = Get-ADUser -Filter * -Properties Name, PasswordNeverExpires, PasswordExpired, PasswordLastSet, EmailAddress | Where-Object { $_.Enabled -eq $true -and $_.PasswordNeverExpires -eq $false -and $_.passwordexpired -eq $false -and $_.UserPrincipalName -notlike &#39;adm*&#39; }
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74"># Process Each User for Password Expiry
-</span><span style="color:#e6db74">foreach ($user in $users) {
-</span><span style="color:#e6db74">    $name = $user.Name
-</span><span style="color:#e6db74">    $emailAddress = $user.EmailAddress
-</span><span style="color:#e6db74">    $passwordSetDate = $user.PasswordLastSet
-</span><span style="color:#e6db74">    $PasswordPol = (Get-ADUserResultantPasswordPolicy $user)
-</span><span style="color:#e6db74">    $sent = &#34;&#34; # Reset Sent Flag
-</span><span style="color:#e6db74">    # Check for Fine Grained Password
-</span><span style="color:#e6db74">    if ($null -ne ($PasswordPol)) {
-</span><span style="color:#e6db74">        $maxPasswordAge = ($PasswordPol).MaxPasswordAge
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">    else {
-</span><span style="color:#e6db74">        # No FGP set to Domain Default
-</span><span style="color:#e6db74">        $maxPasswordAge = $DefaultmaxPasswordAge
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    $expiresOn = $passwordSetDate + $maxPasswordAge
-</span><span style="color:#e6db74">    $today = (Get-Date)
-</span><span style="color:#e6db74">    $daysToExpire = (New-TimeSpan -Start $today -End $expiresOn).Days
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # Set Greeting based on Number of Days to Expiry.
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # Check Number of Days to Expiry
-</span><span style="color:#e6db74">    $messageDays = $daysToExpire
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    if (($messageDays) -gt &#34;</span><span style="color:#ae81ff">1</span><span style="color:#e6db74">&#34;) {
-</span><span style="color:#e6db74">        $messageDays = &#34;</span><span style="color:#a6e22e">in</span> <span style="color:#e6db74">&#34; + &#34;</span><span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">daysToExpire</span><span style="color:#e6db74">&#34; + &#34;</span> <span style="color:#a6e22e">days</span>.<span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">    else {
-</span><span style="color:#e6db74">        $messageDays = &#34;</span><span style="color:#a6e22e">today</span>.<span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # Email Subject Set Here
-</span><span style="color:#e6db74">    $subject=&#34;</span><span style="color:#a6e22e">Your</span> <span style="color:#a6e22e">password</span> <span style="color:#a6e22e">will</span> <span style="color:#a6e22e">expire</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">messageDays</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # Email Body Set Here, Note You can use HTML, including Images.
-</span><span style="color:#e6db74">    $body =&#34;</span>
-    <span style="color:#a6e22e">Dear</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">name</span>,
-    &lt;<span style="color:#a6e22e">p</span>&gt; <span style="color:#a6e22e">Your</span> <span style="color:#a6e22e">Password</span> <span style="color:#a6e22e">will</span> <span style="color:#a6e22e">expire</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">messageDays</span>&lt;<span style="color:#a6e22e">br</span>&gt;
-    <span style="color:#a6e22e">To</span> <span style="color:#a6e22e">change</span> <span style="color:#a6e22e">your</span> <span style="color:#a6e22e">password</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">a</span> <span style="color:#a6e22e">PC</span> <span style="color:#a6e22e">press</span> <span style="color:#a6e22e">CTRL</span> <span style="color:#a6e22e">ALT</span> <span style="color:#a6e22e">Delete</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">choose</span> <span style="color:#a6e22e">Change</span> <span style="color:#a6e22e">Password</span> &lt;<span style="color:#a6e22e">br</span>&gt;
-    &lt;<span style="color:#a6e22e">p</span>&gt;<span style="color:#a6e22e">Thanks</span>, &lt;<span style="color:#a6e22e">br</span>&gt; 
-    <span style="color:#a6e22e">Your</span> <span style="color:#a6e22e">Comany</span> <span style="color:#a6e22e">IT</span> <span style="color:#a6e22e">Administrators</span>
-    &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">P</span>&gt;<span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # If Testing Is Enabled - Email Administrator
-</span><span style="color:#e6db74">    if ($Testing) {
-</span><span style="color:#e6db74">        $emailAddress = $TestRecipient
-</span><span style="color:#e6db74">    } # End Testing
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # If a user has no email address listed
-</span><span style="color:#e6db74">    if ($null -eq ($emailAddress)) {
-</span><span style="color:#e6db74">        $emailAddress = $TestRecipient 
-</span><span style="color:#e6db74">    }# End No Valid Email
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    # Send Email Message
-</span><span style="color:#e6db74">    if (($daysToExpire -eq &#39;0&#39;) -or ($daysToExpire -eq &#39;14&#39;) -or ($daysToExpire -eq $ExpireInDays)) {
-</span><span style="color:#e6db74">        $sent = &#34;</span><span style="color:#a6e22e">Yes</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">        # If Logging is Enabled Log Details
-</span><span style="color:#e6db74">        if ($Logging) {
-</span><span style="color:#e6db74">            Add-Content $logFile &#34;</span><span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">logDate</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">name</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">emailAddress</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">daysToExpire</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">expiresOn</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">sent</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">            Write-Verbose (&#34;</span>[{<span style="color:#ae81ff">0</span>}] <span style="color:#f92672">-</span> <span style="color:#a6e22e">Entry</span> <span style="color:#a6e22e">added</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">logfile</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">user</span> [{<span style="color:#ae81ff">1</span>}]<span style="color:#e6db74">&#34; -f (Get-Date -Format T), $user.UserPrincipalName)
-</span><span style="color:#e6db74">        }
-</span><span style="color:#e6db74">        # Send Email Message if not disabled by switch
-</span><span style="color:#e6db74">        if ($null -eq ($TestMailDisabled)) {
-</span><span style="color:#e6db74">            Send-Mailmessage -SmtpServer $smtpServer -From $from -To $emailAddress -Subject $subject -Body $body -BodyAsHTML -Priority High -Encoding $textEncoding
-</span><span style="color:#e6db74">            Write-Verbose (&#34;</span>[{<span style="color:#ae81ff">0</span>}] <span style="color:#f92672">-</span> <span style="color:#a6e22e">Email</span> <span style="color:#a6e22e">sent</span> <span style="color:#a6e22e">to</span> [{<span style="color:#ae81ff">1</span>}]<span style="color:#e6db74">&#34; -f (Get-Date -Format T), $emailAddress)
-</span><span style="color:#e6db74">        }
-</span><span style="color:#e6db74">    } # End Send Message
-</span><span style="color:#e6db74">    else {
-</span><span style="color:#e6db74">        # Log Non Expiring Password
-</span><span style="color:#e6db74">        $sent = &#34;</span><span style="color:#a6e22e">No</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">        # If Logging is Enabled Log Details
-</span><span style="color:#e6db74">        if ($Logging) {
-</span><span style="color:#e6db74">            Add-Content $logFile &#34;</span><span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">logDate</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">name</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">emailAddress</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">daysToExpire</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">expiresOn</span>,<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">sent</span><span style="color:#e6db74">&#34;
-</span><span style="color:#e6db74">            Write-Verbose (&#34;</span>[{<span style="color:#ae81ff">0</span>}] <span style="color:#f92672">-</span> <span style="color:#a6e22e">Entry</span> <span style="color:#a6e22e">added</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">logfile</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">user</span> [{<span style="color:#ae81ff">1</span>}]<span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">f</span> (<span style="color:#a6e22e">Get</span><span style="color:#f92672">-</span><span style="color:#a6e22e">Date</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">Format</span> <span style="color:#a6e22e">T</span>), <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">UserPrincipalName</span>)
+$smtpServer = &quot;mail.yourdomain.local&quot;
+$from = &quot;Your Company IT &lt;noreply@yourdomain.com&gt;&quot;
+$textEncoding = [System.Text.Encoding]::UTF8
+$logDate = Get-Date -Format yyyyMMdd
+$LogPath = ($LogPath).TrimEnd(&quot;\&quot;)
+$logFile = $LogPath + &quot;\PasswordChangeNotifications.csv&quot;
+
+##
+#Initiate PowerShell session
+##
+
+# Set threading
+$ver = $host | Select-Object Version
+if($ver.Version.Major -gt 1) {$Host.Runspace.ThreadOptions = &quot;ReuseThread&quot;}
+
+# Load Active Directory PowerShell snap-in
+Import-Module ActiveDirectory
+Write-Verbose (&quot;[{0}] - AD PowerShell SnapIn loaded&quot; -f (Get-Date -Format T))
+
+$verbosePreference = 'Continue'
+
+# Check Logging Settings
+if ($Logging) {
+    # Test Log Folder Path and create new directory if false
+    if ($null -eq (Test-Path $LogPath)) {
+        # Create CSV File and Headers
+        New-Item $LogPath -ItemType Directory | Out-Null
+        Write-Verbose (&quot;[{0}] - New folder created at [{1}]&quot; -f (Get-Date -Format T), $LogPath)
+    }
+    # Test Log File Path and create new file if false
+    if ($null -eq (Test-Path $logFile)) {
+        # Create CSV File and Headers
+        New-Item $logFile -ItemType File | Out-Null
+        Add-Content $logFile &quot;Date,Name,EmailAddress,DaystoExpire,ExpiresOn,Notified&quot;
+        Write-Verbose (&quot;[{0}] - New logfile created at [{1}]&quot; -f (Get-Date -Format T), $logFile)
+    }
+} # End Logging Check
+
+$DefaultmaxPasswordAge = (Get-ADDefaultDomainPasswordPolicy).MaxPasswordAge
+
+# Get Users From AD who are Enabled, Passwords Expire and are Not Currently Expired
+$users = Get-ADUser -Filter * -Properties Name, PasswordNeverExpires, PasswordExpired, PasswordLastSet, EmailAddress | Where-Object { $_.Enabled -eq $true -and $_.PasswordNeverExpires -eq $false -and $_.passwordexpired -eq $false -and $_.UserPrincipalName -notlike 'adm*' }
+
+# Process Each User for Password Expiry
+foreach ($user in $users) {
+    $name = $user.Name
+    $emailAddress = $user.EmailAddress
+    $passwordSetDate = $user.PasswordLastSet
+    $PasswordPol = (Get-ADUserResultantPasswordPolicy $user)
+    $sent = &quot;&quot; # Reset Sent Flag
+    # Check for Fine Grained Password
+    if ($null -ne ($PasswordPol)) {
+        $maxPasswordAge = ($PasswordPol).MaxPasswordAge
+    }
+    else {
+        # No FGP set to Domain Default
+        $maxPasswordAge = $DefaultmaxPasswordAge
+    }
+
+
+    $expiresOn = $passwordSetDate + $maxPasswordAge
+    $today = (Get-Date)
+    $daysToExpire = (New-TimeSpan -Start $today -End $expiresOn).Days
+
+    # Set Greeting based on Number of Days to Expiry.
+
+    # Check Number of Days to Expiry
+    $messageDays = $daysToExpire
+
+    if (($messageDays) -gt &quot;1&quot;) {
+        $messageDays = &quot;in &quot; + &quot;$daysToExpire&quot; + &quot; days.&quot;
+    }
+    else {
+        $messageDays = &quot;today.&quot;
+    }
+
+    # Email Subject Set Here
+    $subject=&quot;Your password will expire $messageDays&quot;
+
+    # Email Body Set Here, Note You can use HTML, including Images.
+    $body =&quot;
+    Dear $name,
+    &lt;p&gt; Your Password will expire $messageDays&lt;br&gt;
+    To change your password on a PC press CTRL ALT Delete and choose Change Password &lt;br&gt;
+    &lt;p&gt;Thanks, &lt;br&gt; 
+    Your Comany IT Administrators
+    &lt;/p&gt;&quot;
+
+    # If Testing Is Enabled - Email Administrator
+    if ($Testing) {
+        $emailAddress = $TestRecipient
+    } # End Testing
+
+    # If a user has no email address listed
+    if ($null -eq ($emailAddress)) {
+        $emailAddress = $TestRecipient 
+    }# End No Valid Email
+
+    # Send Email Message
+    if (($daysToExpire -eq '0') -or ($daysToExpire -eq '14') -or ($daysToExpire -eq $ExpireInDays)) {
+        $sent = &quot;Yes&quot;
+        # If Logging is Enabled Log Details
+        if ($Logging) {
+            Add-Content $logFile &quot;$logDate,$name,$emailAddress,$daysToExpire,$expiresOn,$sent&quot;
+            Write-Verbose (&quot;[{0}] - Entry added to logfile for user [{1}]&quot; -f (Get-Date -Format T), $user.UserPrincipalName)
+        }
+        # Send Email Message if not disabled by switch
+        if ($null -eq ($TestMailDisabled)) {
+            Send-Mailmessage -SmtpServer $smtpServer -From $from -To $emailAddress -Subject $subject -Body $body -BodyAsHTML -Priority High -Encoding $textEncoding
+            Write-Verbose (&quot;[{0}] - Email sent to [{1}]&quot; -f (Get-Date -Format T), $emailAddress)
+        }
+    } # End Send Message
+    else {
+        # Log Non Expiring Password
+        $sent = &quot;No&quot;
+        # If Logging is Enabled Log Details
+        if ($Logging) {
+            Add-Content $logFile &quot;$logDate,$name,$emailAddress,$daysToExpire,$expiresOn,$sent&quot;
+            Write-Verbose (&quot;[{0}] - Entry added to logfile for user [{1}]&quot; -f (Get-Date -Format T), $user.UserPrincipalName)
         }
     }
-} <span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">End</span> <span style="color:#a6e22e">User</span> <span style="color:#a6e22e">Processing</span>
+} # End User Processing
 
-<span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">verbosePreference</span> = <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">SilentlyContinue</span><span style="color:#960050;background-color:#1e0010">&#39;</span>
-<span style="color:#960050;background-color:#1e0010">#</span> <span style="color:#a6e22e">End</span></code></pre></td></tr></table>
-</div>
-</div></p>
-</article>
+$verbosePreference = 'SilentlyContinue'
+# End
+</code></pre>
 
   </section>
   <footer>

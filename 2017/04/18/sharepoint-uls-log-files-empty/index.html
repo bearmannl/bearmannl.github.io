@@ -91,22 +91,21 @@
     </div>
   </header>
   <section>
-    <article class="blog-post content-item">
-    <div>
-<div><span>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.</span></div>
-<br>
-<div><span>Incidentally I found a Event Log error with the code:Â&nbsp;Session "WSSUSAGESESSION15" failed to start with the following error: 0xC0000022</span></div>
-<br>
-<div><span>Other posts mention adding the service account (or the WSS_WPG group) for the 'SharePoint Tracing Service' Windows Service to the administrators group, tested that, this indeed fixes the problem. However this does not conform to the principle of least privileged accounts.</span></div>
-<br>
-<div><span>Finally I found that the 'Performance Log Users' security group provides the correct permissions to allow a service to write trace log information.</span></div>
+    <p>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.</p>
+
+<p>Incidentally I found a Event Log error with the code:<br />
+&ldquo;A Session &ldquo;WSSUSAGESESSION15&rdquo; failed to start with the following error: 0xC0000022&rdquo;</p>
+
+<p>Other posts mention adding the service account (or the WSS_WPG group) for the &lsquo;SharePoint Tracing Service&rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem. However this does not conform to the principle of least privileged accounts.</p>
+
+<p>Finally I found that the &lsquo;Performance Log Users&rsquo; security group provides the correct permissions to allow a service to write trace log information.</p>
+
 <ul>
-<li><span> Added the service account using commandline "net localgroup "Performance Log Users" &amp;lt;domain\username&amp;gt; /add"</span></li>
-<li><span> Restarted the 'SharePoint Tracing Service' Windows Service, problem solved with least amount of privileges!</span></li>
+<li>Added the service account using commandline &ldquo;net localgroup &ldquo;Performance Log Users&rdquo; &ldquo;domain\username&rdquo; /add&rdquo;</li>
+<li>Restarted the &lsquo;SharePoint Tracing Service&rsquo; Windows Service, problem solved with least amount of privileges!</li>
 </ul>
-<div><span>PS. Adding the WSS_WPG security group to the performance log users group <em>does not</em> solve the issue.</span></div>
-</div>
-</article>
+
+<p>PS. Adding the WSS_WPG security group to the performance log users group <em>does not</em> solve the issue.</p>
 
   </section>
   <footer>

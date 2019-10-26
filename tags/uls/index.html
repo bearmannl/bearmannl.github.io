@@ -79,7 +79,10 @@
     </div>
   </header>
   <div>
-    Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files. Incidentally I found a Event Log error with the code:Â&nbsp;Session "WSSUSAGESESSION15" failed to start with the following error: 0xC0000022 Other posts mention adding the service account (or the WSS_WPG group) for the 'SharePoint Tracing Service' Windows Service to the administrators group, tested that, this indeed fixes the problem.
+    Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
+Incidentally I found a Event Log error with the code:
+&ldquo;A Session &ldquo;WSSUSAGESESSION15&rdquo; failed to start with the following error: 0xC0000022&rdquo;
+Other posts mention adding the service account (or the WSS_WPG group) for the &lsquo;SharePoint Tracing Service&rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem.
   </div>
   
   <footer>

@@ -17,7 +17,10 @@
       <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
       
       <guid>https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</guid>
-      <description>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files. Incidentally I found a Event Log error with the code:Â&amp;nbsp;Session &#34;WSSUSAGESESSION15&#34; failed to start with the following error: 0xC0000022 Other posts mention adding the service account (or the WSS_WPG group) for the &#39;SharePoint Tracing Service&#39; Windows Service to the administrators group, tested that, this indeed fixes the problem.</description>
+      <description>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
+Incidentally I found a Event Log error with the code:
+&amp;ldquo;A Session &amp;ldquo;WSSUSAGESESSION15&amp;rdquo; failed to start with the following error: 0xC0000022&amp;rdquo;
+Other posts mention adding the service account (or the WSS_WPG group) for the &amp;lsquo;SharePoint Tracing Service&amp;rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem.</description>
     </item>
     
   </channel>
