@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bearman.nl/2017/</loc>
+    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
+  </url>
   
   <url>
     <loc>https://bearman.nl/tags/automation/</loc>
@@ -24,11 +29,6 @@
   
   <url>
     <loc>https://bearman.nl/tags/infrastructure/</loc>
-    <lastmod>2017-08-19T11:56:45+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bearman.nl/posts/</loc>
     <lastmod>2017-08-19T11:56:45+02:00</lastmod>
   </url>
   
@@ -110,6 +110,11 @@
   <url>
     <loc>https://bearman.nl/tags/remoteapp-and-desktop-connection/</loc>
     <lastmod>2017-04-10T13:11:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bearman.nl/2016/</loc>
+    <lastmod>2016-06-23T14:09:50+02:00</lastmod>
   </url>
   
   <url>
@@ -273,12 +278,12 @@
   </url>
   
   <url>
-    <loc>https://bearman.nl/tags/it/</loc>
+    <loc>https://bearman.nl/categories/it/</loc>
     <lastmod>2016-05-24T06:45:03+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bearman.nl/categories/it/</loc>
+    <loc>https://bearman.nl/tags/it/</loc>
     <lastmod>2016-05-24T06:45:03+02:00</lastmod>
   </url>
   
