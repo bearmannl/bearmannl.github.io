@@ -104,8 +104,7 @@
 <p>I reported the issue via the Feedback Hub, <del>but obviously that&rsquo;s no guarantee</del> that I would have my Edge browser working with Google as my default search engine&hellip; and I so much like Edge with Google as the default search engine!</p>
 
 <p>So I started to pick through my Event Log one error at a time, fixing minor issues every step of the way. Including the following DCOM error, specifically for the RuntimeBroker service:<br />
-&ldquo;<em>The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID {D63B10C5-BB46-4990-A94F-E40B9D520160} and APPID {9CA88EE3-ACB7-47C8-AFC4-AB702511C276} to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.</em>&rdquo;<br />
-<img src="/images/2017/04/DCOM-300x197.png" alt="DCOM" /></p>
+&ldquo;<em>The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID {D63B10C5-BB46-4990-A94F-E40B9D520160} and APPID {9CA88EE3-ACB7-47C8-AFC4-AB702511C276} to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.</em>&ldquo;</p>
 
 <p>As a SharePoint consultant I come across this type of DCOM error quite regularly:<br />
 <a href="https://support.microsoft.com/en-us/help/920783/event-id-error-messages-10016-and-10017-are-logged-in-the-system-log-after-you-install-windows-sharepoint-services-3.0">https://support.microsoft.com/en-us/help/920783/event-id-error-messages-10016-and-10017-are-logged-in-the-system-log-after-you-install-windows-sharepoint-services-3.0</a></p>
@@ -117,8 +116,7 @@
 <li>HKEY_CLASSES_ROOT\CLSID\{D63B10C5-BB46-4990-A94F-E40B9D520160}</li>
 </ul>
 
-<p>Then ensure you provide the SYSTEM account with local launch &amp; local activation permissions, refer to the Microsoft Support link above if you need specific steps to do so. When prompted that editing these permissions requires you to remove an unrecognized account from the permissions list, click remove. Since the application wasn&rsquo;t functioning properly anyway I figured&hellip; what the hell&hellip; and it&rsquo;s working fine right now.<br />
-<img src="/images/2017/04/DCOM_2-300x205.png" alt="DCOM 2" /></p>
+<p>Then ensure you provide the SYSTEM account with local launch &amp; local activation permissions, refer to the Microsoft Support link above if you need specific steps to do so. When prompted that editing these permissions requires you to remove an unrecognized account from the permissions list, click remove. Since the application wasn&rsquo;t functioning properly anyway I figured&hellip; what the hell&hellip; and it&rsquo;s working fine right now.</p>
 
 <p>After <del>fixing this</del> I also noticed the login screen no longer waits 5 seconds before accepting my PIN, <del>two for the price of one</del>!</p>
 
