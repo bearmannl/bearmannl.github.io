@@ -4,7 +4,7 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Custom Domain Names With Azurewebsites &middot;  Bearman.NL" />
+  <meta property="og:title" content="Custom Domain Names With Azurewebsites &middot; Bearman.NL" />
   
   <meta property="og:site_name" content="Bearman.NL" />
   <meta property="og:url" content="https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/" />
@@ -31,7 +31,7 @@
   
 
   <title>
-     Custom Domain Names With Azurewebsites &middot;  Bearman.NL
+    Custom Domain Names With Azurewebsites &middot; Bearman.NL
   </title>
 
   <link rel="stylesheet" href="https://bearman.nl/css/bootstrap.min.css" />
@@ -45,8 +45,7 @@
 </head>
 
 <body>
-  <header class="global-header"
-    style="background-image:url( /images/bg.jpg )">
+  <header class="global-header" style="background-image:url( /images/bg.jpg )">
     <section class="header-text">
       <h1><a href="https://bearman.nl/">Bearman.NL</a></h1>
       
@@ -70,6 +69,11 @@
         &nbsp;Home
       </a>
       
+      
+      <a href="" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        &nbsp;Subscribe
+      </a>
       
     </section>
   </header>
@@ -108,36 +112,31 @@
   </header>
   <section>
     <p>I&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &lsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now. Shame on me, Microsoft consultant couldn&rsquo;t figure out a simple IIS redirect rule&hellip; In my defense, I hadn&rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order. To setup an AzureWebsite using a custom domain you need to configure it in several places:</p>
-
 <ul>
 <li>In the Azure portal;</li>
 <li>DNS records with your domain registrar;</li>
 <li>In your application, in my case WordPress;</li>
 <li>An IIS rule to do the actual rewrite/redirect.</li>
 </ul>
-
 <p>Where to configure in Azure? In the Azure Portal find your Web App settings and under the Routing header click on Custom Domains and SSL. Select Bring External Domain and follow the instructions. Pay attention to using the correct type of DNS records, A records and CNAME records, depending on the correct entry. With your domain registrar find the DNS Manager to actually enter the records. You need to set the awverify.*.azurewebsites.net record with a CNAME to verify your custom domain with Azure. I went and created an A record for my domain to the AzureWebsite. Most registrars provide a warning stating you need to wait a maximum of up to 24 hours before the records are updated, in my case they were available within a minute, this may vary based on the receiving location however. In your application add your custom domain, in the case of WordPress go to General Settings and edit your WordPress Address (URL) and Site Address (URL) accordingly. Finally comes the last bit of magic, the IIS rewrite rule. Kudo&rsquo;s to the <a href="http://onthecloud.azurewebsites.net/seo-tip-how-to-block-the-.azurewebsites.net-domain">author of the solution</a> for the final makeup of the IIS rule and <a href="http://www.devjev.nl/">DevJev</a> for nudging me in the right direction :-)</p>
-
-<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-    &lt;configuration&gt;
-        &lt;system.webServer&gt;
-            &lt;rewrite&gt;
-                &lt;rules&gt;
-                    &lt;rule name=&quot;Disable Azure Domain&quot; patternSyntax=&quot;Wildcard&quot; stopProcessing=&quot;true&quot;&gt;
-                        &lt;match url=&quot;*&quot;/&gt;
-                            &lt;conditions logicalGrouping=&quot;MatchAll&quot; trackAllCaptures=&quot;false&quot;&gt;
-                                &lt;add input=&quot;{HTTP_HOST}&quot; pattern=&quot;*.azurewebsites.net&quot;/&gt;
-                            &lt;/conditions&gt;
-                        &lt;action type=&quot;Redirect&quot; url=&quot;http://www.mysite.com{REQUEST_URI}&quot; redirectType=&quot;Permanent&quot;/&gt;
-                    &lt;/rule&gt;
-                &lt;/rules&gt;
-            &lt;/rewrite&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+    <span style="color:#f92672">&lt;configuration&gt;</span>
+        <span style="color:#f92672">&lt;system.webServer&gt;</span>
+            <span style="color:#f92672">&lt;rewrite&gt;</span>
+                <span style="color:#f92672">&lt;rules&gt;</span>
+                    <span style="color:#f92672">&lt;rule</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;Disable Azure Domain&#34;</span> <span style="color:#a6e22e">patternSyntax=</span><span style="color:#e6db74">&#34;Wildcard&#34;</span> <span style="color:#a6e22e">stopProcessing=</span><span style="color:#e6db74">&#34;true&#34;</span><span style="color:#f92672">&gt;</span>
+                        <span style="color:#f92672">&lt;match</span> <span style="color:#a6e22e">url=</span><span style="color:#e6db74">&#34;*&#34;</span><span style="color:#f92672">/&gt;</span>
+                            <span style="color:#f92672">&lt;conditions</span> <span style="color:#a6e22e">logicalGrouping=</span><span style="color:#e6db74">&#34;MatchAll&#34;</span> <span style="color:#a6e22e">trackAllCaptures=</span><span style="color:#e6db74">&#34;false&#34;</span><span style="color:#f92672">&gt;</span>
+                                <span style="color:#f92672">&lt;add</span> <span style="color:#a6e22e">input=</span><span style="color:#e6db74">&#34;{HTTP_HOST}&#34;</span> <span style="color:#a6e22e">pattern=</span><span style="color:#e6db74">&#34;*.azurewebsites.net&#34;</span><span style="color:#f92672">/&gt;</span>
+                            <span style="color:#f92672">&lt;/conditions&gt;</span>
+                        <span style="color:#f92672">&lt;action</span> <span style="color:#a6e22e">type=</span><span style="color:#e6db74">&#34;Redirect&#34;</span> <span style="color:#a6e22e">url=</span><span style="color:#e6db74">&#34;http://www.mysite.com{REQUEST_URI}&#34;</span> <span style="color:#a6e22e">redirectType=</span><span style="color:#e6db74">&#34;Permanent&#34;</span><span style="color:#f92672">/&gt;</span>
+                    <span style="color:#f92672">&lt;/rule&gt;</span>
+                <span style="color:#f92672">&lt;/rules&gt;</span>
+            <span style="color:#f92672">&lt;/rewrite&gt;</span>
             ...
-        &lt;/system.webServer&gt;
-    &lt;/configuration&gt;
-</code></pre>
-
-<p>So why couldn&rsquo;t I figure this last bit of magic out on my own&hellip; I tried to set this up <em>before completing the other steps</em>. Working on this yourself? Sort your Azure, DNS and WordPress config first!</p>
+        <span style="color:#f92672">&lt;/system.webServer&gt;</span>
+    <span style="color:#f92672">&lt;/configuration&gt;</span>
+</code></pre></div><p>So why couldn&rsquo;t I figure this last bit of magic out on my own&hellip; I tried to set this up <em>before completing the other steps</em>. Working on this yourself? Sort your Azure, DNS and WordPress config first!</p>
 
   </section>
   <footer>

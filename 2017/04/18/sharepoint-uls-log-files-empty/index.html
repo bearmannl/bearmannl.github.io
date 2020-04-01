@@ -4,7 +4,7 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Sharepoint Uls Log Files Empty &middot;  Bearman.NL" />
+  <meta property="og:title" content="Sharepoint Uls Log Files Empty &middot; Bearman.NL" />
   
   <meta property="og:site_name" content="Bearman.NL" />
   <meta property="og:url" content="https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/" />
@@ -23,7 +23,7 @@
   
 
   <title>
-     Sharepoint Uls Log Files Empty &middot;  Bearman.NL
+    Sharepoint Uls Log Files Empty &middot; Bearman.NL
   </title>
 
   <link rel="stylesheet" href="https://bearman.nl/css/bootstrap.min.css" />
@@ -37,8 +37,7 @@
 </head>
 
 <body>
-  <header class="global-header"
-    style="background-image:url( /images/bg.jpg )">
+  <header class="global-header" style="background-image:url( /images/bg.jpg )">
     <section class="header-text">
       <h1><a href="https://bearman.nl/">Bearman.NL</a></h1>
       
@@ -62,6 +61,11 @@
         &nbsp;Home
       </a>
       
+      
+      <a href="" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        &nbsp;Subscribe
+      </a>
       
     </section>
   </header>
@@ -92,19 +96,14 @@
   </header>
   <section>
     <p>Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.</p>
-
-<p>Incidentally I found a Event Log error with the code:<br />
+<p>Incidentally I found a Event Log error with the code:<br>
 &ldquo;A Session &ldquo;WSSUSAGESESSION15&rdquo; failed to start with the following error: 0xC0000022&rdquo;</p>
-
 <p>Other posts mention adding the service account (or the WSS_WPG group) for the &lsquo;SharePoint Tracing Service&rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem. However this does not conform to the principle of least privileged accounts.</p>
-
 <p>Finally I found that the &lsquo;Performance Log Users&rsquo; security group provides the correct permissions to allow a service to write trace log information.</p>
-
 <ul>
 <li>Added the service account using commandline &ldquo;net localgroup &ldquo;Performance Log Users&rdquo; &ldquo;domain\username&rdquo; /add&rdquo;</li>
 <li>Restarted the &lsquo;SharePoint Tracing Service&rsquo; Windows Service, problem solved with least amount of privileges!</li>
 </ul>
-
 <p>PS. Adding the WSS_WPG security group to the performance log users group <em>does not</em> solve the issue.</p>
 
   </section>

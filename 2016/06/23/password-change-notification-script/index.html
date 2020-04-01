@@ -4,7 +4,7 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Password Change Notification Script &middot;  Bearman.NL" />
+  <meta property="og:title" content="Password Change Notification Script &middot; Bearman.NL" />
   
   <meta property="og:site_name" content="Bearman.NL" />
   <meta property="og:url" content="https://bearman.nl/2016/06/23/password-change-notification-script/" />
@@ -33,7 +33,7 @@
   
 
   <title>
-     Password Change Notification Script &middot;  Bearman.NL
+    Password Change Notification Script &middot; Bearman.NL
   </title>
 
   <link rel="stylesheet" href="https://bearman.nl/css/bootstrap.min.css" />
@@ -47,8 +47,7 @@
 </head>
 
 <body>
-  <header class="global-header"
-    style="background-image:url( /images/bg.jpg )">
+  <header class="global-header" style="background-image:url( /images/bg.jpg )">
     <section class="header-text">
       <h1><a href="https://bearman.nl/">Bearman.NL</a></h1>
       
@@ -72,6 +71,11 @@
         &nbsp;Home
       </a>
       
+      
+      <a href="" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        &nbsp;Subscribe
+      </a>
       
     </section>
   </header>
@@ -111,143 +115,130 @@
     </div>
   </header>
   <section>
-    
-
-<h1 id="version-1-4">Version 1.4</h1>
-
+    <h1 id="version-14">Version 1.4</h1>
 <p>Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, <em>checked it</em>, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman <a href="https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27">over at the Technet Gallery</a>. For Office365 compatibility check <a href="https://windowsserveressentials.com/2015/01/23/office-365-email-password-reminder/">his post here</a>…</p>
-
-<h1 id="version-2-0">Version 2.0</h1>
-
+<h1 id="version-20">Version 2.0</h1>
 <p>But then… that annoying little OCD gene (those of you who have it surely recognize it!) crept up on me today and I started fiddling with it anyway. I told myself the script needed to include some customizations for my company, but who am I kidding, I would lose sleep if I didn’t give in to my OCD quirks every once in a while. In general, I changed the script to include a proper description block, parameters, cleanup of casing for variables and refactoring of some Boolean uses to shorten the if statements. The part I needed to change specifically for Silverside was the Filter for the Get-ADUser command, this allows me to filter out Admin accounts in our organization:</p>
-
-<pre><code class="language-powershell">… -and $_.UserPrincipalName -notlike 'adm*' …
-</code></pre>
-
-<p>Overall the script is now easier to deploy out of the box with the use of parameters (including defaults), so long as you remember to adjust <strong><em>at least</em></strong> the <strong>$smtpServer</strong> and <strong>$from</strong> variables under the config section:</p>
-
-<pre><code class="language-powershell">$smtpServer = &quot;mail.yourdomain.local&quot;
-$from = &quot;Your Company IT noreply@yourdomain.com&quot;
-</code></pre>
-
-<h1 id="the-script">The script</h1>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#960050;background-color:#1e0010">…</span> <span style="color:#f92672">-and</span> $_.UserPrincipalName <span style="color:#f92672">-notlike</span> <span style="color:#e6db74">&#39;adm*&#39;</span> <span style="color:#960050;background-color:#1e0010">…</span>
+</code></pre></div><p>Overall the script is now easier to deploy out of the box with the use of parameters (including defaults), so long as you remember to adjust <em><strong>at least</strong></em> the <strong>$smtpServer</strong> and <strong>$from</strong> variables under the config section:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$smtpServer = <span style="color:#e6db74">&#34;mail.yourdomain.local&#34;</span>
+$from = <span style="color:#e6db74">&#34;Your Company IT noreply@yourdomain.com&#34;</span>
+</code></pre></div><h1 id="the-script">The script</h1>
 <p>As you no doubt found this post after efficiently searching for a free scipt online, feel free to use, I hope it saves you some time. Just remember to include the original author as described in the comments. You can also find the latest version at my GitHub account, <a href="https://github.com/bearmannl/posh/blob/master/Scripts/Send-PasswordChangeNotification.ps1">Send-PasswordChangeNotification.ps1</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e">&lt;#
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.SYNOPSIS</span><span style="color:#75715e">
+</span><span style="color:#75715e">    Get all users with a soon to expire password and send them a reminder to do so.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.DESCRIPTION</span><span style="color:#75715e">
+</span><span style="color:#75715e">    This script gets all users with a soon to expire password and sends them a reminder to do so. This script was originally created by Robert Pearman and posted on the technet gallery. Since modified by Mike Beerman to include changes specific for Silverside. Settings such as the destination SMTP server and From address can only be configured within the script.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.PARAMETER</span><span style="color:#75715e"> ExpireInDays
+</span><span style="color:#75715e">    Optional input allowing an override to the number of days at which the script will send a reminder. Defaults to 30 days.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.PARAMETER</span><span style="color:#75715e"> Logging
+</span><span style="color:#75715e">    Switch which determines if a seperate CSV logfile should be created. Default to false without the switch.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.PARAMETER</span><span style="color:#75715e"> LogPath
+</span><span style="color:#75715e">    Folderpath for the logfile, plain string format.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.PARAMETER</span><span style="color:#75715e"> Testing
+</span><span style="color:#75715e">    Switch which determines if the emails should be sent to the test recipient instead of the actual users. Default to false without the switch.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.PARAMETER</span><span style="color:#75715e"> TestRecipient
+</span><span style="color:#75715e">    Optional string for setting a different recipient in testing for testing purposes. Will not be used if Testing is not included in the command or email is disabled.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.PARAMETER</span><span style="color:#75715e"> TestMailDisabled
+</span><span style="color:#75715e">    Switch for disabling email functionality.
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.EXAMPLE</span><span style="color:#75715e">
+</span><span style="color:#75715e">Send-PasswordChangeNotification.ps1
+</span><span style="color:#75715e">Send-PasswordChangeNotification.ps1 -Expire 60 -Logging -Logile &#34;C:\Logs\PasswordChangeNotifications.csv&#34; -Testing -TestRecipient &#34;yourname@yourdomain.com&#34;
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.LINK</span><span style="color:#75715e">
+</span><span style="color:#75715e">    https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27
+</span><span style="color:#75715e">    https://bearman.nl/2016/06/23/password-change-notification-script
+</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#e6db74">.NOTES</span><span style="color:#75715e">
+</span><span style="color:#75715e">    Authors : Mike Beerman
+</span><span style="color:#75715e">    Company : Silverside
+</span><span style="color:#75715e">    Date : 2016-06-23
+</span><span style="color:#75715e">    Version : 2.0
+</span><span style="color:#75715e">
+</span><span style="color:#75715e">    Authors : Robert Pearman (WSSMB MVP)
+</span><span style="color:#75715e">    Company : Windows Server Essentials
+</span><span style="color:#75715e">    Date : 2016-02-03
+</span><span style="color:#75715e">    Version : 1.4
+</span><span style="color:#75715e">#&gt;</span>
 
-<pre><code class="language-powershell">&lt;#
-.SYNOPSIS
-    Get all users with a soon to expire password and send them a reminder to do so.
-
-.DESCRIPTION
-    This script gets all users with a soon to expire password and sends them a reminder to do so. This script was originally created by Robert Pearman and posted on the technet gallery. Since modified by Mike Beerman to include changes specific for Silverside. Settings such as the destination SMTP server and From address can only be configured within the script.
-
-.PARAMETER ExpireInDays
-    Optional input allowing an override to the number of days at which the script will send a reminder. Defaults to 30 days.
-
-.PARAMETER Logging
-    Switch which determines if a seperate CSV logfile should be created. Default to false without the switch.
-
-.PARAMETER LogPath
-    Folderpath for the logfile, plain string format.
-
-.PARAMETER Testing
-    Switch which determines if the emails should be sent to the test recipient instead of the actual users. Default to false without the switch.
-
-.PARAMETER TestRecipient
-    Optional string for setting a different recipient in testing for testing purposes. Will not be used if Testing is not included in the command or email is disabled.
-
-.PARAMETER TestMailDisabled
-    Switch for disabling email functionality.
-
-.EXAMPLE
-Send-PasswordChangeNotification.ps1
-Send-PasswordChangeNotification.ps1 -Expire 60 -Logging -Logile &quot;C:\Logs\PasswordChangeNotifications.csv&quot; -Testing -TestRecipient &quot;yourname@yourdomain.com&quot;
-
-.LINK
-    https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27
-    https://bearman.nl/2016/06/23/password-change-notification-script
-
-.NOTES
-    Authors : Mike Beerman
-    Company : Silverside
-    Date : 2016-06-23
-    Version : 2.0
-
-    Authors : Robert Pearman (WSSMB MVP)
-    Company : Windows Server Essentials
-    Date : 2016-02-03
-    Version : 1.4
-#&gt;
-
-param (
-    [ValidateRange(1,365)][int]$ExpireInDays = 30,
-    [switch]$Logging,
-    [string]$LogPath = &quot;C:\Logs&quot;,
-    [switch]$Testing,
-    [string]$TestRecipient = &quot;yourname@yourdomain.com&quot;,
-    [switch]$TestMailDisabled
+<span style="color:#66d9ef">param</span> (
+    [<span style="color:#66d9ef">ValidateRange</span>(1,365)]<span style="color:#66d9ef">[int]</span>$ExpireInDays = 30,
+    <span style="color:#66d9ef">[switch]</span>$Logging,
+    <span style="color:#66d9ef">[string]</span>$LogPath = <span style="color:#e6db74">&#34;C:\Logs&#34;</span>,
+    <span style="color:#66d9ef">[switch]</span>$Testing,
+    <span style="color:#66d9ef">[string]</span>$TestRecipient = <span style="color:#e6db74">&#34;yourname@yourdomain.com&#34;</span>,
+    <span style="color:#66d9ef">[switch]</span>$TestMailDisabled
 )
 
-##
-# Config values
-##
+<span style="color:#75715e">##</span>
+<span style="color:#75715e"># Config values</span>
+<span style="color:#75715e">##</span>
 
-$smtpServer = &quot;mail.yourdomain.local&quot;
-$from = &quot;Your Company IT &lt;noreply@yourdomain.com&gt;&quot;
-$textEncoding = [System.Text.Encoding]::UTF8
+$smtpServer = <span style="color:#e6db74">&#34;mail.yourdomain.local&#34;</span>
+$from = <span style="color:#e6db74">&#34;Your Company IT &lt;noreply@yourdomain.com&gt;&#34;</span>
+$textEncoding = <span style="color:#66d9ef">[System.Text.Encoding]</span>::UTF8
 $logDate = Get-Date -Format yyyyMMdd
-$LogPath = ($LogPath).TrimEnd(&quot;\&quot;)
-$logFile = $LogPath + &quot;\PasswordChangeNotifications.csv&quot;
+$LogPath = ($LogPath).TrimEnd(<span style="color:#e6db74">&#34;\&#34;</span>)
+$logFile = $LogPath + <span style="color:#e6db74">&#34;\PasswordChangeNotifications.csv&#34;</span>
 
-##
-#Initiate PowerShell session
-##
+<span style="color:#75715e">##</span>
+<span style="color:#75715e">#Initiate PowerShell session</span>
+<span style="color:#75715e">##</span>
 
-# Set threading
+<span style="color:#75715e"># Set threading</span>
 $ver = $host | Select-Object Version
-if($ver.Version.Major -gt 1) {$Host.Runspace.ThreadOptions = &quot;ReuseThread&quot;}
+<span style="color:#66d9ef">if</span>($ver.Version.Major <span style="color:#f92672">-gt</span> 1) {$Host.Runspace.ThreadOptions = <span style="color:#e6db74">&#34;ReuseThread&#34;</span>}
 
-# Load Active Directory PowerShell snap-in
+<span style="color:#75715e"># Load Active Directory PowerShell snap-in</span>
 Import-Module ActiveDirectory
-Write-Verbose (&quot;[{0}] - AD PowerShell SnapIn loaded&quot; -f (Get-Date -Format T))
+Write-Verbose (<span style="color:#e6db74">&#34;[{0}] - AD PowerShell SnapIn loaded&#34;</span> <span style="color:#f92672">-f</span> (Get-Date -Format T))
 
-$verbosePreference = 'Continue'
+$verbosePreference = <span style="color:#e6db74">&#39;Continue&#39;</span>
 
-# Check Logging Settings
-if ($Logging) {
-    # Test Log Folder Path and create new directory if false
-    if ($null -eq (Test-Path $LogPath)) {
-        # Create CSV File and Headers
+<span style="color:#75715e"># Check Logging Settings</span>
+<span style="color:#66d9ef">if</span> ($Logging) {
+    <span style="color:#75715e"># Test Log Folder Path and create new directory if false</span>
+    <span style="color:#66d9ef">if</span> ($null <span style="color:#f92672">-eq</span> (Test-Path $LogPath)) {
+        <span style="color:#75715e"># Create CSV File and Headers</span>
         New-Item $LogPath -ItemType Directory | Out-Null
-        Write-Verbose (&quot;[{0}] - New folder created at [{1}]&quot; -f (Get-Date -Format T), $LogPath)
+        Write-Verbose (<span style="color:#e6db74">&#34;[{0}] - New folder created at [{1}]&#34;</span> <span style="color:#f92672">-f</span> (Get-Date -Format T), $LogPath)
     }
-    # Test Log File Path and create new file if false
-    if ($null -eq (Test-Path $logFile)) {
-        # Create CSV File and Headers
+    <span style="color:#75715e"># Test Log File Path and create new file if false</span>
+    <span style="color:#66d9ef">if</span> ($null <span style="color:#f92672">-eq</span> (Test-Path $logFile)) {
+        <span style="color:#75715e"># Create CSV File and Headers</span>
         New-Item $logFile -ItemType File | Out-Null
-        Add-Content $logFile &quot;Date,Name,EmailAddress,DaystoExpire,ExpiresOn,Notified&quot;
-        Write-Verbose (&quot;[{0}] - New logfile created at [{1}]&quot; -f (Get-Date -Format T), $logFile)
+        Add-Content $logFile <span style="color:#e6db74">&#34;Date,Name,EmailAddress,DaystoExpire,ExpiresOn,Notified&#34;</span>
+        Write-Verbose (<span style="color:#e6db74">&#34;[{0}] - New logfile created at [{1}]&#34;</span> <span style="color:#f92672">-f</span> (Get-Date -Format T), $logFile)
     }
-} # End Logging Check
+} <span style="color:#75715e"># End Logging Check</span>
 
 $DefaultmaxPasswordAge = (Get-ADDefaultDomainPasswordPolicy).MaxPasswordAge
 
-# Get Users From AD who are Enabled, Passwords Expire and are Not Currently Expired
-$users = Get-ADUser -Filter * -Properties Name, PasswordNeverExpires, PasswordExpired, PasswordLastSet, EmailAddress | Where-Object { $_.Enabled -eq $true -and $_.PasswordNeverExpires -eq $false -and $_.passwordexpired -eq $false -and $_.UserPrincipalName -notlike 'adm*' }
+<span style="color:#75715e"># Get Users From AD who are Enabled, Passwords Expire and are Not Currently Expired</span>
+$users = Get-ADUser -Filter * -Properties Name, PasswordNeverExpires, PasswordExpired, PasswordLastSet, EmailAddress | Where-Object { $_.Enabled <span style="color:#f92672">-eq</span> $true <span style="color:#f92672">-and</span> $_.PasswordNeverExpires <span style="color:#f92672">-eq</span> $false <span style="color:#f92672">-and</span> $_.passwordexpired <span style="color:#f92672">-eq</span> $false <span style="color:#f92672">-and</span> $_.UserPrincipalName <span style="color:#f92672">-notlike</span> <span style="color:#e6db74">&#39;adm*&#39;</span> }
 
-# Process Each User for Password Expiry
-foreach ($user in $users) {
+<span style="color:#75715e"># Process Each User for Password Expiry</span>
+<span style="color:#66d9ef">foreach</span> ($user <span style="color:#66d9ef">in</span> $users) {
     $name = $user.Name
     $emailAddress = $user.EmailAddress
     $passwordSetDate = $user.PasswordLastSet
     $PasswordPol = (Get-ADUserResultantPasswordPolicy $user)
-    $sent = &quot;&quot; # Reset Sent Flag
-    # Check for Fine Grained Password
-    if ($null -ne ($PasswordPol)) {
+    $sent = <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#75715e"># Reset Sent Flag</span>
+    <span style="color:#75715e"># Check for Fine Grained Password</span>
+    <span style="color:#66d9ef">if</span> ($null <span style="color:#f92672">-ne</span> ($PasswordPol)) {
         $maxPasswordAge = ($PasswordPol).MaxPasswordAge
     }
-    else {
-        # No FGP set to Domain Default
+    <span style="color:#66d9ef">else</span> {
+        <span style="color:#75715e"># No FGP set to Domain Default</span>
         $maxPasswordAge = $DefaultmaxPasswordAge
     }
 
@@ -256,69 +247,68 @@ foreach ($user in $users) {
     $today = (Get-Date)
     $daysToExpire = (New-TimeSpan -Start $today -End $expiresOn).Days
 
-    # Set Greeting based on Number of Days to Expiry.
+    <span style="color:#75715e"># Set Greeting based on Number of Days to Expiry.</span>
 
-    # Check Number of Days to Expiry
+    <span style="color:#75715e"># Check Number of Days to Expiry</span>
     $messageDays = $daysToExpire
 
-    if (($messageDays) -gt &quot;1&quot;) {
-        $messageDays = &quot;in &quot; + &quot;$daysToExpire&quot; + &quot; days.&quot;
+    <span style="color:#66d9ef">if</span> (($messageDays) <span style="color:#f92672">-gt</span> <span style="color:#e6db74">&#34;1&#34;</span>) {
+        $messageDays = <span style="color:#e6db74">&#34;in &#34;</span> + <span style="color:#e6db74">&#34;$daysToExpire&#34;</span> + <span style="color:#e6db74">&#34; days.&#34;</span>
     }
-    else {
-        $messageDays = &quot;today.&quot;
+    <span style="color:#66d9ef">else</span> {
+        $messageDays = <span style="color:#e6db74">&#34;today.&#34;</span>
     }
 
-    # Email Subject Set Here
-    $subject=&quot;Your password will expire $messageDays&quot;
+    <span style="color:#75715e"># Email Subject Set Here</span>
+    $subject=<span style="color:#e6db74">&#34;Your password will expire $messageDays&#34;</span>
 
-    # Email Body Set Here, Note You can use HTML, including Images.
-    $body =&quot;
-    Dear $name,
-    &lt;p&gt; Your Password will expire $messageDays&lt;br&gt;
-    To change your password on a PC press CTRL ALT Delete and choose Change Password &lt;br&gt;
-    &lt;p&gt;Thanks, &lt;br&gt; 
-    Your Comany IT Administrators
-    &lt;/p&gt;&quot;
+    <span style="color:#75715e"># Email Body Set Here, Note You can use HTML, including Images.</span>
+    $body =<span style="color:#e6db74">&#34;
+</span><span style="color:#e6db74">    Dear $name,
+</span><span style="color:#e6db74">    &lt;p&gt; Your Password will expire $messageDays&lt;br&gt;
+</span><span style="color:#e6db74">    To change your password on a PC press CTRL ALT Delete and choose Change Password &lt;br&gt;
+</span><span style="color:#e6db74">    &lt;p&gt;Thanks, &lt;br&gt; 
+</span><span style="color:#e6db74">    Your Comany IT Administrators
+</span><span style="color:#e6db74">    &lt;/p&gt;&#34;</span>
 
-    # If Testing Is Enabled - Email Administrator
-    if ($Testing) {
+    <span style="color:#75715e"># If Testing Is Enabled - Email Administrator</span>
+    <span style="color:#66d9ef">if</span> ($Testing) {
         $emailAddress = $TestRecipient
-    } # End Testing
+    } <span style="color:#75715e"># End Testing</span>
 
-    # If a user has no email address listed
-    if ($null -eq ($emailAddress)) {
+    <span style="color:#75715e"># If a user has no email address listed</span>
+    <span style="color:#66d9ef">if</span> ($null <span style="color:#f92672">-eq</span> ($emailAddress)) {
         $emailAddress = $TestRecipient 
-    }# End No Valid Email
+    }<span style="color:#75715e"># End No Valid Email</span>
 
-    # Send Email Message
-    if (($daysToExpire -eq '0') -or ($daysToExpire -eq '14') -or ($daysToExpire -eq $ExpireInDays)) {
-        $sent = &quot;Yes&quot;
-        # If Logging is Enabled Log Details
-        if ($Logging) {
-            Add-Content $logFile &quot;$logDate,$name,$emailAddress,$daysToExpire,$expiresOn,$sent&quot;
-            Write-Verbose (&quot;[{0}] - Entry added to logfile for user [{1}]&quot; -f (Get-Date -Format T), $user.UserPrincipalName)
+    <span style="color:#75715e"># Send Email Message</span>
+    <span style="color:#66d9ef">if</span> (($daysToExpire <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#39;0&#39;</span>) <span style="color:#f92672">-or</span> ($daysToExpire <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#39;14&#39;</span>) <span style="color:#f92672">-or</span> ($daysToExpire <span style="color:#f92672">-eq</span> $ExpireInDays)) {
+        $sent = <span style="color:#e6db74">&#34;Yes&#34;</span>
+        <span style="color:#75715e"># If Logging is Enabled Log Details</span>
+        <span style="color:#66d9ef">if</span> ($Logging) {
+            Add-Content $logFile <span style="color:#e6db74">&#34;$logDate,$name,$emailAddress,$daysToExpire,$expiresOn,$sent&#34;</span>
+            Write-Verbose (<span style="color:#e6db74">&#34;[{0}] - Entry added to logfile for user [{1}]&#34;</span> <span style="color:#f92672">-f</span> (Get-Date -Format T), $user.UserPrincipalName)
         }
-        # Send Email Message if not disabled by switch
-        if ($null -eq ($TestMailDisabled)) {
+        <span style="color:#75715e"># Send Email Message if not disabled by switch</span>
+        <span style="color:#66d9ef">if</span> ($null <span style="color:#f92672">-eq</span> ($TestMailDisabled)) {
             Send-Mailmessage -SmtpServer $smtpServer -From $from -To $emailAddress -Subject $subject -Body $body -BodyAsHTML -Priority High -Encoding $textEncoding
-            Write-Verbose (&quot;[{0}] - Email sent to [{1}]&quot; -f (Get-Date -Format T), $emailAddress)
+            Write-Verbose (<span style="color:#e6db74">&#34;[{0}] - Email sent to [{1}]&#34;</span> <span style="color:#f92672">-f</span> (Get-Date -Format T), $emailAddress)
         }
-    } # End Send Message
-    else {
-        # Log Non Expiring Password
-        $sent = &quot;No&quot;
-        # If Logging is Enabled Log Details
-        if ($Logging) {
-            Add-Content $logFile &quot;$logDate,$name,$emailAddress,$daysToExpire,$expiresOn,$sent&quot;
-            Write-Verbose (&quot;[{0}] - Entry added to logfile for user [{1}]&quot; -f (Get-Date -Format T), $user.UserPrincipalName)
+    } <span style="color:#75715e"># End Send Message</span>
+    <span style="color:#66d9ef">else</span> {
+        <span style="color:#75715e"># Log Non Expiring Password</span>
+        $sent = <span style="color:#e6db74">&#34;No&#34;</span>
+        <span style="color:#75715e"># If Logging is Enabled Log Details</span>
+        <span style="color:#66d9ef">if</span> ($Logging) {
+            Add-Content $logFile <span style="color:#e6db74">&#34;$logDate,$name,$emailAddress,$daysToExpire,$expiresOn,$sent&#34;</span>
+            Write-Verbose (<span style="color:#e6db74">&#34;[{0}] - Entry added to logfile for user [{1}]&#34;</span> <span style="color:#f92672">-f</span> (Get-Date -Format T), $user.UserPrincipalName)
         }
     }
-} # End User Processing
+} <span style="color:#75715e"># End User Processing</span>
 
-$verbosePreference = 'SilentlyContinue'
-# End
-</code></pre>
-
+$verbosePreference = <span style="color:#e6db74">&#39;SilentlyContinue&#39;</span>
+<span style="color:#75715e"># End</span>
+</code></pre></div>
   </section>
   <footer>
     

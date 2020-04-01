@@ -4,7 +4,7 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Sfb Ha Sql Dag Configuration &middot;  Bearman.NL" />
+  <meta property="og:title" content="Sfb Ha Sql Dag Configuration &middot; Bearman.NL" />
   
   <meta property="og:site_name" content="Bearman.NL" />
   <meta property="og:url" content="https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/" />
@@ -29,7 +29,7 @@
   
 
   <title>
-     Sfb Ha Sql Dag Configuration &middot;  Bearman.NL
+    Sfb Ha Sql Dag Configuration &middot; Bearman.NL
   </title>
 
   <link rel="stylesheet" href="https://bearman.nl/css/bootstrap.min.css" />
@@ -43,8 +43,7 @@
 </head>
 
 <body>
-  <header class="global-header"
-    style="background-image:url( /images/bg.jpg )">
+  <header class="global-header" style="background-image:url( /images/bg.jpg )">
     <section class="header-text">
       <h1><a href="https://bearman.nl/">Bearman.NL</a></h1>
       
@@ -68,6 +67,11 @@
         &nbsp;Home
       </a>
       
+      
+      <a href="" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        &nbsp;Subscribe
+      </a>
       
     </section>
   </header>
@@ -103,32 +107,22 @@
     </div>
   </header>
   <section>
-    
-
-<p><strong>One of those silly mistakes…</strong> As mentioned in my <a href="https://bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/">previous post</a>, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG. Once enabled, the first field gets relabeled ‘SQL Server Availability Group Listener FQDN’, the second ‘SQL Server FQDN’. Initially before enabling the DAG I set these values:</p>
-
+    <p><strong>One of those silly mistakes…</strong> As mentioned in my <a href="https://bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/">previous post</a>, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG. Once enabled, the first field gets relabeled ‘SQL Server Availability Group Listener FQDN’, the second ‘SQL Server FQDN’. Initially before enabling the DAG I set these values:</p>
 <ul>
 <li>Field 1, SQL Server DAG FQDN;</li>
 <li>Field 2, any given SQL Server node FQDN which will become part of the DAG.</li>
 </ul>
-
-<p>Which looks like this:<br />
-<img src="/images/2016/05/DAG_Before-300x229.png" alt="DAG before" /></p>
-
+<p>Which looks like this:<br>
+<img src="/images/2016/05/DAG_Before-300x229.png" alt="DAG before"></p>
 <p>After the installation was complete and my published topology was running I ran into all sorts of problems, the root of which was the SQL datasource being read-only. Shortly after I determined the errors went away for a while when I switched the active node in the SQL cluster, so <em>something</em> had to be wrong with those settings… <strong>but what</strong>?!</p>
-
 <h1 id="the-fix">The fix</h1>
-
 <p>So what’s the correct configuration? After the initial installation of SfB <em>and</em> finalizing the replication of all the databases for the SQL DAG, <strong>you need to change the SQL server FQDN back to the DAG FQDN.</strong></p>
-
 <ul>
 <li>Field 1 requires, SQL Server DAG FQDN;</li>
 <li>Field 2 requires, SQL Server DAG FQDN.</li>
 </ul>
-
-<p><img src="/images/2016/05/DAG_After-300x229.png" alt="DAG after" /></p>
-
-<p>Why are there two fields for the same setting? You need to install the databases onto a single SQL node once before you can switch on the DAG settings, <strong><em>then remember to reconfigure the SQL store in your SfB topology with the DAG FQDN</em></strong>. Would be nice if the Microsoft documentation was explicit on the little things like these. One final tip, whenever you see a field that requires the <strong>FQDN</strong>, double check you <em>actually used the FQDN</em> before publishing your topology. Changing the FQDN on the SQL Server store after the topology has been published can be a chore…</p>
+<p><img src="/images/2016/05/DAG_After-300x229.png" alt="DAG after"></p>
+<p>Why are there two fields for the same setting? You need to install the databases onto a single SQL node once before you can switch on the DAG settings, <em><strong>then remember to reconfigure the SQL store in your SfB topology with the DAG FQDN</strong></em>. Would be nice if the Microsoft documentation was explicit on the little things like these. One final tip, whenever you see a field that requires the <strong>FQDN</strong>, double check you <em>actually used the FQDN</em> before publishing your topology. Changing the FQDN on the SQL Server store after the topology has been published can be a chore…</p>
 
   </section>
   <footer>

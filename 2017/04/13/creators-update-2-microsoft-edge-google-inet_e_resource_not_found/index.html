@@ -4,7 +4,7 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found &middot;  Bearman.NL" />
+  <meta property="og:title" content="Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found &middot; Bearman.NL" />
   
   <meta property="og:site_name" content="Bearman.NL" />
   <meta property="og:url" content="https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/" />
@@ -25,7 +25,7 @@
   
 
   <title>
-     Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found &middot;  Bearman.NL
+    Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found &middot; Bearman.NL
   </title>
 
   <link rel="stylesheet" href="https://bearman.nl/css/bootstrap.min.css" />
@@ -39,8 +39,7 @@
 </head>
 
 <body>
-  <header class="global-header"
-    style="background-image:url( /images/bg.jpg )">
+  <header class="global-header" style="background-image:url( /images/bg.jpg )">
     <section class="header-text">
       <h1><a href="https://bearman.nl/">Bearman.NL</a></h1>
       
@@ -64,6 +63,11 @@
         &nbsp;Home
       </a>
       
+      
+      <a href="" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        &nbsp;Subscribe
+      </a>
       
     </section>
   </header>
@@ -96,43 +100,31 @@
   </header>
   <section>
     <p>Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.</p>
-
 <p>This <em>only</em> happened with Google, no other site had this issue&hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&hellip;</p>
-
 <p>Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.</p>
-
 <p>I reported the issue via the Feedback Hub, <del>but obviously that&rsquo;s no guarantee</del> that I would have my Edge browser working with Google as my default search engine&hellip; and I so much like Edge with Google as the default search engine!</p>
-
-<p>So I started to pick through my Event Log one error at a time, fixing minor issues every step of the way. Including the following DCOM error, specifically for the RuntimeBroker service:<br />
-&ldquo;<em>The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID {D63B10C5-BB46-4990-A94F-E40B9D520160} and APPID {9CA88EE3-ACB7-47C8-AFC4-AB702511C276} to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.</em>&ldquo;</p>
-
-<p>As a SharePoint consultant I come across this type of DCOM error quite regularly:<br />
+<p>So I started to pick through my Event Log one error at a time, fixing minor issues every step of the way. Including the following DCOM error, specifically for the RuntimeBroker service:<br>
+&ldquo;<em>The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID {D63B10C5-BB46-4990-A94F-E40B9D520160} and APPID {9CA88EE3-ACB7-47C8-AFC4-AB702511C276} to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.</em>&rdquo;<br>
+[comment]: &lt;&gt; (<img src="/images/2017/04/DCOM-300x197.png" alt="DCOM"> replace original image)</p>
+<p>As a SharePoint consultant I come across this type of DCOM error quite regularly:<br>
 <a href="https://support.microsoft.com/en-us/help/920783/event-id-error-messages-10016-and-10017-are-logged-in-the-system-log-after-you-install-windows-sharepoint-services-3.0">https://support.microsoft.com/en-us/help/920783/event-id-error-messages-10016-and-10017-are-logged-in-the-system-log-after-you-install-windows-sharepoint-services-3.0</a></p>
-
 <p>In order to fix the error, first take ownership (right click, permissions, advanced, take ownership) of the following registry keys via RegEdit:</p>
-
 <ul>
 <li>HKEY_CLASSES_ROOT\AppID\{9CA88EE3-ACB7-47c8-AFC4-AB702511C276}</li>
 <li>HKEY_CLASSES_ROOT\CLSID\{D63B10C5-BB46-4990-A94F-E40B9D520160}</li>
 </ul>
-
-<p>Then ensure you provide the SYSTEM account with local launch &amp; local activation permissions, refer to the Microsoft Support link above if you need specific steps to do so. When prompted that editing these permissions requires you to remove an unrecognized account from the permissions list, click remove. Since the application wasn&rsquo;t functioning properly anyway I figured&hellip; what the hell&hellip; and it&rsquo;s working fine right now.</p>
-
+<p>Then ensure you provide the SYSTEM account with local launch &amp; local activation permissions, refer to the Microsoft Support link above if you need specific steps to do so. When prompted that editing these permissions requires you to remove an unrecognized account from the permissions list, click remove. Since the application wasn&rsquo;t functioning properly anyway I figured&hellip; what the hell&hellip; and it&rsquo;s working fine right now.<br>
+[comment]: &lt;&gt; (<img src="/images/2017/04/DCOM_2-300x205.png" alt="DCOM 2"> replace original image)</p>
 <p>After <del>fixing this</del> I also noticed the login screen no longer waits 5 seconds before accepting my PIN, <del>two for the price of one</del>!</p>
-
-<p><strong>UPDATE 19-04-2017:</strong><br />
+<p><strong>UPDATE 19-04-2017:</strong><br>
 Apparently I was too quick in releasing my post, above did not fix the Google issue. (it <em>did</em> however fix the slowdown in accepting my PIN)</p>
-
 <p>As provided by Microsoft the issue can be worked around in two ways until they release a fix:</p>
-
 <ul>
 <li>Type about:flags in the address bar. Scroll down to the Networking section (near the bottom) and uncheck Enable TCP Fast Open, <em>then restart the browser</em></li>
 <li>Use InPrivate Browsing when using Edge.</li>
 </ul>
-
-<p>What the feature does:<br />
+<p>What the feature does:<br>
 <a href="https://www.windowscentral.com/enable-tcp-fast-open-microsoft-edge-faster-page-load-times">https://www.windowscentral.com/enable-tcp-fast-open-microsoft-edge-faster-page-load-times</a></p>
-
 <p>I did disable this feature, I just didn&rsquo;t restart my browser afterwards&hellip; this led me to believe the above fix actually resolved my issue. <strong>Kudo&rsquo;s to Microsoft</strong> for providing a workaround via the Feedback Hub!</p>
 
   </section>
