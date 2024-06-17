@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Bearman.NL [NL]</title>
+        <link>https://bearman.nl/nl/</link>
+        <description>Dit is de hoofdblog van de auteur Mike Beerman.</description>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 &#43;0200</lastBuildDate>
+            <atom:link href="https://bearman.nl/nl/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Firewall Poort Status Test Script</title>
+    <link>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</link>
+    <pubDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</guid>
+    <description><![CDATA[Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.
+Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server.]]></description>
+</item><item>
+    <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
+    <link>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
+    <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
+    <description><![CDATA[Sinds de Creators Update leidt het navigeren naar een Google-site (google.com, google.co.uk, google.nl, etc.) tot een INET_E_RESOURCE_NOT_FOUND-fout, alleen op mijn werk-laptop, niet op mijn andere apparaten die ik ook heb geüpgraded.
+Dit gebeurde alleen met Google, geen enkele andere site had dit probleem… bovendien kon ik Google(.com) prima bereiken via Ping vanaf de commandline, Internet Explorer, FireFox en Chrome…
+Ik heb mijn (Edge) browsercache, geschiedenis, etc. gewist, maar zonder resultaat. Alles werkte prima tot de Creators Update.]]></description>
+</item><item>
+    <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
+    <link>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
+    <pubDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
+    <description><![CDATA[Vorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server.]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>categorieën - Category - Bearman.NL [NL]</title>
+        <link>https://bearman.nl/nl/categories/</link>
+        <description>categorieën - Category - Bearman.NL [NL]</description>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Probleemoplossing</title>
+    <link>https://bearman.nl/nl/categories/probleemoplossing/</link>
+    <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/nl/categories/probleemoplossing/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

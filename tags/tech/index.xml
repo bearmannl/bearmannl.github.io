@@ -1,33 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tech on Bearman.NL</title>
-    <link>https://bearman.nl/tags/tech/</link>
-    <description>Recent content in tech on Bearman.NL</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jun 2016 15:13:27 +0200</lastBuildDate>
-    
-	<atom:link href="https://bearman.nl/tags/tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Custom Domain Names With Azurewebsites</title>
-      <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
-      <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
-      
-      <guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
-      <description>I&amp;rsquo;ve only recently set up this blog and since it&amp;rsquo;s always busy at work, I don&amp;rsquo;t always have the time to sort out those &amp;lsquo;nice to haves&amp;rsquo;. I&amp;rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&amp;rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &amp;lsquo;bearman.nl&amp;rsquo; hostname I&amp;rsquo;m using now. Shame on me, Microsoft consultant couldn&amp;rsquo;t figure out a simple IIS redirect rule&amp;hellip; In my defense, I hadn&amp;rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order.</description>
-    </item>
-    
-    <item>
-      <title>Sfb Ha Sql Dag Configuration</title>
-      <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
-      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
-      
-      <guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
-      <description>One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tech - Tag - Bearman.NL</title>
+        <link>https://bearman.nl/tags/tech/</link>
+        <description>Tech - Tag - Bearman.NL</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/tech/" rel="self" type="application/rss+xml" /><item>
+    <title>Custom Domain Names With Azurewebsites</title>
+    <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
+    <pubDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
+    <description><![CDATA[I&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now. Shame on me, Microsoft consultant couldn&rsquo;t figure out a simple IIS redirect rule&hellip; In my defense, I hadn&rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order.]]></description>
+</item><item>
+    <title>SfB HA SQL DAG Configuration</title>
+    <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
+    <pubDate>Thu, 26 May 2016 14:45:26 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
+    <description><![CDATA[One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
+</item></channel>
 </rss>

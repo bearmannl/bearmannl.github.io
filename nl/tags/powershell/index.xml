@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Powershell - Tag - Bearman.NL [NL]</title>
+        <link>https://bearman.nl/nl/tags/powershell/</link>
+        <description>Powershell - Tag - Bearman.NL [NL]</description>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/powershell/" rel="self" type="application/rss+xml" /><item>
+    <title>Firewall Poort Status Test Script</title>
+    <link>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</link>
+    <pubDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</guid>
+    <description><![CDATA[Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.
+Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server.]]></description>
+</item></channel>
+</rss>
