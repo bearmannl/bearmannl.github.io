@@ -9,6 +9,6 @@
     <pubDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
-    <description><![CDATA[I&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now. Shame on me, Microsoft consultant couldn&rsquo;t figure out a simple IIS redirect rule&hellip; In my defense, I hadn&rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order.]]></description>
+    <description><![CDATA[Custom Domain namesAzure WebsitesI&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now.]]></description>
 </item></channel>
 </rss>

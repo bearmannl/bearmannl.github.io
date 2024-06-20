@@ -2,16 +2,25 @@
     <channel>
         <title>Bearman.NL</title>
         <link>https://bearman.nl/</link>
-        <description>This is the main blog of the author Mike Beerman.</description>
+        <description>This is the blog of Mike Beerman. The views and opinions expressed here are only those of the author and do not represent those of any organization or any individual with whom the author may be associated, professionally or personally.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 &#43;0200</lastBuildDate>
             <atom:link href="https://bearman.nl/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Open Source - Inner Source - Protected Inner Source</title>
+    <link>https://bearman.nl/2024/06/20/open-inner-protected-source/</link>
+    <pubDate>Thu, 20 Jun 2024 21:30:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/2024/06/20/open-inner-protected-source/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
+            </div>Protected Inner SourceIntroInner sourceIn the digital era, software development is a cornerstone of innovation. Inner Source has gained traction in this domain. It is a strategy that applies Open Source practices within an organization. Unlike Open Source, Inner Source is not public. It remains confined to a single organization. This approach encourages collaborative software development. Teams across the organization can contribute, regardless of departmental boundaries. Inner Source fosters a culture of transparency and shared responsibility.]]></description>
+</item><item>
     <title>Firewall Port Status Test Script</title>
     <link>https://bearman.nl/2017/08/19/firewall-port-status-test-script/</link>
     <pubDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2017/08/19/firewall-port-status-test-script/</guid>
-    <description><![CDATA[Recently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues.
+    <description><![CDATA[Firewall port testingIntroRecently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues.
 While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server.]]></description>
 </item><item>
     <title>Sharepoint ULS Log Files Empty</title>
@@ -19,7 +28,7 @@ While analyzing the issue I came across the Test-NetConnection PowerShell comman
     <pubDate>Tue, 18 Apr 2017 13:58:57 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</guid>
-    <description><![CDATA[Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
+    <description><![CDATA[SharePoint ULSEmpty log filesRan into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
 Incidentally I found a Event Log error with the code:
 &ldquo;A Session &ldquo;WSSUSAGESESSION15&rdquo; failed to start with the following error: 0xC0000022&rdquo;
 Other posts mention adding the service account (or the WSS_WPG group) for the &lsquo;SharePoint Tracing Service&rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem.]]></description>
@@ -29,16 +38,16 @@ Other posts mention adding the service account (or the WSS_WPG group) for the &l
     <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
-    <description><![CDATA[Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
+    <description><![CDATA[Creators updateThe issueSince the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
 This only happened with Google, no other site had this issue&hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&hellip;
-Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.]]></description>
+Cleared my (Edge) browser cache, history, etc. no results.]]></description>
 </item><item>
     <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
     <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
     <pubDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
-    <description><![CDATA[Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&hellip; true so far except for one minor issue! When I had to connect to a client&rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &ldquo;Your computer can’t connect to the Remote Desktop Gateway server.]]></description>
+    <description><![CDATA[Creators UpdateThe IssueLast week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&hellip; true so far except for one minor issue! When I had to connect to a client&rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &ldquo;Your computer can’t connect to the Remote Desktop Gateway server.]]></description>
 </item><item>
     <title>Password Change Notification Script</title>
     <link>https://bearman.nl/2016/06/23/password-change-notification-script/</link>
@@ -47,37 +56,20 @@ Cleared my (Edge) browser cache, history, etc. no results. Everything was workin
                 </author><guid>https://bearman.nl/2016/06/23/password-change-notification-script/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/2016/06/23/password-change-notification-script/script1.png" referrerpolicy="no-referrer">
-            </div>Version 1.4Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, checked it, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman over at the Technet Gallery. For Office365 compatibility check his post here…]]></description>
-</item><item>
-    <title>The Castle the City and the Outlands</title>
-    <link>https://bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</link>
-    <pubDate>Wed, 22 Jun 2016 14:36:47 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/06/22/the-castle-the-city-and-the-outlands/</guid>
-    <description><![CDATA[The education sectorIn consultancy we see a wide range of business sectors. From healthcare, to banking, but also the education sector. Yesterday I was providing advice on user adoption and migration strategies for a large educational institute. In attempting to explain the security architecture of Office365 and SharePoint Online I used several metaphors. To summarize what I had told him, my customer offered a metaphor of his own in return which I found to be very effective.]]></description>
+            </div>Password change notificationVersion 1.4Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, checked it, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman over at the Technet Gallery. For Office365 compatibility check his post here…]]></description>
 </item><item>
     <title>Custom Domain Names With Azurewebsites</title>
     <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
     <pubDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
-    <description><![CDATA[I&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now. Shame on me, Microsoft consultant couldn&rsquo;t figure out a simple IIS redirect rule&hellip; In my defense, I hadn&rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order.]]></description>
+    <description><![CDATA[Custom Domain namesAzure WebsitesI&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now.]]></description>
 </item><item>
     <title>SfB HA SQL DAG Configuration</title>
     <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
     <pubDate>Thu, 26 May 2016 14:45:26 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
-    <description><![CDATA[One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
-</item><item>
-    <title>Customers Dont Have a Frakking Clue</title>
-    <link>https://bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/</link>
-    <pubDate>Tue, 24 May 2016 06:45:03 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/05/24/customers-dont-have-a-frakking-clue/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2016/05/24/customers-dont-have-a-frakking-clue/clueless-meme.png" referrerpolicy="no-referrer">
-            </div>Part 1: The origin story
-The origin storyAs a consultant in the IT industry it is expected to have a thorough understanding of all IT related products in one’s portfolio. When considering what these solutions are intended to provide, we all know the problems our customers face. Right? Wrong. Often enough I’ve heard colleagues in IT mention customers don’t have a clue and vice versa. What everyone should consider is that we’re both wrong unless we listen to each other!]]></description>
+    <description><![CDATA[Skype for Business: High Availability SQL Database Availability Group ConfigurationOne of those silly mistakes…I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
 </item></channel>
 </rss>

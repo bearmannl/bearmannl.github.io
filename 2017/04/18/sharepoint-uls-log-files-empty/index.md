@@ -1,6 +1,8 @@
 # Sharepoint ULS Log Files Empty
 
 
+# SharePoint ULS
+## Empty log files
 Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
 
 Incidentally I found a Event Log error with the code:  
@@ -8,6 +10,7 @@ Incidentally I found a Event Log error with the code:
 
 Other posts mention adding the service account (or the WSS_WPG group) for the 'SharePoint Tracing Service' Windows Service to the administrators group, tested that, this indeed fixes the problem. However this does not conform to the principle of least privileged accounts.
 
+## Solution
 Finally I found that the 'Performance Log Users' security group provides the correct permissions to allow a service to write trace log information.
 
 * Added the service account using commandline "net localgroup "Performance Log Users" "domain\username" /add"

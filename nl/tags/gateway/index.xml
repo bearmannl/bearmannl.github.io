@@ -9,6 +9,6 @@
     <pubDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
-    <description><![CDATA[Vorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server.]]></description>
+    <description><![CDATA[Creators UpdateHet probleemVorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server.]]></description>
 </item></channel>
 </rss>

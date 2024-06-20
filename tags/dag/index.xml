@@ -9,6 +9,6 @@
     <pubDate>Thu, 26 May 2016 14:45:26 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
-    <description><![CDATA[One of those silly mistakes… As mentioned in my previous post, I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
+    <description><![CDATA[Skype for Business: High Availability SQL Database Availability Group ConfigurationOne of those silly mistakes…I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
 </item></channel>
 </rss>

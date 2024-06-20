@@ -1,6 +1,8 @@
 # Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found
 
 
+# Creators update
+## Het probleem
 Sinds de Creators Update leidt het navigeren naar een Google-site (google.com, google.co.uk, google.nl, etc.) tot een INET_E_RESOURCE_NOT_FOUND-fout, alleen op mijn werk-laptop, niet op mijn andere apparaten die ik ook heb geüpgraded.
 
 Dit gebeurde alleen met Google, geen enkele andere site had dit probleem… bovendien kon ik Google(.com) prima bereiken via Ping vanaf de commandline, Internet Explorer, FireFox en Chrome…
@@ -9,6 +11,7 @@ Ik heb mijn (Edge) browsercache, geschiedenis, etc. gewist, maar zonder resultaa
 
 Ik heb het probleem gemeld via de Feedback Hub, maar uiteraard is dat geen garantie dat ik mijn Edge-browser zou kunnen gebruiken met Google als mijn standaard zoekmachine… en ik vind Edge met Google als standaard zoekmachine zo fijn!
 
+## Event Log
 Dus begon ik mijn Event Log door te nemen, één fout tegelijk, en repareerde kleine problemen bij elke stap. Inclusief de volgende DCOM-fout, specifiek voor de RuntimeBroker-service: 
 "*The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID {D63B10C5-BB46-4990-A94F-E40B9D520160} and APPID {9CA88EE3-ACB7-47C8-AFC4-AB702511C276} to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.*"  
 ![DCOM](/images/2017/04/DCOM-300x197.png)
@@ -16,6 +19,7 @@ Dus begon ik mijn Event Log door te nemen, één fout tegelijk, en repareerde kl
 Als SharePoint-consultant kom ik dit type DCOM-fout vrij regelmatig tegen:
 https://support.microsoft.com/nl-nl/help/920783/event-id-error-messages-10016-and-10017-are-logged-in-the-system-log-after-you-install-windows-sharepoint-services-3.0
 
+## De oplossing
 Om de fout te herstellen, neem je eerst het eigendom (rechtsklikken, machtigingen, geavanceerd, eigendom nemen) van de volgende registersleutels via RegEdit:
 
 HKEY_CLASSES_ROOT\AppID\{9CA88EE3-ACB7-47c8-AFC4-AB702511C276}
@@ -25,7 +29,8 @@ Zorg er vervolgens voor dat je het SYSTEM-account lokale start- & lokale activer
 
 Na deze fix merkte ik ook dat het inlogscherm niet meer 5 seconden wacht voordat mijn PIN wordt geaccepteerd, twee voor de prijs van één!
 
-UPDATE 19-04-2017:
+## Update #1
+**UPDATE 19-04-2017**:
 Blijkbaar was ik te snel met het publiceren van mijn bericht, bovenstaande heeft het Google-probleem niet opgelost. (het heeft echter wel de vertraging bij het accepteren van mijn PIN opgelost)
 
 Zoals door Microsoft aangeboden kan het probleem op twee manieren worden omzeild totdat ze een oplossing uitbrengen:

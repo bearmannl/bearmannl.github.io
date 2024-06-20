@@ -2,6 +2,163 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://bearman.nl/nl/tags/access-modifiers/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/access-modifiers/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/access-modifiers/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/authors/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/authors/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/authors/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/posts/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/posts/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/broncode/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/nl/categories/broncode-strategie/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/nl/tags/c-sharp/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/c-sharp/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/c-sharp/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/categories/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/categories/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/class/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/class/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/class/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/classes/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/classes/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/classes/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/inner-source/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/inner-source/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/inner-source/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/internal/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/internal/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/internal/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/authors/mike/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/authors/mike/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/authors/mike/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/ontwikkeling/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/nl/categories/ontwikkeling/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/nl/2024/06/20/open-inner-protected-source/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/2024/06/20/open-inner-protected-source/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/2024/06/20/open-inner-protected-source/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/open-source/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/open-source/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/open-source/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/protected-inner-source/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/protected-inner-source/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/protected-inner-source/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/protected-internal/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/protected-internal/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/protected-internal/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/public/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/public/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/public/"
+                    /></url><url>
+            <loc>https://bearman.nl/nl/tags/sourcecode/</loc><lastmod>2024-06-21T01:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bearman.nl/tags/sourcecode/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="nl"
+                    href="https://bearman.nl/nl/tags/sourcecode/"
+                    /></url><url>
             <loc>https://bearman.nl/nl/</loc><lastmod>2020-04-24T00:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -11,25 +168,7 @@
                     hreflang="nl"
                     href="https://bearman.nl/nl/"
                     /></url><url>
-            <loc>https://bearman.nl/nl/authors/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bearman.nl/authors/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="nl"
-                    href="https://bearman.nl/nl/authors/"
-                    /></url><url>
             <loc>https://bearman.nl/nl/tags/automatisering/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bearman.nl/nl/posts/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bearman.nl/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="nl"
-                    href="https://bearman.nl/nl/posts/"
-                    /></url><url>
             <loc>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -49,24 +188,6 @@
                     href="https://bearman.nl/nl/tags/firewall-ports/"
                     /></url><url>
             <loc>https://bearman.nl/nl/tags/infrastructuur/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bearman.nl/nl/tags/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bearman.nl/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="nl"
-                    href="https://bearman.nl/nl/tags/"
-                    /></url><url>
-            <loc>https://bearman.nl/nl/authors/mike/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bearman.nl/authors/mike/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="nl"
-                    href="https://bearman.nl/nl/authors/mike/"
-                    /></url><url>
             <loc>https://bearman.nl/nl/tags/powershell/</loc><lastmod>2017-08-19T11:56:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -84,15 +205,6 @@
                     rel="alternate"
                     hreflang="nl"
                     href="https://bearman.nl/nl/tags/scripts/"
-                    /></url><url>
-            <loc>https://bearman.nl/nl/categories/</loc><lastmod>2017-04-13T12:12:02&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bearman.nl/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="nl"
-                    href="https://bearman.nl/nl/categories/"
                     /></url><url>
             <loc>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</loc><lastmod>2017-04-13T12:12:02&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

@@ -9,8 +9,8 @@
     <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
-    <description><![CDATA[Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
+    <description><![CDATA[Creators updateThe issueSince the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
 This only happened with Google, no other site had this issue&hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&hellip;
-Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.]]></description>
+Cleared my (Edge) browser cache, history, etc. no results.]]></description>
 </item></channel>
 </rss>

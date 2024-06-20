@@ -1,10 +1,11 @@
 # Password Change Notification Script
 
 
-# Version 1.4
+# Password change notification
+## Version 1.4
 Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, *checked it*, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman [over at the Technet Gallery](https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27). For Office365 compatibility check [his post here](https://windowsserveressentials.com/2015/01/23/office-365-email-password-reminder/)…
 
-# Version 2.0
+## Version 2.0
 But then… that annoying little OCD gene (those of you who have it surely recognize it!) crept up on me today and I started fiddling with it anyway. I told myself the script needed to include some customizations for my company, but who am I kidding, I would lose sleep if I didn’t give in to my OCD quirks every once in a while. In general, I changed the script to include a proper description block, parameters, cleanup of casing for variables and refactoring of some Boolean uses to shorten the if statements. The part I needed to change specifically for Silverside was the Filter for the Get-ADUser command, this allows me to filter out Admin accounts in our organization:  
 ```powershell
 … -and $_.UserPrincipalName -notlike 'adm*' …
@@ -16,7 +17,7 @@ $smtpServer = "mail.yourdomain.local"
 $from = "Your Company IT noreply@yourdomain.com"
 ```
 
-# The script
+## The final script
 As you no doubt found this post after efficiently searching for a free scipt online, feel free to use, I hope it saves you some time. Just remember to include the original author as described in the comments. You can also find the latest version at my GitHub account, [Send-PasswordChangeNotification.ps1](https://github.com/bearmannl/posh/blob/master/Scripts/Send-PasswordChangeNotification.ps1)  
 ```powershell
 <#
