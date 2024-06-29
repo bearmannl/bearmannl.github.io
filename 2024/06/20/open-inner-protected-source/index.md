@@ -15,7 +15,7 @@ In C#, access modifiers control access to the class and its members. They are es
 To understand the exact workings of access modifiers in C#, please reference [the Microsoft Learn article here](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table).
 
 ## The Analogy: Source Strategies and Access Modifiers
-Access modifiers in C# can be likened to source sharing strategies. Internal classes resemble Inner Source, they are accessible within an organization. Consider the following:
+Access modifiers in C# can be compared to source sharing strategies. Internal classes resemble Inner Source, they are accessible within an organization. Consider the following:
 * Open Source code is available to *everyone*.
 * Inner Source code is available *only to those in one organization*.
 * Closed Source code is strictly controlled, *only available to a specific development team*.
