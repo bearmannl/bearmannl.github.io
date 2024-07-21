@@ -12,7 +12,7 @@ If you would like to read the previous article, please find it here: [Open Sourc
 ## Source Code Sharing Strategies
 So what are source code sharing strategies anyway? Glad you asked! :point_down:
 
-Source code sharing strategies refer to the various methods and practices used to distribute and collaborate on software code. These strategies determine who can access the code, how it can be modified, and the level of transparency involved. Understanding these strategies is crucial for organizations to effectively manage their software development processes and foster collaboration :handshake: & innovation :lightbulb:.
+Source code sharing strategies refer to the various methods and practices used to distribute and collaborate on software code. These strategies determine who can access the code, how it can be modified, and the level of transparency involved. Understanding these strategies is crucial for organizations to effectively manage their software development processes and foster collaboration :handshake: & innovation :bulb:.
 
 ### Types of Source Code Sharing Strategies
 1. **Open Source**: This strategy allows anyone to view, modify, and distribute the code. It promotes transparency and community collaboration. Popular examples include Linux and Apache. More about Open Source can be found [here on Wikipedia](https://en.wikipedia.org/wiki/Open-source-software_movement).
@@ -30,6 +30,8 @@ For a more detailed overview of source code and its management, you can refer to
 ### Name Change to Co Source
 ## Co Source Reintroduction
 I received feedback on the name '_Protected_ Inner Source'. It was mentioned that the label _protected_ seemed to imply Open Source and Inner Source are not secure :lock:. This was and is not the intent!
+
+In order to come up with a better name I had considered Federated Source, Trusted Source, Collaborative Source, Cooperative Source... and have decided on Co Source. The term 'Co' suggests both collaboration and cooperation, which aligns well with the idea of shared source code among trusted entities. It also keeps it clean and neat in daily use :smile:
 
 In the modern world of IT, many aspects of our industry are being changed by rapidly evolving (software) engineering innovations. The pace at which this happens has been impacted by Open Source ways of working, among others. What has become clear, is that these ways of working can have a drastic impact on the ability to innovate in any system.
 
@@ -64,5 +66,5 @@ Even competing IT vendors working within the public sector can embrace the conce
 ## Conclusion
 Co Source has the potential to revolutionize collaborative development within an ecosystem of trusted organizations. By combining the innovative nature of Open Source with the organizational boundaries of Inner Source, Co Source offers a unique model that can be particularly beneficial for government organizations in the public sector. This approach allows these organizations to share resources efficiently and securely, fostering a culture of collaboration and innovation.
 
-In a world where ecosystems are becoming increasingly prominent, Co Source enables organizations to build upon trusted relationships in source code sharing strategies. By establishing a culture of collaboration :handshake: and innovation :lightbulb:, organizations can drive technological advancements and achieve significant benefits. Embrace Co Source to unlock the full potential of collaborative development and propel your organization towards a future of innovation :rocket:!
+In a world where ecosystems are becoming increasingly prominent, Co Source enables organizations to build upon trusted relationships in source code sharing strategies. By establishing a culture of collaboration :handshake: and innovation :bulb:, organizations can drive technological advancements and achieve significant benefits. Embrace Co Source to unlock the full potential of collaborative development and propel your organization towards a future of innovation :rocket:!
 
