@@ -2,6 +2,7 @@
 
 
 # Protected Inner Source
+UPDATE: Based on feedback, I am changing the name of this source code sharing strategy to 'Co Source'. The direct analogy between Protected Internal Class and Protected Inner Source seemed to imply a lack of security in traditional Open Source sharing strategies, which was not my intent. Read more about the naming change in my follow-up article here: [Co Source - Renamed Source Code Sharing Strategy](/2024/07/21/co-source-renaming/)
 
 ## Intro
 ### Inner source

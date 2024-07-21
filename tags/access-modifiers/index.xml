@@ -3,7 +3,16 @@
         <title>Access-Modifiers - Tag - Bearman.NL</title>
         <link>https://bearman.nl/tags/access-modifiers/</link>
         <description>Access-Modifiers - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 20 Jun 2024 21:30:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/access-modifiers/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/access-modifiers/" rel="self" type="application/rss+xml" /><item>
+    <title>Co Source - Renamed Source Code Sharing Strategy</title>
+    <link>https://bearman.nl/2024/07/21/co-source-renaming/</link>
+    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/2024/07/21/co-source-renaming/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
+            </div>Co sourceIntroProtected Inner Source RecapProtected Inner Source is a source code sharing strategy that defines an intermediate model between Open Source and Inner Source. The analogy used here is that C# Access Modifiers define a &lsquo;Protected Internal Class&rsquo; as an intermediate between &lsquo;Public Class&rsquo; and &lsquo;Internal Class&rsquo;. The purpose of which is to be more closed off between assemblies than &lsquo;Public Class&rsquo;, yet more open for reuse than &lsquo;Internal Class&rsquo;.]]></description>
+</item><item>
     <title>Open Source - Inner Source - Protected Inner Source</title>
     <link>https://bearman.nl/2024/06/20/open-inner-protected-source/</link>
     <pubDate>Thu, 20 Jun 2024 21:30:00 &#43;0200</pubDate><author>
@@ -11,6 +20,7 @@
                 </author><guid>https://bearman.nl/2024/06/20/open-inner-protected-source/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
-            </div>Protected Inner SourceIntroInner sourceIn the digital era, software development is a cornerstone of innovation. Inner Source has gained traction in this domain. It is a strategy that applies Open Source practices within an organization. Unlike Open Source, Inner Source is not public. It remains confined to a single organization. This approach encourages collaborative software development. Teams across the organization can contribute, regardless of departmental boundaries. Inner Source fosters a culture of transparency and shared responsibility.]]></description>
+            </div>Protected Inner SourceUPDATE: Based on feedback, I am changing the name of this source code sharing strategy to &lsquo;Co Source&rsquo;. The direct analogy between Protected Internal Class and Protected Inner Source seemed to imply a lack of security in traditional Open Source sharing strategies, which was not my intent. Read more about the naming change in my follow-up article here: Co Source - Renamed Source Code Sharing Strategy
+IntroInner sourceIn the digital era, software development is a cornerstone of innovation.]]></description>
 </item></channel>
 </rss>
