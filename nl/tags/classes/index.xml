@@ -3,15 +3,16 @@
         <title>Classes - Tag - Bearman.NL [NL]</title>
         <link>https://bearman.nl/nl/tags/classes/</link>
         <description>Classes - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Thu, 20 Jun 2024 21:30:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/classes/" rel="self" type="application/rss+xml" /><item>
-    <title>Open Source - Inner Source - Protected Inner Source</title>
-    <link>https://bearman.nl/nl/2024/06/20/co-source-renaming/</link>
-    <pubDate>Thu, 20 Jun 2024 21:30:00 &#43;0200</pubDate><author>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/classes/" rel="self" type="application/rss+xml" /><item>
+    <title>Co Source - Hernoemde Source Code-deelstrategie</title>
+    <link>https://bearman.nl/nl/2024/07/21/co-source-renaming/</link>
+    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
                     <name>Mike</name>
-                </author><guid>https://bearman.nl/nl/2024/06/20/co-source-renaming/</guid>
+                </author><guid>https://bearman.nl/nl/2024/07/21/co-source-renaming/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
-            </div>Protected Inner SourceIntroInner sourceIn het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid.]]></description>
+                <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
+            </div>Co sourceIntroProtected Inner Source SamenvattingProtected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat C# Toegangsmodifiers een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.
+Als je het vorige artikel wilt lezen, vind je het hier: Open Source - Inner Source - Protected Inner Source]]></description>
 </item><item>
     <title>Open Source - Inner Source - Protected Inner Source</title>
     <link>https://bearman.nl/nl/2024/06/20/open-inner-protected-source/</link>
@@ -20,6 +21,7 @@
                 </author><guid>https://bearman.nl/nl/2024/06/20/open-inner-protected-source/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
-            </div>Protected Inner SourceIntroInner sourceIn het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid.]]></description>
+            </div>Protected Inner SourceUPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: Co Source - Hernoemde Source Code-deelstrategie
+IntroInner sourceIn het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie.]]></description>
 </item></channel>
 </rss>

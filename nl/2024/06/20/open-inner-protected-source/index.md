@@ -2,6 +2,7 @@
 
 
 # Protected Inner Source
+UPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar 'Co Source'. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: [Co Source - Hernoemde Source Code-deelstrategie](/nl/2024/07/21/co-source-renaming/)
 
 ## Intro
 ### Inner source

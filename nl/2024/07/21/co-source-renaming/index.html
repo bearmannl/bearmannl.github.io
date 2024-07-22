@@ -1,0 +1,323 @@
+
+
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" /><title>Co Source - Hernoemde Source Code-deelstrategie - Bearman.NL [NL]</title><meta name="Description" content="Co Source is een nieuwe aanpak voor het delen van broncode."><meta property="og:url" content="https://bearman.nl/nl/2024/07/21/co-source-renaming/">
+  <meta property="og:site_name" content="Bearman.NL [NL]">
+  <meta property="og:title" content="Co Source - Hernoemde Source Code-deelstrategie">
+  <meta property="og:description" content="Co Source is een nieuwe aanpak voor het delen van broncode.">
+  <meta property="og:locale" content="nl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-21T12:00:00+02:00">
+    <meta property="article:modified_time" content="2024-07-22T20:50:00+02:00">
+    <meta property="article:tag" content="Ontwikkeling">
+    <meta property="article:tag" content="Broncode">
+    <meta property="article:tag" content="Open-Source">
+    <meta property="article:tag" content="Source">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Co-Source">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Co Source - Hernoemde Source Code-deelstrategie">
+  <meta name="twitter:description" content="Co Source is een nieuwe aanpak voor het delen van broncode.">
+      <meta name="twitter:site" content="@bearmannl">
+<meta name="application-name" content="Bearman.NL [NL]">
+<meta name="apple-mobile-web-app-title" content="Bearman.NL [NL]">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="twitter:creator" content="@bearmannl" /><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="canonical" href="https://bearman.nl/nl/2024/07/21/co-source-renaming/" /><link rel="prev" href="https://bearman.nl/nl/2024/06/20/open-inner-protected-source/" />
+<link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
+        "headline": "Co Source - Hernoemde Source Code-deelstrategie",
+        "inLanguage": "nl",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://bearman.nl/nl/2024/07/21/co-source-renaming/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https://bearman.nl/2024/07/21/co-source-renaming/co-source-renamed.jpg",
+                            "width":  1024 ,
+                            "height":  1024 
+                        }],"genre": "posts","keywords":["ontwikkeling","broncode","open-source","source","code","co-source","inner-source","sourcecode","access-modifiers","c-sharp","protected-inner-source","protected-internal","public","internal","class","classes"],"wordcount":  1225 ,
+        "url": "https://bearman.nl/nl/2024/07/21/co-source-renaming/","datePublished": "2024-07-21T12:00:00+02:00","dateModified": "2024-07-22T20:50:00+02:00","publisher": {
+            "@type": "Organization",
+            "name": "Mike Beerman","logo": "https://bearman.nl/images/bnl_favicon-32x32.png"},"author": [{
+                        "@type": "Person",
+                        "name": "Mike",
+                        "url": "https://bearman.nl/nl/authors/mike"
+                    }],"description": "Co Source is een nieuwe aanpak voor het delen van broncode."
+    }</script></head>
+
+
+<body data-instant-intensity="viewport" ><script type="text/javascript">
+        function setTheme(theme) {
+          document.body.setAttribute('theme', theme); 
+          document.documentElement.className = theme;
+          document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
+          if (theme === 'light') {
+            document.documentElement.classList.remove('tw-dark')
+          } else {
+            document.documentElement.classList.add('tw-dark')
+          }
+          window.theme = theme;   
+          window.isDark = window.theme !== 'light' 
+        }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {
+            let theme = localStorage.getItem('theme');
+            if (theme === 'light' || theme === 'dark') {
+            setTheme(theme);
+            } else {
+                if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    setTheme('dark');
+                } else {
+                    setTheme('light');
+                }
+            }
+         } else { 
+            if ('auto' === 'light' || 'auto' === 'dark') 
+                setTheme('auto'), saveTheme('auto'); 
+            else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
+        }
+        let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop print:!tw-hidden" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src="/images/bnl_favicon-32x32.png"    height="32" width="32">Bearman.nl [NL]</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item"
+                    href="/nl/posts/" > Berichten </a><a class="menu-item"
+                    href="/nl/tags/" > Labels </a><a class="menu-item"
+                    href="/nl/categories/" > Categorieën </a><a class="menu-item"
+                    href="/nl/authors/" > Auteurs </a><a class="menu-item"
+                    href="/nl/about/" > Over </a><a class="menu-item"
+                    href="https://github.com/bearmannl"  title="GitHub" 
+                    rel="noopener noreferrer" target="_blank" ><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'/></svg>  </a><span class="menu-item delimiter"></span><button class="menu-item language" aria-label="Select Language">Nederlands<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                    <select class="language-select" aria-label="Select Language" id="language-select-desktop"
+                        onchange="location = this.value;"><option value="/2024/07/21/co-source-renaming/" >English</option><option value="/nl/2024/07/21/co-source-renaming/"  selected>Nederlands</option></select>
+                </button><button class="menu-item theme-switch" aria-label="Switch Theme">
+                    <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></svg>
+                </button></div>
+        </div>
+    </div>
+</header><header class="mobile print:!tw-hidden" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src="/images/bnl_favicon-32x32.png"    height="32" width="32">Bearman.nl [NL]</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/nl/posts/" title="" >Berichten</a><a class="menu-item" href="/nl/tags/" title="" >Labels</a><a class="menu-item" href="/nl/categories/" title="" >Categorieën</a><a class="menu-item" href="/nl/authors/" title="" >Auteurs</a><a class="menu-item" href="/nl/about/" title="" >Over</a><a class="menu-item" href="https://github.com/bearmannl" title="GitHub" 
+                rel="noopener noreferrer" target="_blank" ><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d='M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z'/></svg></a><button class="menu-item theme-switch tw-w-full" aria-label="Switch Theme">
+                <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></svg>
+            </button><button class="menu-item tw-w-full" title="">Nederlands<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                <select class="language-select" title="" onchange="location = this.value;"><option value="/2024/07/21/co-source-renaming/" >English</option><option value="/nl/2024/07/21/co-source-renaming/"  selected>Nederlands</option></select>
+            </button></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title">Co Source - Hernoemde Source Code-deelstrategie</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'>
+        <span class='screen-reader-text'>  </span><a href='https://bearman.nl/nl/authors/mike'>Mike</a></span>
+                </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">categories <a href="/nl/categories/ontwikkeling/"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>Ontwikkeling</a>&nbsp;<a href="/nl/categories/broncode-strategie/"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>Broncode Strategie</a></span></div>
+            <div class="post-meta-line"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2024-07-21">2024-07-21</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2024-07-22">2024-07-22</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1225 words&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img  loading="eager" src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" srcset="/2024/07/21/co-source-renaming/co-source-renamed_hu5f0673291dbc01ae09993dd7137467a4_243742_800x0_resize_q75_h2_box.webp 800w, /2024/07/21/co-source-renaming/co-source-renamed_hu5f0673291dbc01ae09993dd7137467a4_243742_1200x0_resize_q75_h2_box.webp 1200w, /2024/07/21/co-source-renaming/co-source-renamed_hu5f0673291dbc01ae09993dd7137467a4_243742_1600x0_resize_q75_h2_box.webp 1600w"  alt="Co Source is een nieuwe aanpak voor het delen van broncode." height="1024" width="1024"></div><div class="details toc print:!tw-block" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span class="details-icon"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a>
+      <ul>
+        <li><a href="#protected-inner-source-samenvatting">Protected Inner Source Samenvatting</a></li>
+      </ul>
+    </li>
+    <li><a href="#broncode-deelstrategieën">Broncode Deelstrategieën</a>
+      <ul>
+        <li><a href="#soorten-broncode-deelstrategieën">Soorten Broncode Deelstrategieën</a></li>
+        <li><a href="#naamswijziging-naar-co-source">Naamswijziging naar Co Source</a></li>
+      </ul>
+    </li>
+    <li><a href="#co-source-herintroductie">Co Source Herintroductie</a></li>
+    <li><a href="#beveiligingsimplicaties-of-toch-niet">Beveiligingsimplicaties (of toch niet)</a>
+      <ul>
+        <li><a href="#open-source-en-inner-source-beveiligingsbest-practices">Open Source en Inner Source Beveiligingsbest Practices</a></li>
+      </ul>
+    </li>
+    <li><a href="#voorbeelden-en-toepassingen">Voorbeelden en Toepassingen</a></li>
+    <li><a href="#conclusie">Conclusie</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="co-source" class="headerLink">
+    <a href="#co-source" class="header-mark" aria-label="Header mark for 'Co source'"></a>Co source</h1><h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="protected-inner-source-samenvatting" class="headerLink">
+    <a href="#protected-inner-source-samenvatting" class="header-mark" aria-label="Header mark for 'Protected Inner Source Samenvatting'"></a>Protected Inner Source Samenvatting</h3><p>Protected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat <a href="https://learn.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table" target="_blank" rel="noopener noreferrer">C# Toegangsmodifiers </a> een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.</p>
+<p>Als je het vorige artikel wilt lezen, vind je het hier: <a href="/nl/2024/06/20/open-inner-protected-source/" rel="">Open Source - Inner Source - Protected Inner Source</a></p>
+<h2 id="broncode-deelstrategieën" class="headerLink">
+    <a href="#broncode-deelstrategie%c3%abn" class="header-mark" aria-label="Header mark for 'Broncode Deelstrategieën'"></a>Broncode Deelstrategieën</h2><p>Wat zijn broncode-deelstrategieën eigenlijk? Goed dat je het vraagt! &#x1f447;</p>
+<p>Broncode-deelstrategieën verwijzen naar de verschillende methoden en praktijken die worden gebruikt om softwarecode te distribueren en samen te werken. Deze strategieën bepalen wie toegang heeft tot de code, hoe deze kan worden gewijzigd en het niveau van transparantie dat betrokken is. Het begrijpen van deze strategieën is cruciaal voor organisaties om hun softwareontwikkelingsprocessen effectief te beheren en samenwerking &#x1f91d; en innovatie &#x1f4a1; te bevorderen.</p>
+<h3 id="soorten-broncode-deelstrategieën" class="headerLink">
+    <a href="#soorten-broncode-deelstrategie%c3%abn" class="header-mark" aria-label="Header mark for 'Soorten Broncode Deelstrategieën'"></a>Soorten Broncode Deelstrategieën</h3><ol>
+<li>
+<p><strong>Open Source</strong>: Deze strategie stelt iedereen in staat om de code te bekijken, te wijzigen en te distribueren. Het bevordert transparantie en samenwerking binnen de gemeenschap. Populaire voorbeelden zijn Linux en Apache. Meer over Open Source vind je <a href="https://en.wikipedia.org/wiki/Open-source-software_movement" target="_blank" rel="noopener noreferrer">hier op Wikipedia</a>.</p>
+</li>
+<li>
+<p><strong>Inner Source</strong>: Inner Source past Open Source-praktijken toe binnen een organisatie. Het stelt teams in staat om over afdelingsgrenzen heen samen te werken, terwijl de code privé blijft voor de organisatie. Deze aanpak verbetert de codekwaliteit en innovatie door gebruik te maken van interne expertise. Meer over Inner Source vind je <a href="https://en.wikipedia.org/wiki/Inner_source" target="_blank" rel="noopener noreferrer">hier op Wikipedia</a> of <a href="https://github.com/resources/articles/software-development/innersource" target="_blank" rel="noopener noreferrer">hier op GitHub</a>.</p>
+</li>
+<li>
+<p><strong>Closed Source</strong>: Ook bekend als propriëtaire software, deze strategie beperkt de toegang tot de broncode. Alleen geautoriseerde individuen of teams binnen de organisatie kunnen de code bekijken of wijzigen. Deze aanpak wordt vaak gebruikt om intellectueel eigendom te beschermen en controle over de software te behouden. Hoe Closed Source zich verhoudt tot Open Source wordt in meer detail beschreven <a href="https://en.wikipedia.org/wiki/Comparison_of_open-source_and_closed-source_software" target="_blank" rel="noopener noreferrer">hier op Wikipedia</a>.</p>
+</li>
+<li>
+<p>&#x1f680; <strong>Co Source</strong> &#x1f680;: De nieuw voorgestelde hybride strategie die delen mogelijk maakt tussen bepaalde vertrouwde (of gefedereerde) organisaties. Deze organisaties opereren onafhankelijk maar delen een gemeenschappelijke &#x1f91d; vertrouwensgrens &#x1f91d;, vergelijkbaar met hoe Protected Internal classes werken in C#. Deze strategie bevordert samenwerking <em>zonder specifiek in te gaan op beveiliging binnen de OSS-ruimte</em>.</p>
+</li>
+</ol>
+<p>Elk van deze strategieën heeft zijn eigen set voordelen en uitdagingen. De keuze van strategie hangt af van de specifieke behoeften en doelen van de organisatie.</p>
+<p>Voor een meer gedetailleerd overzicht van broncode en het beheer ervan, kun je de <a href="https://en.wikipedia.org/wiki/Source_code" target="_blank" rel="noopener noreferrer">Wikipedia-pagina over broncode raadplegen</a>.</p>
+<h3 id="naamswijziging-naar-co-source" class="headerLink">
+    <a href="#naamswijziging-naar-co-source" class="header-mark" aria-label="Header mark for 'Naamswijziging naar Co Source'"></a>Naamswijziging naar Co Source</h3><h2 id="co-source-herintroductie" class="headerLink">
+    <a href="#co-source-herintroductie" class="header-mark" aria-label="Header mark for 'Co Source Herintroductie'"></a>Co Source Herintroductie</h2><p>Ik ontving feedback op de naam &lsquo;<em>Protected</em> Inner Source&rsquo;. Het leek te impliceren dat Open Source en Inner Source niet veilig zijn &#x1f512;. Dit was (en is) niet de bedoeling!</p>
+<p>Om een betere naam te vinden overwoog ik Federated Source, Trusted Source, Collaborative Source, Cooperative Source&hellip; uiteindelijk is het Co Source geworden. De term &lsquo;Co&rsquo; suggereert zowel samenwerking als coöperatie. Dit past goed bij het idee van gedeelde broncode tussen vertrouwde entiteiten. Het houdt het ook schoon en netjes in dagelijks gebruik &#x1f604;.</p>
+<p>In de moderne IT-wereld veranderen veel aspecten van onze industrie door snel evoluerende (software) engineering innovaties. De snelheid waarmee dit gebeurt, is onder andere beïnvloed door Open Source-werkwijzen. Wat duidelijk is geworden, is dat deze werkwijzen een drastische impact kunnen hebben op het vermogen om in elk systeem te innoveren.</p>
+<p>Bij het overbruggen van organisatieontwerp (vaak zakelijk gedreven) en systeemontwerp (vaak technologisch gedreven), kan Co Source veel voordelen bieden. Innovatie kan vooral veel profiteren, als een kernpijler achter het vermogen van organisaties om te veranderen. Het kan organisaties stimuleren om hun cultuur te veranderen op een manier die hen in staat stelt voorop te blijven lopen. Concurrentievoordeel gedreven door een cultuur van technologische innovatie.</p>
+<p>Vooral binnen organisaties die IT niet als hun kernactiviteit hebben, kan het moeilijk zijn om zo&rsquo;n cultuur aan te nemen. Toch brengt het zelfs voor strikt zakelijk gedreven organisaties enorme voordelen. Die impact is diepgaand, zoals Cloud ons de afgelopen 10+ jaar heeft laten zien en (Gen) AI in de afgelopen 1 a 2 jaar.</p>
+<p>Aan die organisaties die moeite hebben om deze technologisch gedreven culturele veranderingen aan te nemen, zou ik adviseren om een cultuur rond Open Source-werkwijzen mogelijk te maken. Waarom? Het stelt individuen binnen die organisaties in staat om de voordelen te demonstreren met concrete levering van toegevoegde waarde door innovatie.</p>
+<p>Naarmate meer individuen in de organisaties toegevoegde waarde en potentieel enorme impact op de winstgevendheid aantonen, ontstaat er een platform voor culturele groei.</p>
+<p>Betekent dit dat de Open Source-werkwijzen specifiek in die vorm moeten worden aangenomen? Nee, dit is precies waarom Inner Source oorspronkelijk is bedacht.</p>
+<p>Nu naar het punt van Co Source. Organisaties met complexe maar vertrouwde ecosystemen, zoals overheidsorganisaties, kunnen sneller tractie krijgen dan wat Inner Source binnen een enkele organisatie mogelijk maakt:</p>
+<ul>
+<li>Een culturele verschuiving naar technologische innovatie mogelijk maken.</li>
+<li>Aangetoonde toegevoegde waarde zien door levering van vroege innovatiescenario&rsquo;s.</li>
+<li>Dit proces opschalen door het succes van deze <em>golf van succes</em> door technologische innovatiecultuur te omarmen.</li>
+</ul>
+<h2 id="beveiligingsimplicaties-of-toch-niet" class="headerLink">
+    <a href="#beveiligingsimplicaties-of-toch-niet" class="header-mark" aria-label="Header mark for 'Beveiligingsimplicaties (of toch niet)'"></a>Beveiligingsimplicaties (of toch niet)</h2><p>Nogmaals, Protected Inner Source was niet bedoeld om te impliceren dat Open Source niet veilig is. Er zijn beveiligingsuitdagingen bij elke strategie en die kunnen worden beheerd volgens de relevante situatie. Co Source moet nog steeds gebruik maken van best practices en goed ontwerpdenken passende bij de implementatie van deze strategie.</p>
+<h3 id="open-source-en-inner-source-beveiligingsbest-practices" class="headerLink">
+    <a href="#open-source-en-inner-source-beveiligingsbest-practices" class="header-mark" aria-label="Header mark for 'Open Source en Inner Source Beveiligingsbest Practices'"></a>Open Source en Inner Source Beveiligingsbest Practices</h3><p>Aangezien Co Source werd geïntroduceerd om een nieuwe manier van werken binnen bepaalde organisaties of ecosystemen te introduceren, verwijs ik graag naar bestaande best practices in de OSS-beveiligingsruimte. Bekijk bijvoorbeeld het <a href="https://openssf.org/" target="_blank" rel="noopener noreferrer">OpenSSF</a> artikel over <a href="https://en.wikipedia.org/wiki/Comparison_of_open-source_and_closed-source_software" target="_blank" rel="noopener noreferrer">Strengthening Open Source Software: Best Practices for Enhanced Security</a>.</p>
+<h2 id="voorbeelden-en-toepassingen" class="headerLink">
+    <a href="#voorbeelden-en-toepassingen" class="header-mark" aria-label="Header mark for 'Voorbeelden en Toepassingen'"></a>Voorbeelden en Toepassingen</h2><p>Als specialist in #GovTech word ik voornamelijk gedreven door een visie van snel versnellende innovatie in de publieke sector. Binnen de publieke sector, in elk land zoals de Verenigde Staten of een groep landen zoals de Europese Unie, zijn er enorme potentiële voordelen te behalen door verhoogde samenwerking. Het omarmen van een cultuur van technologische innovatie is ten minste één manier om snel naar die potentiële voordelen te versnellen.</p>
+<p>Hoe zou dit werken? Vanuit elke groep overheidsorganisaties, stel samenwerking op via Co Source repositories en begin toegevoegde waarde te demonstreren. Niet alleen toegevoegde waarde voor de (overheids)organisaties, maar ook voor de burgers die deze organisaties bedienen.</p>
+<p>Zelfs concurrerende IT-leveranciers die binnen de publieke sector werken, kunnen het concept van <a href="https://en.wikipedia.org/wiki/Coopetition" target="_blank" rel="noopener noreferrer">Coopetition</a> omarmen via Co Source. Door dit te doen, verbeteren we allemaal de impact die de publieke sector heeft op de samenleving als geheel.</p>
+<h2 id="conclusie" class="headerLink">
+    <a href="#conclusie" class="header-mark" aria-label="Header mark for 'Conclusie'"></a>Conclusie</h2><p>Co Source heeft het potentieel om collaboratieve ontwikkeling binnen een ecosysteem van vertrouwde organisaties te revolutioneren. Door de innovatieve aard van Open Source te combineren met de organisatorische grenzen van Inner Source, biedt Co Source een uniek model dat bijzonder voordelig kan zijn voor overheidsorganisaties in de publieke sector. Deze aanpak stelt deze organisaties in staat om middelen efficiënt en veilig te delen, waardoor een cultuur van samenwerking en innovatie wordt bevorderd.</p>
+<p>In een wereld waar ecosystemen steeds prominenter worden, stelt Co Source organisaties in staat om voort te bouwen op vertrouwde relaties in broncode-deelstrategieën. Door een cultuur van samenwerking &#x1f91d; en innovatie &#x1f4a1; te vestigen, kunnen organisaties technologische vooruitgang stimuleren en aanzienlijke voordelen behalen. Omarm Co Source om het volledige potentieel van collaboratieve ontwikkeling te ontsluiten en uw organisatie naar een toekomst van innovatie te leiden &#x1f680;!</p>
+</div>
+
+        
+
+
+<h2>Related Content</h2>
+<div class="related-container">
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/nl/2024/06/20/open-inner-protected-source/"><img   src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg"   alt="Co Source is een nieuwe aanpak voor het delen van broncode." height="200" width="400"></a>
+            </div><h2 class="related-title">
+                <a href="/nl/2024/06/20/open-inner-protected-source/">Open Source - Inner Source - Protected Inner Source</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-07-22</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line print:!tw-hidden">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"><button title="Share on Twitter" data-sharer="twitter" data-url="https://bearman.nl/nl/2024/07/21/co-source-renaming/" data-title="Co Source - Hernoemde Source Code-deelstrategie" data-via="bearmannl" data-hashtags="ontwikkeling,broncode,open-source,source,code,co-source,inner-source,sourcecode,access-modifiers,c-sharp,protected-inner-source,protected-internal,public,internal,class,classes"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></button><button title="Share on Linkedin" data-sharer="linkedin" data-url="https://bearman.nl/nl/2024/07/21/co-source-renaming/"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></button></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>&nbsp;<a href="/nl/tags/ontwikkeling/">Ontwikkeling</a>,&nbsp;<a href="/nl/tags/broncode/">Broncode</a>,&nbsp;<a href="/nl/tags/open-source/">Open-Source</a>,&nbsp;<a href="/nl/tags/source/">Source</a>,&nbsp;<a href="/nl/tags/code/">Code</a>,&nbsp;<a href="/nl/tags/co-source/">Co-Source</a>,&nbsp;<a href="/nl/tags/inner-source/">Inner-Source</a>,&nbsp;<a href="/nl/tags/sourcecode/">Sourcecode</a>,&nbsp;<a href="/nl/tags/access-modifiers/">Access-Modifiers</a>,&nbsp;<a href="/nl/tags/c-sharp/">C-Sharp</a>,&nbsp;<a href="/nl/tags/protected-inner-source/">Protected-Inner-Source</a>,&nbsp;<a href="/nl/tags/protected-internal/">Protected-Internal</a>,&nbsp;<a href="/nl/tags/public/">Public</a>,&nbsp;<a href="/nl/tags/internal/">Internal</a>,&nbsp;<a href="/nl/tags/class/">Class</a>,&nbsp;<a href="/nl/tags/classes/">Classes</a></section>
+        <section class="print:!tw-hidden">
+            <span><button class="tw-text-fgColor-link-muted hover:tw-text-fgColor-link-muted-hover" onclick="window.history.back();">Back</button></span>&nbsp;|&nbsp;<span><a href="/nl/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav print:tw-hidden"><a href="/nl/2024/06/20/open-inner-protected-source/" class="prev" rel="prev" title="Open Source - Inner Source - Protected Inner Source"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>Open Source - Inner Source - Protected Inner Source</a></div>
+</div>
+</article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    Hosted on <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
+                </div><div class="footer-line"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"/></svg>2016 - 2024<span class="author">&nbsp;<a href="https://github.com/bearmannl" target="_blank" rel="noopener noreferrer">Mike Beerman</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons" class="print:!tw-hidden"><a href="#back-to-top" id="back-to-top-button" class="fixed-button tw-transition-opacity tw-opacity-0" title="Back to Top">
+            <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg>
+        </a></div>
+<script>window.config={"comment":{},"sharerjs":true,"table":{"sort":true}};</script><script
+    src="/lib/tablesort/tablesort.min.js"
+    
+  ></script><script
+    src="/lib/sharer/sharer.min.js"
+    
+  ></script><script
+    src="/js/theme.min.js"
+    
+      defer
+    
+  ></script>
+    
+    <script type="speculationrules">
+        {
+          "prerender": [
+            {
+              "where": { "href_matches": "/*" },
+              "eagerness": "moderate"
+            }
+          ]
+        }
+    </script>
+      
+</body>
+
+</html>

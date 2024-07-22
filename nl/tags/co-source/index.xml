@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Co-Source - Tag - Bearman.NL [NL]</title>
+        <link>https://bearman.nl/nl/tags/co-source/</link>
+        <description>Co-Source - Tag - Bearman.NL [NL]</description>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/co-source/" rel="self" type="application/rss+xml" /><item>
+    <title>Co Source - Hernoemde Source Code-deelstrategie</title>
+    <link>https://bearman.nl/nl/2024/07/21/co-source-renaming/</link>
+    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2024/07/21/co-source-renaming/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
+            </div>Co sourceIntroProtected Inner Source SamenvattingProtected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat C# Toegangsmodifiers een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.
+Als je het vorige artikel wilt lezen, vind je het hier: Open Source - Inner Source - Protected Inner Source]]></description>
+</item></channel>
+</rss>
