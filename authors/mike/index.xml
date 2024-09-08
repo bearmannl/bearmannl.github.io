@@ -3,7 +3,18 @@
         <title>Mike - Author - Bearman.NL</title>
         <link>https://bearman.nl/authors/mike/</link>
         <description>Mike - Author - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/authors/mike/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/authors/mike/" rel="self" type="application/rss+xml" /><item>
+    <title>Generation GovTech</title>
+    <link>https://bearman.nl/2024/09/08/generation-govtech/</link>
+    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/2024/09/08/generation-govtech/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2024/09/08/generation-govtech/gen-gt.jpg" referrerpolicy="no-referrer">
+            </div>Generation GovTechIntroductionThis post introduces a new term, Generation GovTech, or GenGT for short.
+You&rsquo;ll find a full description of this term below. To explain it fully, we&rsquo;ll first cover the recruitment campaign by the Dutch Ministry of Defense: Generation D
+Generation DIn 2022, the MoD launched the recruitment campaign Generation D. The campaign aimed to attract people with a specific mindset. This mindset includes individuals who want to do meaningful work, believe in cooperation, and seek personal growth.]]></description>
+</item><item>
     <title>Co Source - Renamed Source Code Sharing Strategy</title>
     <link>https://bearman.nl/2024/07/21/co-source-renaming/</link>
     <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
@@ -79,16 +90,5 @@ Cleared my (Edge) browser cache, history, etc. no results.]]></description>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
     <description><![CDATA[Skype for Business: High Availability SQL Database Availability Group ConfigurationOne of those silly mistakes…I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
-</item><item>
-    <title>About</title>
-    <link>https://bearman.nl/about/</link>
-    <pubDate>Mon, 23 May 2016 07:00:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/about/</guid>
-    <description><![CDATA[This site was generate using Hugo with the DoIt theme.
-DoIt is a clean, elegant but advanced blog theme for Hugo developed by HEIGE-PCloud.
-It is based on the LoveIt Theme, LeaveIt Theme and KeepIt Theme.
-BlogWhile I write most of my content on LinkedIn, I keep track of my personal posts on this site as well.
-Co-authorsI might sometimes co-author some posts, please find their (awesome!) sites here:]]></description>
 </item></channel>
 </rss>
