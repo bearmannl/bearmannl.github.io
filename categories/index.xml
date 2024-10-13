@@ -3,7 +3,28 @@
         <title>categories - Category - Bearman.NL</title>
         <link>https://bearman.nl/categories/</link>
         <description>categories - Category - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Development</title>
+    <link>https://bearman.nl/categories/development/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/categories/development/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Everything-as-Code</title>
+    <link>https://bearman.nl/categories/everything-as-code/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/categories/everything-as-code/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Prompt-Engineering</title>
+    <link>https://bearman.nl/categories/prompt-engineering/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/categories/prompt-engineering/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Ecosystems</title>
     <link>https://bearman.nl/categories/ecosystems/</link>
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
@@ -16,13 +37,6 @@
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
         <name>Mike Beerman</name>
     </author><guid>https://bearman.nl/categories/govtech/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Development</title>
-    <link>https://bearman.nl/categories/development/</link>
-    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/development/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Source-Strategies</title>

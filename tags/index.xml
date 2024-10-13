@@ -3,7 +3,42 @@
         <title>tags - Tag - Bearman.NL</title>
         <link>https://bearman.nl/tags/</link>
         <description>tags - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Best-Practices</title>
+    <link>https://bearman.nl/tags/best-practices/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/tags/best-practices/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Development</title>
+    <link>https://bearman.nl/tags/development/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/tags/development/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Everything-as-Code</title>
+    <link>https://bearman.nl/tags/everything-as-code/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/tags/everything-as-code/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Peac</title>
+    <link>https://bearman.nl/tags/peac/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/tags/peac/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Prompt-Engineering</title>
+    <link>https://bearman.nl/tags/prompt-engineering/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/tags/prompt-engineering/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Ecosystem</title>
     <link>https://bearman.nl/tags/ecosystem/</link>
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
@@ -37,41 +72,6 @@
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
         <name>Mike Beerman</name>
     </author><guid>https://bearman.nl/tags/gengt/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Government</title>
-    <link>https://bearman.nl/tags/government/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/tags/government/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Govtech</title>
-    <link>https://bearman.nl/tags/govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/tags/govtech/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Mindset</title>
-    <link>https://bearman.nl/tags/mindset/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/tags/mindset/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Public Service</title>
-    <link>https://bearman.nl/tags/public-service/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/tags/public-service/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Access-Modifiers</title>
-    <link>https://bearman.nl/tags/access-modifiers/</link>
-    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/tags/access-modifiers/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bearman.nl/authors/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/authors/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/authors/"
@@ -11,7 +11,16 @@
                     hreflang="en"
                     href="https://bearman.nl/authors/"
                     /></url><url>
-            <loc>https://bearman.nl/categories/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/tags/best-practices/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/best-practices/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/best-practices/"
+                    /></url><url>
+            <loc>https://bearman.nl/categories/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/categories/"
@@ -20,57 +29,27 @@
                     hreflang="en"
                     href="https://bearman.nl/categories/"
                     /></url><url>
-            <loc>https://bearman.nl/tags/ecosystem/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/categories/ecosystems/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/gen-gt/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/tags/development/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/categories/development/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/tags/everything-as-code/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
-                        href="https://bearman.nl/nl/tags/gen-gt/"
+                        href="https://bearman.nl/nl/tags/everything-as-code/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bearman.nl/tags/gen-gt/"
+                    href="https://bearman.nl/tags/everything-as-code/"
                     /></url><url>
-            <loc>https://bearman.nl/2024/09/08/generation-govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/categories/everything-as-code/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
-                        href="https://bearman.nl/nl/2024/09/08/generation-govtech/"
+                        href="https://bearman.nl/nl/categories/everything-as-code/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bearman.nl/2024/09/08/generation-govtech/"
+                    href="https://bearman.nl/categories/everything-as-code/"
                     /></url><url>
-            <loc>https://bearman.nl/tags/generation-govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/generation-gt/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/gengt/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="nl"
-                        href="https://bearman.nl/nl/tags/gengt/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bearman.nl/tags/gengt/"
-                    /></url><url>
-            <loc>https://bearman.nl/tags/government/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="nl"
-                        href="https://bearman.nl/nl/tags/govtech/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bearman.nl/tags/govtech/"
-                    /></url><url>
-            <loc>https://bearman.nl/categories/govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="nl"
-                        href="https://bearman.nl/nl/categories/govtech/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bearman.nl/categories/govtech/"
-                    /></url><url>
-            <loc>https://bearman.nl/authors/mike/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/authors/mike/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/authors/mike/"
@@ -79,16 +58,25 @@
                     hreflang="en"
                     href="https://bearman.nl/authors/mike/"
                     /></url><url>
-            <loc>https://bearman.nl/tags/mindset/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/tags/peac/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
-                        href="https://bearman.nl/nl/tags/mindset/"
+                        href="https://bearman.nl/nl/tags/peac/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bearman.nl/tags/mindset/"
+                    href="https://bearman.nl/tags/peac/"
                     /></url><url>
-            <loc>https://bearman.nl/posts/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/2024/10/13/peac-gen-ai-usage/"
+                    /></url><url>
+            <loc>https://bearman.nl/posts/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/posts/"
@@ -97,8 +85,25 @@
                     hreflang="en"
                     href="https://bearman.nl/posts/"
                     /></url><url>
-            <loc>https://bearman.nl/tags/public-service/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/tags/prompt-engineering/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/prompt-engineering/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/prompt-engineering/"
+                    /></url><url>
+            <loc>https://bearman.nl/categories/prompt-engineering/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/categories/prompt-engineering/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/categories/prompt-engineering/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/</loc><lastmod>2024-10-13T21:10:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/tags/"
@@ -107,6 +112,66 @@
                     hreflang="en"
                     href="https://bearman.nl/tags/"
                     /></url><url>
+            <loc>https://bearman.nl/tags/ecosystem/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bearman.nl/categories/ecosystems/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bearman.nl/tags/gen-gt/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/gen-gt/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/gen-gt/"
+                    /></url><url>
+            <loc>https://bearman.nl/2024/09/08/generation-govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/2024/09/08/generation-govtech/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/2024/09/08/generation-govtech/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/generation-govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bearman.nl/tags/generation-gt/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bearman.nl/tags/gengt/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/gengt/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/gengt/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/government/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bearman.nl/tags/govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/govtech/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/govtech/"
+                    /></url><url>
+            <loc>https://bearman.nl/categories/govtech/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/categories/govtech/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/categories/govtech/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/mindset/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/mindset/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/mindset/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/public-service/</loc><lastmod>2024-09-08T11:15:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bearman.nl/tags/access-modifiers/</loc><lastmod>2024-07-21T13:21:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
@@ -170,8 +235,6 @@
                     hreflang="en"
                     href="https://bearman.nl/tags/code/"
                     /></url><url>
-            <loc>https://bearman.nl/tags/development/</loc><lastmod>2024-07-21T13:21:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bearman.nl/categories/development/</loc><lastmod>2024-07-21T13:21:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bearman.nl/tags/inner-source/</loc><lastmod>2024-07-21T13:21:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"

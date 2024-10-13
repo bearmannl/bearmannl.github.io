@@ -3,7 +3,17 @@
         <title>All posts - Bearman.NL</title>
         <link>https://bearman.nl/posts/</link>
         <description>All posts | Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>PEaC Gen AI Usage</title>
+    <link>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg" referrerpolicy="no-referrer">
+            </div>Prompt Engineering as Code: AI Memory Transfer and Reusable InstructionsIntroductionIn the rapidly evolving field of artificial intelligence, efficiency and consistency are paramount. Borrowing from the successes of methodologies like Infrastructure as Code (IaC) and Documentation as Code (Docs as Code), we can enhance AI interactions by treating prompts and context as code artifacts. This approach introduces two innovative concepts under one banner:
+Prompt Seed: Capturing and transferring AI interaction contexts in code format.]]></description>
+</item><item>
     <title>Generation GovTech</title>
     <link>https://bearman.nl/2024/09/08/generation-govtech/</link>
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
@@ -83,12 +93,5 @@ Cleared my (Edge) browser cache, history, etc. no results.]]></description>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
     <description><![CDATA[Custom Domain namesAzure WebsitesI&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now.]]></description>
-</item><item>
-    <title>SfB HA SQL DAG Configuration</title>
-    <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
-    <pubDate>Thu, 26 May 2016 14:45:26 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
-    <description><![CDATA[Skype for Business: High Availability SQL Database Availability Group ConfigurationOne of those silly mistakes…I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
 </item></channel>
 </rss>

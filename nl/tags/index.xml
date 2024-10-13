@@ -3,7 +3,42 @@
         <title>labels - Tag - Bearman.NL [NL]</title>
         <link>https://bearman.nl/nl/tags/</link>
         <description>labels - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Best-Practices</title>
+    <link>https://bearman.nl/nl/tags/best-practices/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/nl/tags/best-practices/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Everything-as-Code</title>
+    <link>https://bearman.nl/nl/tags/everything-as-code/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/nl/tags/everything-as-code/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Ontwikkeling</title>
+    <link>https://bearman.nl/nl/tags/ontwikkeling/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/nl/tags/ontwikkeling/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Peac</title>
+    <link>https://bearman.nl/nl/tags/peac/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/nl/tags/peac/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Prompt-Engineering</title>
+    <link>https://bearman.nl/nl/tags/prompt-engineering/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+        <name>Mike Beerman</name>
+    </author><guid>https://bearman.nl/nl/tags/prompt-engineering/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Ecosysteem</title>
     <link>https://bearman.nl/nl/tags/ecosysteem/</link>
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
@@ -37,41 +72,6 @@
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
         <name>Mike Beerman</name>
     </author><guid>https://bearman.nl/nl/tags/gengt/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Govtech</title>
-    <link>https://bearman.nl/nl/tags/govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/govtech/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Mindset</title>
-    <link>https://bearman.nl/nl/tags/mindset/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/mindset/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Overheid</title>
-    <link>https://bearman.nl/nl/tags/overheid/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/overheid/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Publieke Diesntverlening</title>
-    <link>https://bearman.nl/nl/tags/publieke-diesntverlening/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/publieke-diesntverlening/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Access-Modifiers</title>
-    <link>https://bearman.nl/nl/tags/access-modifiers/</link>
-    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/access-modifiers/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -3,7 +3,17 @@
         <title>Mike - Author - Bearman.NL [NL]</title>
         <link>https://bearman.nl/nl/authors/mike/</link>
         <description>Mike - Author - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/authors/mike/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/authors/mike/" rel="self" type="application/rss+xml" /><item>
+    <title>PEaC Gen AI Gebruik</title>
+    <link>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</link>
+    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg" referrerpolicy="no-referrer">
+            </div>Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructiesInleidingIn het snel evoluerende veld van kunstmatige intelligentie zijn efficiëntie en consistentie van groot belang. Door de successen van methodologieën zoals Infrastructure as Code (IaC) en Documentation as Code (Docs as Code) te benutten, kunnen we AI-interacties verbeteren door prompts en context als code-artifacten te behandelen. Deze benadering introduceert twee innovatieve concepten onder één noemer:
+Prompt Seed: Het vastleggen en overdragen van AI-interactiecontexten in codeformaat.]]></description>
+</item><item>
     <title>Generatie GovTech</title>
     <link>https://bearman.nl/nl/2024/09/08/generation-govtech/</link>
     <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
