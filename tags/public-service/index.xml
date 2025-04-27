@@ -1,18 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Public Service - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/public-service/</link>
-        <description>Public Service - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/public-service/" rel="self" type="application/rss+xml" /><item>
-    <title>Generation GovTech</title>
-    <link>https://bearman.nl/2024/09/08/generation-govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/09/08/generation-govtech/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/09/08/generation-govtech/gen-gt.jpg" referrerpolicy="no-referrer">
-            </div>Generation GovTechIntroductionThis post introduces a new term, Generation GovTech, or GenGT for short.
-You&rsquo;ll find a full description of this term below. To explain it fully, we&rsquo;ll first cover the recruitment campaign by the Dutch Ministry of Defense: Generation D
-Generation DIn 2022, the MoD launched the recruitment campaign Generation D. The campaign aimed to attract people with a specific mindset. This mindset includes individuals who want to do meaningful work, believe in cooperation, and seek personal growth.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Public Service on Bearman.NL</title>
+    <link>https://bearman.nl/tags/public-service/</link>
+    <description>Recent content in Public Service on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Sep 2024 11:15:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/public-service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generation GovTech</title>
+      <link>https://bearman.nl/2024/09/08/generation-govtech/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/09/08/generation-govtech/</guid>
+      <description>&lt;h1 id=&#34;generation-govtech&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#generation-govtech&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Generation GovTech&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;This post introduces a new term, Generation GovTech, or GenGT for short.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll find a full description of this term below. To explain it fully, we&amp;rsquo;ll first cover the recruitment campaign by the Dutch Ministry of Defense: &lt;a href=&#34;https://werkenbijdefensie.nl/generatie-d&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Generation D&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;generation-d&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#generation-d&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Generation D&lt;/h3&gt;&lt;p&gt;In 2022, the MoD launched the &lt;a href=&#34;https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;recruitment campaign Generation D&lt;/a&gt;. The campaign aimed to attract people with a specific mindset. This mindset includes individuals who want to do meaningful work, believe in cooperation, and seek personal growth.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

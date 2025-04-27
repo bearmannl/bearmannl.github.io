@@ -1,14 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Azurewebsites - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/azurewebsites/</link>
-        <description>Azurewebsites - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/azurewebsites/" rel="self" type="application/rss+xml" /><item>
-    <title>Custom Domain Names With Azurewebsites</title>
-    <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
-    <pubDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
-    <description><![CDATA[Custom Domain namesAzure WebsitesI&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azurewebsites on Bearman.NL</title>
+    <link>https://bearman.nl/tags/azurewebsites/</link>
+    <description>Recent content in Azurewebsites on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jun 2016 15:13:27 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/azurewebsites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom Domain Names With Azurewebsites</title>
+      <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
+      <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
+      <guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
+      <description>&lt;h1 id=&#34;custom-domain-names&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#custom-domain-names&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Custom Domain names&lt;/h1&gt;&lt;h2 id=&#34;azure-websites&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#azure-websites&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Azure Websites&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve only recently set up this blog and since it&amp;rsquo;s always busy at work, I don&amp;rsquo;t always have the time to sort out those &amp;rsquo;nice to haves&amp;rsquo;. I&amp;rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&amp;rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &amp;lsquo;bearman.nl&amp;rsquo; hostname I&amp;rsquo;m using now. Shame on me, Microsoft consultant couldn&amp;rsquo;t figure out a simple IIS redirect rule&amp;hellip; In my defense, I hadn&amp;rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order. To setup an AzureWebsite using a custom domain you need to configure it in several places:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,63 +1,89 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>categories - Category - Bearman.NL</title>
-        <link>https://bearman.nl/categories/</link>
-        <description>categories - Category - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Development</title>
-    <link>https://bearman.nl/categories/development/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/development/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Everything-as-Code</title>
-    <link>https://bearman.nl/categories/everything-as-code/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/everything-as-code/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Prompt-Engineering</title>
-    <link>https://bearman.nl/categories/prompt-engineering/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/prompt-engineering/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Ecosystems</title>
-    <link>https://bearman.nl/categories/ecosystems/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/ecosystems/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Govtech</title>
-    <link>https://bearman.nl/categories/govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/govtech/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Source-Strategies</title>
-    <link>https://bearman.nl/categories/source-strategies/</link>
-    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/source-strategies/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Troubleshooting</title>
-    <link>https://bearman.nl/categories/troubleshooting/</link>
-    <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/troubleshooting/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Tech</title>
-    <link>https://bearman.nl/categories/tech/</link>
-    <pubDate>Thu, 26 May 2016 14:45:26 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/categories/tech/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>categories on Bearman.NL</title>
+    <link>https://bearman.nl/categories/</link>
+    <description>Recent content in categories on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Apr 2025 18:00:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud</title>
+      <link>https://bearman.nl/categories/cloud/</link>
+      <pubDate>Sun, 27 Apr 2025 18:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT</title>
+      <link>https://bearman.nl/categories/it/</link>
+      <pubDate>Sun, 27 Apr 2025 18:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/it/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sovereignty</title>
+      <link>https://bearman.nl/categories/sovereignty/</link>
+      <pubDate>Sun, 27 Apr 2025 18:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/sovereignty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://bearman.nl/categories/development/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Everything-as-Code</title>
+      <link>https://bearman.nl/categories/everything-as-code/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/everything-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Engineering</title>
+      <link>https://bearman.nl/categories/prompt-engineering/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecosystems</title>
+      <link>https://bearman.nl/categories/ecosystems/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/ecosystems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Govtech</title>
+      <link>https://bearman.nl/categories/govtech/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/govtech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Source-Strategies</title>
+      <link>https://bearman.nl/categories/source-strategies/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/categories/source-strategies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://bearman.nl/categories/troubleshooting/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/categories/troubleshooting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>https://bearman.nl/categories/tech/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      <guid>https://bearman.nl/categories/tech/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

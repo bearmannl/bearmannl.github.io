@@ -9,7 +9,9 @@
     <pubDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</pubDate><author>
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</guid>
-    <description><![CDATA[Firewall port testingIntroOnlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.
-Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server.]]></description>
+    <description><![CDATA[<h1 id="firewall-port-testing" class="headerLink">
+    <a href="#firewall-port-testing" class="header-mark" aria-label="Header mark for 'Firewall port testing'"></a>Firewall port testing</h1><h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><p>Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.</p>
+<p>Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server. Maar toen het tijd werd om het commando te herhalen op meerdere servers, begon ik dingen te automatiseren met mijn eigen script. Al snel vroeg de projectmanager me of ik de resultaten van mijn script naar Excel kon uitvoeren en hem de bestanden per mail kon sturen.</p>]]></description>
 </item></channel>
 </rss>

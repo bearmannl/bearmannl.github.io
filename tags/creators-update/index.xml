@@ -1,23 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Creators-Update - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/creators-update/</link>
-        <description>Creators-Update - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/creators-update/" rel="self" type="application/rss+xml" /><item>
-    <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
-    <link>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
-    <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
-    <description><![CDATA[Creators updateThe issueSince the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
-This only happened with Google, no other site had this issue&hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&hellip;
-Cleared my (Edge) browser cache, history, etc. no results.]]></description>
-</item><item>
-    <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
-    <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
-    <pubDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
-    <description><![CDATA[Creators UpdateThe IssueLast week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&hellip; true so far except for one minor issue! When I had to connect to a client&rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &ldquo;Your computer can’t connect to the Remote Desktop Gateway server.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creators-Update on Bearman.NL</title>
+    <link>https://bearman.nl/tags/creators-update/</link>
+    <description>Recent content in Creators-Update on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Apr 2017 12:12:02 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/creators-update/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
+      <link>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
+      <description>&lt;h1 id=&#34;creators-update&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#creators-update&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Creators update&lt;/h1&gt;&lt;h2 id=&#34;the-issue&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#the-issue&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;The issue&lt;/h2&gt;&lt;p&gt;Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&amp;rsquo;ve also upgraded.&lt;/p&gt;&#xA;&lt;p&gt;This &lt;em&gt;only&lt;/em&gt; happened with Google, no other site had this issue&amp;hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
+      <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      <guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
+      <description>&lt;h1 id=&#34;creators-update&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#creators-update&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Creators Update&lt;/h1&gt;&lt;h2 id=&#34;the-issue&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#the-issue&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;The Issue&lt;/h2&gt;&lt;p&gt;Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&amp;hellip; true so far except for one minor issue! When I had to connect to a client&amp;rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &amp;ldquo;&lt;em&gt;Your computer can’t connect to the Remote Desktop Gateway server. Contact your network administrator for assistance.&lt;/em&gt;&amp;rdquo; I don&amp;rsquo;t know exactly what changed in this Windows build with regards to the RDP client, however I worked around it by restoring the following two files to the Windows System32 folder, from the Windows.old folder:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

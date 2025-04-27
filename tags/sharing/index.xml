@@ -1,16 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Sharing - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/sharing/</link>
-        <description>Sharing - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/sharing/" rel="self" type="application/rss+xml" /><item>
-    <title>Co Source - Renamed Source Code Sharing Strategy</title>
-    <link>https://bearman.nl/2024/07/21/co-source-renaming/</link>
-    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/07/21/co-source-renaming/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
-            </div>Co sourceIntroProtected Inner Source RecapProtected Inner Source is a source code sharing strategy that defines an intermediate model between Open Source and Inner Source. The analogy used here is that C# Access Modifiers define a &lsquo;Protected Internal Class&rsquo; as an intermediate between &lsquo;Public Class&rsquo; and &lsquo;Internal Class&rsquo;. The purpose of which is to be more closed off between assemblies than &lsquo;Public Class&rsquo;, yet more open for reuse than &lsquo;Internal Class&rsquo;.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sharing on Bearman.NL</title>
+    <link>https://bearman.nl/tags/sharing/</link>
+    <description>Recent content in Sharing on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Jul 2024 13:21:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/sharing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co Source - Renamed Source Code Sharing Strategy</title>
+      <link>https://bearman.nl/2024/07/21/co-source-renaming/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/07/21/co-source-renaming/</guid>
+      <description>&lt;h1 id=&#34;co-source&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#co-source&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Co source&lt;/h1&gt;&lt;h2 id=&#34;intro&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#intro&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Intro&lt;/h2&gt;&lt;h3 id=&#34;protected-inner-source-recap&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#protected-inner-source-recap&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Protected Inner Source Recap&lt;/h3&gt;&lt;p&gt;Protected Inner Source is a source code sharing strategy that defines an intermediate model between Open Source and Inner Source. The analogy used here is that &lt;a href=&#34;https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;C# Access Modifiers&lt;/a&gt; define a &amp;lsquo;Protected Internal Class&amp;rsquo; as an intermediate between &amp;lsquo;Public Class&amp;rsquo; and &amp;lsquo;Internal Class&amp;rsquo;. The purpose of which is to be more closed off between assemblies than &amp;lsquo;Public Class&amp;rsquo;, yet more open for reuse than &amp;lsquo;Internal Class&amp;rsquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

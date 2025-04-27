@@ -1,14 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Database-Availability-Group - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/database-availability-group/</link>
-        <description>Database-Availability-Group - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 26 May 2016 14:45:26 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/database-availability-group/" rel="self" type="application/rss+xml" /><item>
-    <title>SfB HA SQL DAG Configuration</title>
-    <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
-    <pubDate>Thu, 26 May 2016 14:45:26 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
-    <description><![CDATA[Skype for Business: High Availability SQL Database Availability Group ConfigurationOne of those silly mistakes…I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database-Availability-Group on Bearman.NL</title>
+    <link>https://bearman.nl/tags/database-availability-group/</link>
+    <description>Recent content in Database-Availability-Group on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 May 2016 14:45:26 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/database-availability-group/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SfB HA SQL DAG Configuration</title>
+      <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      <guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
+      <description>&lt;h1 id=&#34;skype-for-business-high-availability-sql-database-availability-group-configuration&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#skype-for-business-high-availability-sql-database-availability-group-configuration&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Skype for Business: High Availability SQL Database Availability Group Configuration&lt;/h1&gt;&lt;h2 id=&#34;one-of-those-silly-mistakes&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#one-of-those-silly-mistakes&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;One of those silly mistakes…&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG. Once enabled, the first field gets relabeled ‘SQL Server Availability Group Listener FQDN’, the second ‘SQL Server FQDN’. Initially before enabling the DAG I set these values:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

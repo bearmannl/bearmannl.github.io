@@ -1,16 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Email - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/email/</link>
-        <description>Email - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Jun 2016 14:09:50 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/email/" rel="self" type="application/rss+xml" /><item>
-    <title>Password Change Notification Script</title>
-    <link>https://bearman.nl/2016/06/23/password-change-notification-script/</link>
-    <pubDate>Thu, 23 Jun 2016 14:09:50 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/06/23/password-change-notification-script/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2016/06/23/password-change-notification-script/script1.png" referrerpolicy="no-referrer">
-            </div>Password change notificationVersion 1.4Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, checked it, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman over at the Technet Gallery. For Office365 compatibility check his post here…]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Bearman.NL</title>
+    <link>https://bearman.nl/tags/email/</link>
+    <description>Recent content in Email on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Jun 2016 14:09:50 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Password Change Notification Script</title>
+      <link>https://bearman.nl/2016/06/23/password-change-notification-script/</link>
+      <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
+      <guid>https://bearman.nl/2016/06/23/password-change-notification-script/</guid>
+      <description>&lt;h1 id=&#34;password-change-notification&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#password-change-notification&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Password change notification&lt;/h1&gt;&lt;h2 id=&#34;version-14&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#version-14&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Version 1.4&lt;/h2&gt;&lt;p&gt;Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, &lt;em&gt;checked it&lt;/em&gt;, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman &lt;a href=&#34;https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;over at the Technet Gallery&lt;/a&gt;. For Office365 compatibility check &lt;a href=&#34;https://windowsserveressentials.com/2015/01/23/office-365-email-password-reminder/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;his post here&lt;/a&gt;…&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

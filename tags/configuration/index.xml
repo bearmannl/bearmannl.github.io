@@ -1,7 +1,11 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>configuration - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/configuration/</link>
-        <description>configuration - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://bearman.nl/tags/configuration/" rel="self" type="application/rss+xml" /></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>configuration on Bearman.NL</title>
+    <link>https://bearman.nl/tags/configuration/</link>
+    <description>Recent content in configuration on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://bearman.nl/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
 </rss>

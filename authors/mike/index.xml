@@ -1,97 +1,103 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Mike - Author - Bearman.NL</title>
-        <link>https://bearman.nl/authors/mike/</link>
-        <description>Mike - Author - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/authors/mike/" rel="self" type="application/rss+xml" /><item>
-    <title>PEaC Gen AI Usage</title>
-    <link>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg" referrerpolicy="no-referrer">
-            </div>Prompt Engineering as Code: AI Memory Transfer and Reusable InstructionsIntroductionIn the rapidly evolving field of artificial intelligence, efficiency and consistency are paramount. Borrowing from the successes of methodologies like Infrastructure as Code (IaC) and Documentation as Code (Docs as Code), we can enhance AI interactions by treating prompts and context as code artifacts. This approach introduces two innovative concepts under one banner:
-Prompt Seed: Capturing and transferring AI interaction contexts in code format.]]></description>
-</item><item>
-    <title>Generation GovTech</title>
-    <link>https://bearman.nl/2024/09/08/generation-govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/09/08/generation-govtech/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/09/08/generation-govtech/gen-gt.jpg" referrerpolicy="no-referrer">
-            </div>Generation GovTechIntroductionThis post introduces a new term, Generation GovTech, or GenGT for short.
-You&rsquo;ll find a full description of this term below. To explain it fully, we&rsquo;ll first cover the recruitment campaign by the Dutch Ministry of Defense: Generation D
-Generation DIn 2022, the MoD launched the recruitment campaign Generation D. The campaign aimed to attract people with a specific mindset. This mindset includes individuals who want to do meaningful work, believe in cooperation, and seek personal growth.]]></description>
-</item><item>
-    <title>Co Source - Renamed Source Code Sharing Strategy</title>
-    <link>https://bearman.nl/2024/07/21/co-source-renaming/</link>
-    <pubDate>Sun, 21 Jul 2024 12:00:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/07/21/co-source-renaming/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
-            </div>Co sourceIntroProtected Inner Source RecapProtected Inner Source is a source code sharing strategy that defines an intermediate model between Open Source and Inner Source. The analogy used here is that C# Access Modifiers define a &lsquo;Protected Internal Class&rsquo; as an intermediate between &lsquo;Public Class&rsquo; and &lsquo;Internal Class&rsquo;. The purpose of which is to be more closed off between assemblies than &lsquo;Public Class&rsquo;, yet more open for reuse than &lsquo;Internal Class&rsquo;.]]></description>
-</item><item>
-    <title>Open Source - Inner Source - Protected Inner Source</title>
-    <link>https://bearman.nl/2024/06/20/open-inner-protected-source/</link>
-    <pubDate>Thu, 20 Jun 2024 21:30:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/06/20/open-inner-protected-source/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
-            </div>Protected Inner SourceUPDATE: Based on feedback, I am changing the name of this source code sharing strategy to &lsquo;Co Source&rsquo;. The direct analogy between Protected Internal Class and Protected Inner Source seemed to imply a lack of security in traditional Open Source sharing strategies, which was not my intent. Read more about the naming change in my follow-up article here: Co Source - Renamed Source Code Sharing Strategy
-IntroInner sourceIn the digital era, software development is a cornerstone of innovation.]]></description>
-</item><item>
-    <title>Firewall Port Status Test Script</title>
-    <link>https://bearman.nl/2017/08/19/firewall-port-status-test-script/</link>
-    <pubDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2017/08/19/firewall-port-status-test-script/</guid>
-    <description><![CDATA[Firewall port testingIntroRecently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues.
-While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server.]]></description>
-</item><item>
-    <title>Sharepoint ULS Log Files Empty</title>
-    <link>https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</link>
-    <pubDate>Tue, 18 Apr 2017 13:58:57 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</guid>
-    <description><![CDATA[SharePoint ULSEmpty log filesRan into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.
-Incidentally I found a Event Log error with the code:
-&ldquo;A Session &ldquo;WSSUSAGESESSION15&rdquo; failed to start with the following error: 0xC0000022&rdquo;
-Other posts mention adding the service account (or the WSS_WPG group) for the &lsquo;SharePoint Tracing Service&rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem.]]></description>
-</item><item>
-    <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
-    <link>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
-    <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
-    <description><![CDATA[Creators updateThe issueSince the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&rsquo;ve also upgraded.
-This only happened with Google, no other site had this issue&hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&hellip;
-Cleared my (Edge) browser cache, history, etc. no results.]]></description>
-</item><item>
-    <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
-    <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
-    <pubDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
-    <description><![CDATA[Creators UpdateThe IssueLast week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&hellip; true so far except for one minor issue! When I had to connect to a client&rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &ldquo;Your computer can’t connect to the Remote Desktop Gateway server.]]></description>
-</item><item>
-    <title>Password Change Notification Script</title>
-    <link>https://bearman.nl/2016/06/23/password-change-notification-script/</link>
-    <pubDate>Thu, 23 Jun 2016 14:09:50 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/06/23/password-change-notification-script/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2016/06/23/password-change-notification-script/script1.png" referrerpolicy="no-referrer">
-            </div>Password change notificationVersion 1.4Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, checked it, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman over at the Technet Gallery. For Office365 compatibility check his post here…]]></description>
-</item><item>
-    <title>Custom Domain Names With Azurewebsites</title>
-    <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
-    <pubDate>Thu, 16 Jun 2016 15:13:27 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
-    <description><![CDATA[Custom Domain namesAzure WebsitesI&rsquo;ve only recently set up this blog and since it&rsquo;s always busy at work, I don&rsquo;t always have the time to sort out those &rsquo;nice to haves&rsquo;. I&rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &lsquo;bearman.nl&rsquo; hostname I&rsquo;m using now.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mike on Bearman.NL</title>
+    <link>https://bearman.nl/authors/mike/</link>
+    <description>Recent content in Mike on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Apr 2025 18:00:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/authors/mike/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sovereignty Scale: A Path to EU Digital Independence</title>
+      <link>https://bearman.nl/2025/04/27/sovereign-scale/</link>
+      <pubDate>Sun, 27 Apr 2025 18:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/2025/04/27/sovereign-scale/</guid>
+      <description>&lt;h1 id=&#34;introducing-the-sovereignty-scale-a-path-to-eu-digital-independence&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introducing-the-sovereignty-scale-a-path-to-eu-digital-independence&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Introducing the Sovereignty Scale: A Path to EU Digital Independence&lt;/h1&gt;&lt;p&gt;In today&amp;rsquo;s digital landscape, the concept of sovereignty has become increasingly important, especially within the European Union (EU). As geopolitical circumstances evolve, there is a growing demand for sovereign cloud and tech solutions that can rival the dominance of Big Tech companies like Amazon, Google, and Microsoft. However, the path to achieving true digital independence is complex and multifaceted. This is where the Sovereignty Scale comes in—a novel concept designed to measure and promote progress towards EU digital sovereignty.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PEaC Gen AI Usage</title>
+      <link>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</guid>
+      <description>&lt;h1 id=&#34;prompt-engineering-as-code-ai-memory-transfer-and-reusable-instructions&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#prompt-engineering-as-code-ai-memory-transfer-and-reusable-instructions&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;Prompt Engineering as Code: AI Memory Transfer and Reusable Instructions&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;In the rapidly evolving field of artificial intelligence, efficiency and consistency are paramount. Borrowing from the successes of methodologies like Infrastructure as Code (IaC) and Documentation as Code (Docs as Code), we can enhance AI interactions by treating prompts and context as code artifacts. This approach introduces two innovative concepts under one banner:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Seed&lt;/strong&gt;: Capturing and transferring AI interaction contexts in code format.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Instruction&lt;/strong&gt;: Storing and managing prompt templates as reusable code components.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;By unifying these under the umbrella of &lt;strong&gt;Prompt Engineering as Code (PEaC)&lt;/strong&gt;, we can apply best practices from software development to AI prompt management, enabling version control, collaboration, and scalability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generation GovTech</title>
+      <link>https://bearman.nl/2024/09/08/generation-govtech/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/09/08/generation-govtech/</guid>
+      <description>&lt;h1 id=&#34;generation-govtech&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#generation-govtech&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Generation GovTech&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;This post introduces a new term, Generation GovTech, or GenGT for short.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll find a full description of this term below. To explain it fully, we&amp;rsquo;ll first cover the recruitment campaign by the Dutch Ministry of Defense: &lt;a href=&#34;https://werkenbijdefensie.nl/generatie-d&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Generation D&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;generation-d&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#generation-d&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Generation D&lt;/h3&gt;&lt;p&gt;In 2022, the MoD launched the &lt;a href=&#34;https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;recruitment campaign Generation D&lt;/a&gt;. The campaign aimed to attract people with a specific mindset. This mindset includes individuals who want to do meaningful work, believe in cooperation, and seek personal growth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co Source - Renamed Source Code Sharing Strategy</title>
+      <link>https://bearman.nl/2024/07/21/co-source-renaming/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/07/21/co-source-renaming/</guid>
+      <description>&lt;h1 id=&#34;co-source&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#co-source&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Co source&lt;/h1&gt;&lt;h2 id=&#34;intro&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#intro&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Intro&lt;/h2&gt;&lt;h3 id=&#34;protected-inner-source-recap&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#protected-inner-source-recap&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Protected Inner Source Recap&lt;/h3&gt;&lt;p&gt;Protected Inner Source is a source code sharing strategy that defines an intermediate model between Open Source and Inner Source. The analogy used here is that &lt;a href=&#34;https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;C# Access Modifiers&lt;/a&gt; define a &amp;lsquo;Protected Internal Class&amp;rsquo; as an intermediate between &amp;lsquo;Public Class&amp;rsquo; and &amp;lsquo;Internal Class&amp;rsquo;. The purpose of which is to be more closed off between assemblies than &amp;lsquo;Public Class&amp;rsquo;, yet more open for reuse than &amp;lsquo;Internal Class&amp;rsquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source - Inner Source - Protected Inner Source</title>
+      <link>https://bearman.nl/2024/06/20/open-inner-protected-source/</link>
+      <pubDate>Thu, 20 Jun 2024 21:30:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/06/20/open-inner-protected-source/</guid>
+      <description>&lt;h1 id=&#34;protected-inner-source&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#protected-inner-source&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Protected Inner Source&lt;/h1&gt;&lt;p&gt;UPDATE: Based on feedback, I am changing the name of this source code sharing strategy to &amp;lsquo;Co Source&amp;rsquo;. The direct analogy between Protected Internal Class and Protected Inner Source seemed to imply a lack of security in traditional Open Source sharing strategies, which was not my intent. Read more about the naming change in my follow-up article here: &lt;a href=&#34;https://bearman.nl/2024/07/21/co-source-renaming/&#34; rel=&#34;&#34;&gt;Co Source - Renamed Source Code Sharing Strategy&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#intro&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Intro&lt;/h2&gt;&lt;h3 id=&#34;inner-source&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#inner-source&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Inner source&lt;/h3&gt;&lt;p&gt;In the digital era, software development is a cornerstone of innovation. Inner Source has gained traction in this domain. It is a strategy that applies Open Source practices within an organization. Unlike Open Source, Inner Source is not public. It remains confined to a single organization. This approach encourages collaborative software development. Teams across the organization can contribute, regardless of departmental boundaries. Inner Source fosters a culture of transparency and shared responsibility. It leads to improved code quality and accelerated innovation. By leveraging Inner Source, companies can harness the collective expertise of their employees. They can do so while protecting proprietary code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firewall Port Status Test Script</title>
+      <link>https://bearman.nl/2017/08/19/firewall-port-status-test-script/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/2017/08/19/firewall-port-status-test-script/</guid>
+      <description>&lt;h1 id=&#34;firewall-port-testing&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#firewall-port-testing&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Firewall port testing&lt;/h1&gt;&lt;h2 id=&#34;intro&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#intro&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Intro&lt;/h2&gt;&lt;p&gt;Recently I had some issues at a customer project where, due to the complexity of the environment, sometimes firewall ports were closed after they had initially been added to the rules list. This caused unexpected errors for SharePoint, of which we were unaware at the time that these were due to firewall issues.&lt;/p&gt;&#xA;&lt;p&gt;While analyzing the issue I came across the Test-NetConnection PowerShell command, which I used to manually verify the issue on one server. However when the time came to repeat the command on several servers I started automating things with my own script. Soon enough the project manager asked me if I could output the results of my script to Excel and send him the files by mail.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sharepoint ULS Log Files Empty</title>
+      <link>https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</link>
+      <pubDate>Tue, 18 Apr 2017 13:58:57 +0200</pubDate>
+      <guid>https://bearman.nl/2017/04/18/sharepoint-uls-log-files-empty/</guid>
+      <description>&lt;h1 id=&#34;sharepoint-uls&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#sharepoint-uls&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;SharePoint ULS&lt;/h1&gt;&lt;h2 id=&#34;empty-log-files&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#empty-log-files&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Empty log files&lt;/h2&gt;&lt;p&gt;Ran into an annoying issue today where a SharePoint server was not writing trace log messages, the result was a log directory with 0 bytes logging files.&lt;/p&gt;&#xA;&lt;p&gt;Incidentally I found a Event Log error with the code:&lt;br&gt;&#xA;&amp;ldquo;A Session &amp;ldquo;WSSUSAGESESSION15&amp;rdquo; failed to start with the following error: 0xC0000022&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Other posts mention adding the service account (or the WSS_WPG group) for the &amp;lsquo;SharePoint Tracing Service&amp;rsquo; Windows Service to the administrators group, tested that, this indeed fixes the problem. However this does not conform to the principle of least privileged accounts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
+      <link>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
+      <description>&lt;h1 id=&#34;creators-update&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#creators-update&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Creators update&lt;/h1&gt;&lt;h2 id=&#34;the-issue&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#the-issue&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;The issue&lt;/h2&gt;&lt;p&gt;Since the Creators Update navigating to any Google site (google.com, google.co.uk, google.nl, etc.) results in an INET_E_RESOURCE_NOT_FOUND error, only on my work laptop, none of my other devices which I&amp;rsquo;ve also upgraded.&lt;/p&gt;&#xA;&lt;p&gt;This &lt;em&gt;only&lt;/em&gt; happened with Google, no other site had this issue&amp;hellip; furthermore I could reach Google(.com) fine via Ping from commandline, Internet Explorer, FireFox and Chrome&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Cleared my (Edge) browser cache, history, etc. no results. Everything was working fine until the Creators Update.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
+      <link>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      <guid>https://bearman.nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
+      <description>&lt;h1 id=&#34;creators-update&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#creators-update&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Creators Update&lt;/h1&gt;&lt;h2 id=&#34;the-issue&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#the-issue&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;The Issue&lt;/h2&gt;&lt;p&gt;Last week I upgraded all my personal Windows 10 devices to build 1703 (Creators Update) and after a few days of testing I was convinced this build is solid enough to upgrade my work laptop as well&amp;hellip; true so far except for one minor issue! When I had to connect to a client&amp;rsquo;s RemoteApp and Desktop Connection gateway, which they host on Windows Server 2008R2, I got the following error: &amp;ldquo;&lt;em&gt;Your computer can’t connect to the Remote Desktop Gateway server. Contact your network administrator for assistance.&lt;/em&gt;&amp;rdquo; I don&amp;rsquo;t know exactly what changed in this Windows build with regards to the RDP client, however I worked around it by restoring the following two files to the Windows System32 folder, from the Windows.old folder:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Change Notification Script</title>
+      <link>https://bearman.nl/2016/06/23/password-change-notification-script/</link>
+      <pubDate>Thu, 23 Jun 2016 14:09:50 +0200</pubDate>
+      <guid>https://bearman.nl/2016/06/23/password-change-notification-script/</guid>
+      <description>&lt;h1 id=&#34;password-change-notification&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#password-change-notification&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Password change notification&lt;/h1&gt;&lt;h2 id=&#34;version-14&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#version-14&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Version 1.4&lt;/h2&gt;&lt;p&gt;Recently I found myself in need of a password change notification script. What do all efficient/lazy administrators do when they need a script for any purpose? Right, I searched one online, downloaded it, &lt;em&gt;checked it&lt;/em&gt;, suppressed any desire to fiddle with it and then scheduled it to run. For those interested, I used the script provided by Robert Pearman &lt;a href=&#34;https://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;over at the Technet Gallery&lt;/a&gt;. For Office365 compatibility check &lt;a href=&#34;https://windowsserveressentials.com/2015/01/23/office-365-email-password-reminder/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;his post here&lt;/a&gt;…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom Domain Names With Azurewebsites</title>
+      <link>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</link>
+      <pubDate>Thu, 16 Jun 2016 15:13:27 +0200</pubDate>
+      <guid>https://bearman.nl/2016/06/16/custom-domain-names-with-azurewebsites/</guid>
+      <description>&lt;h1 id=&#34;custom-domain-names&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#custom-domain-names&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Custom Domain names&lt;/h1&gt;&lt;h2 id=&#34;azure-websites&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#azure-websites&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Azure Websites&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve only recently set up this blog and since it&amp;rsquo;s always busy at work, I don&amp;rsquo;t always have the time to sort out those &amp;rsquo;nice to haves&amp;rsquo;. I&amp;rsquo;m hosting this blog using AzureWebsites, but obviously I use my own domain name. My pain? For the life of me I couldn&amp;rsquo;t figure out the magic rule to rewrite my x.azurewebsites.net url to the proper &amp;lsquo;bearman.nl&amp;rsquo; hostname I&amp;rsquo;m using now. Shame on me, Microsoft consultant couldn&amp;rsquo;t figure out a simple IIS redirect rule&amp;hellip; In my defense, I hadn&amp;rsquo;t really taken the time to do it properly and I had in fact solved it, but in the wrong order. To setup an AzureWebsite using a custom domain you need to configure it in several places:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SfB HA SQL DAG Configuration</title>
+      <link>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</link>
+      <pubDate>Thu, 26 May 2016 14:45:26 +0200</pubDate>
+      <guid>https://bearman.nl/2016/05/26/sfb-ha-sql-dag-configuration/</guid>
+      <description>&lt;h1 id=&#34;skype-for-business-high-availability-sql-database-availability-group-configuration&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#skype-for-business-high-availability-sql-database-availability-group-configuration&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Skype for Business: High Availability SQL Database Availability Group Configuration&lt;/h1&gt;&lt;h2 id=&#34;one-of-those-silly-mistakes&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#one-of-those-silly-mistakes&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;One of those silly mistakes…&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;I’ve recently installed and configured a new Skype for Business landscape at my company. While implementing this I made one of those silly mistakes that cause you to spend hours looking for a solution… which is in fact one simple undocumented configuration setting. For our SfB configuration we use a high availability SQL cluster and we’ve also set up a Database Availability Group, or DAG. Once enabled, the first field gets relabeled ‘SQL Server Availability Group Listener FQDN’, the second ‘SQL Server FQDN’. Initially before enabling the DAG I set these values:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://bearman.nl/about/</link>
+      <pubDate>Mon, 23 May 2016 07:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/about/</guid>
+      <description>&lt;blockquote&gt;&#xD;&#xA;  &lt;p&gt;This site was generate using Hugo with the DoIt theme.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/HEIGE-PCloud/DoIt&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;svg class=&#34;icon&#34;&#xA;    xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --&gt;&lt;path d=&#34;M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z&#34;/&gt;&lt;/svg&gt; DoIt&lt;/a&gt; is a &lt;strong&gt;clean&lt;/strong&gt;, &lt;strong&gt;elegant&lt;/strong&gt; but &lt;strong&gt;advanced&lt;/strong&gt; blog theme for &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Hugo&lt;/a&gt; developed by &lt;a href=&#34;https://github.com/HEIGE-PCloud&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;HEIGE-PCloud&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

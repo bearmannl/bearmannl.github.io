@@ -11,8 +11,10 @@
                 </author><guid>https://bearman.nl/nl/2024/07/21/co-source-renaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
-            </div>Co sourceIntroProtected Inner Source SamenvattingProtected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat C# Toegangsmodifiers een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.
-Als je het vorige artikel wilt lezen, vind je het hier: Open Source - Inner Source - Protected Inner Source]]></description>
+            </div><h1 id="co-source" class="headerLink">
+    <a href="#co-source" class="header-mark" aria-label="Header mark for 'Co source'"></a>Co source</h1><h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="protected-inner-source-samenvatting" class="headerLink">
+    <a href="#protected-inner-source-samenvatting" class="header-mark" aria-label="Header mark for 'Protected Inner Source Samenvatting'"></a>Protected Inner Source Samenvatting</h3><p>Protected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat <a href="https://learn.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table" target="_blank" rel="noopener noreferrer">C# Toegangsmodifiers </a> een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.</p>]]></description>
 </item><item>
     <title>Open Source - Inner Source - Protected Inner Source</title>
     <link>https://bearman.nl/nl/2024/06/20/open-inner-protected-source/</link>
@@ -21,7 +23,10 @@ Als je het vorige artikel wilt lezen, vind je het hier: Open Source - Inner Sour
                 </author><guid>https://bearman.nl/nl/2024/06/20/open-inner-protected-source/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
-            </div>Protected Inner SourceUPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: Co Source - Hernoemde Source Code-deelstrategie
-IntroInner sourceIn het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie.]]></description>
+            </div><h1 id="protected-inner-source" class="headerLink">
+    <a href="#protected-inner-source" class="header-mark" aria-label="Header mark for 'Protected Inner Source'"></a>Protected Inner Source</h1><p>UPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: <a href="/nl/2024/07/21/co-source-renaming/" rel="">Co Source - Hernoemde Source Code-deelstrategie</a></p>
+<h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="inner-source" class="headerLink">
+    <a href="#inner-source" class="header-mark" aria-label="Header mark for 'Inner source'"></a>Inner source</h3><p>In het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid. Het leidt tot verbeterde codekwaliteit en versnelde innovatie. Door Inner Source te benutten, kunnen bedrijven de collectieve expertise van hun werknemers inzetten. Ze kunnen dit doen terwijl ze hun eigen code beschermen.</p>]]></description>
 </item></channel>
 </rss>

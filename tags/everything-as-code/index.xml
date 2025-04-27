@@ -1,17 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Everything-as-Code - Tag - Bearman.NL</title>
-        <link>https://bearman.nl/tags/everything-as-code/</link>
-        <description>Everything-as-Code - Tag - Bearman.NL</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/tags/everything-as-code/" rel="self" type="application/rss+xml" /><item>
-    <title>PEaC Gen AI Usage</title>
-    <link>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg" referrerpolicy="no-referrer">
-            </div>Prompt Engineering as Code: AI Memory Transfer and Reusable InstructionsIntroductionIn the rapidly evolving field of artificial intelligence, efficiency and consistency are paramount. Borrowing from the successes of methodologies like Infrastructure as Code (IaC) and Documentation as Code (Docs as Code), we can enhance AI interactions by treating prompts and context as code artifacts. This approach introduces two innovative concepts under one banner:
-Prompt Seed: Capturing and transferring AI interaction contexts in code format.]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Everything-as-Code on Bearman.NL</title>
+    <link>https://bearman.nl/tags/everything-as-code/</link>
+    <description>Recent content in Everything-as-Code on Bearman.NL</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Oct 2024 21:10:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/tags/everything-as-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PEaC Gen AI Usage</title>
+      <link>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/2024/10/13/peac-gen-ai-usage/</guid>
+      <description>&lt;h1 id=&#34;prompt-engineering-as-code-ai-memory-transfer-and-reusable-instructions&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#prompt-engineering-as-code-ai-memory-transfer-and-reusable-instructions&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;Prompt Engineering as Code: AI Memory Transfer and Reusable Instructions&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;In the rapidly evolving field of artificial intelligence, efficiency and consistency are paramount. Borrowing from the successes of methodologies like Infrastructure as Code (IaC) and Documentation as Code (Docs as Code), we can enhance AI interactions by treating prompts and context as code artifacts. This approach introduces two innovative concepts under one banner:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Seed&lt;/strong&gt;: Capturing and transferring AI interaction contexts in code format.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Instruction&lt;/strong&gt;: Storing and managing prompt templates as reusable code components.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;By unifying these under the umbrella of &lt;strong&gt;Prompt Engineering as Code (PEaC)&lt;/strong&gt;, we can apply best practices from software development to AI prompt management, enabling version control, collaboration, and scalability.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

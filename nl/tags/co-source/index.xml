@@ -11,7 +11,9 @@
                 </author><guid>https://bearman.nl/nl/2024/07/21/co-source-renaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
-            </div>Co sourceIntroProtected Inner Source SamenvattingProtected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat C# Toegangsmodifiers een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.
-Als je het vorige artikel wilt lezen, vind je het hier: Open Source - Inner Source - Protected Inner Source]]></description>
+            </div><h1 id="co-source" class="headerLink">
+    <a href="#co-source" class="header-mark" aria-label="Header mark for 'Co source'"></a>Co source</h1><h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="protected-inner-source-samenvatting" class="headerLink">
+    <a href="#protected-inner-source-samenvatting" class="header-mark" aria-label="Header mark for 'Protected Inner Source Samenvatting'"></a>Protected Inner Source Samenvatting</h3><p>Protected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat <a href="https://learn.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table" target="_blank" rel="noopener noreferrer">C# Toegangsmodifiers </a> een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.</p>]]></description>
 </item></channel>
 </rss>
