@@ -1,18 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Prompt-Engineering - Tag - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/tags/prompt-engineering/</link>
-        <description>Prompt-Engineering - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/prompt-engineering/" rel="self" type="application/rss+xml" /><item>
-    <title>PEaC Gen AI Gebruik</title>
-    <link>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg" referrerpolicy="no-referrer">
-            </div><h1 id="prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies" class="headerLink">
-    <a href="#prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies" class="header-mark" aria-label="Header mark for 'Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructies'"></a><strong>Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructies</strong></h1><h2 id="inleiding" class="headerLink">
-    <a href="#inleiding" class="header-mark" aria-label="Header mark for 'Inleiding'"></a><strong>Inleiding</strong></h2><p>In het snel evoluerende veld van kunstmatige intelligentie zijn efficiëntie en consistentie van groot belang. Door de successen van methodologieën zoals Infrastructure as Code (IaC) en Documentation as Code (Docs as Code) te benutten, kunnen we AI-interacties verbeteren door prompts en context als code-artifacten te behandelen. Deze benadering introduceert twee innovatieve concepten onder één noemer:</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prompt-Engineering on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/tags/prompt-engineering/</link>
+    <description>Recent content in Prompt-Engineering on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Sun, 13 Oct 2024 21:20:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PEaC Gen AI Gebruik</title>
+      <link>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</guid>
+      <description>&lt;h1 id=&#34;prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructies&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&#34;inleiding&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#inleiding&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;&lt;strong&gt;Inleiding&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;In het snel evoluerende veld van kunstmatige intelligentie zijn efficiëntie en consistentie van groot belang. Door de successen van methodologieën zoals Infrastructure as Code (IaC) en Documentation as Code (Docs as Code) te benutten, kunnen we AI-interacties verbeteren door prompts en context als code-artifacten te behandelen. Deze benadering introduceert twee innovatieve concepten onder één noemer:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Seed&lt;/strong&gt;: Het vastleggen en overdragen van AI-interactiecontexten in codeformaat.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Instructie&lt;/strong&gt;: Het opslaan en beheren van promptsjablonen als herbruikbare codecomponenten.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Door deze te verenigen onder de paraplu van &lt;strong&gt;Prompt Engineering as Code (PEaC)&lt;/strong&gt;, kunnen we best practices uit softwareontwikkeling toepassen op het beheer van AI-prompts, waarmee versiebeheer, samenwerking en schaalbaarheid mogelijk worden gemaakt.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

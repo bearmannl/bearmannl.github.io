@@ -3,7 +3,17 @@
         <title>All berichten - Bearman.NL [NL]</title>
         <link>https://bearman.nl/nl/posts/</link>
         <description>All berichten | Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 27 Apr 2025 23:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Soevereiniteitsschaal: Een Pad naar Digitale Onafhankelijkheid van de EU</title>
+    <link>https://bearman.nl/nl/2025/04/27/sovereign-scale/</link>
+    <pubDate>Sun, 27 Apr 2025 23:00:00 &#43;0200</pubDate><author>
+                    <name>Mike</name>
+                </author><guid>https://bearman.nl/nl/2025/04/27/sovereign-scale/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2025/04/27/sovereign-scale/sovereignty-scale-banner.jpg" referrerpolicy="no-referrer">
+            </div><h1 id="introductie-van-de-soevereiniteitsschaal-een-pad-naar-digitale-onafhankelijkheid-van-de-eu" class="headerLink">
+    <a href="#introductie-van-de-soevereiniteitsschaal-een-pad-naar-digitale-onafhankelijkheid-van-de-eu" class="header-mark"></a>Introductie van de Soevereiniteitsschaal: Een Pad naar Digitale Onafhankelijkheid van de EU</h1><p>In het huidige digitale landschap wordt het concept van soevereiniteit steeds belangrijker, vooral binnen de Europese Unie (EU). Naarmate geopolitieke omstandigheden veranderen, groeit de vraag naar soevereine cloud- en technologische oplossingen die kunnen concurreren met de dominantie van Big Tech-bedrijven zoals Amazon, Google en Microsoft. Echter, de weg naar echte digitale onafhankelijkheid is complex en veelzijdig. Hier komt de Soevereiniteitsschaal in beeld—een nieuw concept ontworpen om de voortgang richting digitale soevereiniteit van de EU te meten en te bevorderen.</p>]]></description>
+</item><item>
     <title>PEaC Gen AI Gebruik</title>
     <link>https://bearman.nl/nl/2024/10/13/peac-gen-ai-usage/</link>
     <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
@@ -12,8 +22,13 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg" referrerpolicy="no-referrer">
             </div><h1 id="prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies" class="headerLink">
-    <a href="#prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies" class="header-mark" aria-label="Header mark for 'Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructies'"></a><strong>Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructies</strong></h1><h2 id="inleiding" class="headerLink">
-    <a href="#inleiding" class="header-mark" aria-label="Header mark for 'Inleiding'"></a><strong>Inleiding</strong></h2><p>In het snel evoluerende veld van kunstmatige intelligentie zijn efficiëntie en consistentie van groot belang. Door de successen van methodologieën zoals Infrastructure as Code (IaC) en Documentation as Code (Docs as Code) te benutten, kunnen we AI-interacties verbeteren door prompts en context als code-artifacten te behandelen. Deze benadering introduceert twee innovatieve concepten onder één noemer:</p>]]></description>
+    <a href="#prompt-engineering-as-code-ai-geheugentransfer-en-herbruikbare-instructies" class="header-mark"></a><strong>Prompt Engineering as Code: AI geheugentransfer en herbruikbare instructies</strong></h1><h2 id="inleiding" class="headerLink">
+    <a href="#inleiding" class="header-mark"></a><strong>Inleiding</strong></h2><p>In het snel evoluerende veld van kunstmatige intelligentie zijn efficiëntie en consistentie van groot belang. Door de successen van methodologieën zoals Infrastructure as Code (IaC) en Documentation as Code (Docs as Code) te benutten, kunnen we AI-interacties verbeteren door prompts en context als code-artifacten te behandelen. Deze benadering introduceert twee innovatieve concepten onder één noemer:</p>
+<ol>
+<li><strong>Prompt Seed</strong>: Het vastleggen en overdragen van AI-interactiecontexten in codeformaat.</li>
+<li><strong>Prompt Instructie</strong>: Het opslaan en beheren van promptsjablonen als herbruikbare codecomponenten.</li>
+</ol>
+<p>Door deze te verenigen onder de paraplu van <strong>Prompt Engineering as Code (PEaC)</strong>, kunnen we best practices uit softwareontwikkeling toepassen op het beheer van AI-prompts, waarmee versiebeheer, samenwerking en schaalbaarheid mogelijk worden gemaakt.</p>]]></description>
 </item><item>
     <title>Generatie GovTech</title>
     <link>https://bearman.nl/nl/2024/09/08/generation-govtech/</link>
@@ -23,11 +38,11 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/09/08/generation-govtech/gen-gt.jpg" referrerpolicy="no-referrer">
             </div><h1 id="generatie-govtech" class="headerLink">
-    <a href="#generatie-govtech" class="header-mark" aria-label="Header mark for 'Generatie GovTech'"></a>Generatie GovTech</h1><h2 id="inleiding" class="headerLink">
-    <a href="#inleiding" class="header-mark" aria-label="Header mark for 'Inleiding'"></a>Inleiding</h2><p>Dit bericht introduceert een nieuwe term, Generatie GovTech, of GenGT in het kort.</p>
+    <a href="#generatie-govtech" class="header-mark"></a>Generatie GovTech</h1><h2 id="inleiding" class="headerLink">
+    <a href="#inleiding" class="header-mark"></a>Inleiding</h2><p>Dit bericht introduceert een nieuwe term, Generatie GovTech, of GenGT in het kort.</p>
 <p>Hieronder vindt u een volledige beschrijving van deze term. Om het volledig uit te leggen, zullen we eerst de wervingscampagne van het Nederlandse Ministerie van Defensie behandelen: <a href="https://werkenbijdefensie.nl/generatie-d" target="_blank" rel="noopener noreferrer">Generatie D</a>.</p>
 <h3 id="generatie-d" class="headerLink">
-    <a href="#generatie-d" class="header-mark" aria-label="Header mark for 'Generatie D'"></a>Generatie D</h3><p>In 2022 lanceerde het Ministerie van Defensie de <a href="https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d" target="_blank" rel="noopener noreferrer">wervingscampagne Generatie D</a>. De campagne was gericht op het aantrekken van mensen met een specifieke mindset. Deze mindset omvat individuen die zinvol werk willen doen, geloven in samenwerking en persoonlijke groei nastreven.</p>]]></description>
+    <a href="#generatie-d" class="header-mark"></a>Generatie D</h3><p>In 2022 lanceerde het Ministerie van Defensie de <a href="https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d" target="_blank" rel="noopener noreferrer">wervingscampagne Generatie D</a>. De campagne was gericht op het aantrekken van mensen met een specifieke mindset. Deze mindset omvat individuen die zinvol werk willen doen, geloven in samenwerking en persoonlijke groei nastreven.</p>]]></description>
 </item><item>
     <title>Co Source - Hernoemde Source Code-deelstrategie</title>
     <link>https://bearman.nl/nl/2024/07/21/co-source-renaming/</link>
@@ -37,9 +52,10 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/07/21/co-source-renaming/co-source-renamed.jpg" referrerpolicy="no-referrer">
             </div><h1 id="co-source" class="headerLink">
-    <a href="#co-source" class="header-mark" aria-label="Header mark for 'Co source'"></a>Co source</h1><h2 id="intro" class="headerLink">
-    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="protected-inner-source-samenvatting" class="headerLink">
-    <a href="#protected-inner-source-samenvatting" class="header-mark" aria-label="Header mark for 'Protected Inner Source Samenvatting'"></a>Protected Inner Source Samenvatting</h3><p>Protected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat <a href="https://learn.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table" target="_blank" rel="noopener noreferrer">C# Toegangsmodifiers </a> een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.</p>]]></description>
+    <a href="#co-source" class="header-mark"></a>Co source</h1><h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark"></a>Intro</h2><h3 id="protected-inner-source-samenvatting" class="headerLink">
+    <a href="#protected-inner-source-samenvatting" class="header-mark"></a>Protected Inner Source Samenvatting</h3><p>Protected Inner Source is een broncode-deelstrategie die een tussenmodel definieert tussen Open Source en Inner Source. De analogie die hier wordt gebruikt, is dat <a href="https://learn.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table" target="_blank" rel="noopener noreferrer">C# Toegangsmodifiers </a> een &lsquo;Protected Internal Class&rsquo; definiëren als een tussenstap tussen &lsquo;Public Class&rsquo; en &lsquo;Internal Class&rsquo;. Het doel hiervan is om meer afgesloten te zijn tussen assemblies dan &lsquo;Public Class&rsquo;, maar meer open voor hergebruik dan &lsquo;Internal Class&rsquo;.</p>
+<p>Als je het vorige artikel wilt lezen, vind je het hier: <a href="/nl/2024/06/20/open-inner-protected-source/" rel="">Open Source - Inner Source - Protected Inner Source</a></p>]]></description>
 </item><item>
     <title>Open Source - Inner Source - Protected Inner Source</title>
     <link>https://bearman.nl/nl/2024/06/20/open-inner-protected-source/</link>
@@ -49,10 +65,10 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" referrerpolicy="no-referrer">
             </div><h1 id="protected-inner-source" class="headerLink">
-    <a href="#protected-inner-source" class="header-mark" aria-label="Header mark for 'Protected Inner Source'"></a>Protected Inner Source</h1><p>UPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: <a href="/nl/2024/07/21/co-source-renaming/" rel="">Co Source - Hernoemde Source Code-deelstrategie</a></p>
+    <a href="#protected-inner-source" class="header-mark"></a>Protected Inner Source</h1><p>UPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: <a href="/nl/2024/07/21/co-source-renaming/" rel="">Co Source - Hernoemde Source Code-deelstrategie</a></p>
 <h2 id="intro" class="headerLink">
-    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="inner-source" class="headerLink">
-    <a href="#inner-source" class="header-mark" aria-label="Header mark for 'Inner source'"></a>Inner source</h3><p>In het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid. Het leidt tot verbeterde codekwaliteit en versnelde innovatie. Door Inner Source te benutten, kunnen bedrijven de collectieve expertise van hun werknemers inzetten. Ze kunnen dit doen terwijl ze hun eigen code beschermen.</p>]]></description>
+    <a href="#intro" class="header-mark"></a>Intro</h2><h3 id="inner-source" class="headerLink">
+    <a href="#inner-source" class="header-mark"></a>Inner source</h3><p>In het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid. Het leidt tot verbeterde codekwaliteit en versnelde innovatie. Door Inner Source te benutten, kunnen bedrijven de collectieve expertise van hun werknemers inzetten. Ze kunnen dit doen terwijl ze hun eigen code beschermen.</p>]]></description>
 </item><item>
     <title>Firewall Poort Status Test Script</title>
     <link>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</link>
@@ -60,8 +76,8 @@
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</guid>
     <description><![CDATA[<h1 id="firewall-port-testing" class="headerLink">
-    <a href="#firewall-port-testing" class="header-mark" aria-label="Header mark for 'Firewall port testing'"></a>Firewall port testing</h1><h2 id="intro" class="headerLink">
-    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><p>Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.</p>
+    <a href="#firewall-port-testing" class="header-mark"></a>Firewall port testing</h1><h2 id="intro" class="headerLink">
+    <a href="#intro" class="header-mark"></a>Intro</h2><p>Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.</p>
 <p>Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server. Maar toen het tijd werd om het commando te herhalen op meerdere servers, begon ik dingen te automatiseren met mijn eigen script. Al snel vroeg de projectmanager me of ik de resultaten van mijn script naar Excel kon uitvoeren en hem de bestanden per mail kon sturen.</p>]]></description>
 </item><item>
     <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
@@ -70,9 +86,10 @@
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
     <description><![CDATA[<h1 id="creators-update" class="headerLink">
-    <a href="#creators-update" class="header-mark" aria-label="Header mark for 'Creators update'"></a>Creators update</h1><h2 id="het-probleem" class="headerLink">
-    <a href="#het-probleem" class="header-mark" aria-label="Header mark for 'Het probleem'"></a>Het probleem</h2><p>Sinds de Creators Update leidt het navigeren naar een Google-site (google.com, google.co.uk, google.nl, etc.) tot een INET_E_RESOURCE_NOT_FOUND-fout, alleen op mijn werk-laptop, niet op mijn andere apparaten die ik ook heb geüpgraded.</p>
-<p>Dit gebeurde alleen met Google, geen enkele andere site had dit probleem… bovendien kon ik Google(.com) prima bereiken via Ping vanaf de commandline, Internet Explorer, FireFox en Chrome…</p>]]></description>
+    <a href="#creators-update" class="header-mark"></a>Creators update</h1><h2 id="het-probleem" class="headerLink">
+    <a href="#het-probleem" class="header-mark"></a>Het probleem</h2><p>Sinds de Creators Update leidt het navigeren naar een Google-site (google.com, google.co.uk, google.nl, etc.) tot een INET_E_RESOURCE_NOT_FOUND-fout, alleen op mijn werk-laptop, niet op mijn andere apparaten die ik ook heb geüpgraded.</p>
+<p>Dit gebeurde alleen met Google, geen enkele andere site had dit probleem… bovendien kon ik Google(.com) prima bereiken via Ping vanaf de commandline, Internet Explorer, FireFox en Chrome…</p>
+<p>Ik heb mijn (Edge) browsercache, geschiedenis, etc. gewist, maar zonder resultaat. Alles werkte prima tot de Creators Update.</p>]]></description>
 </item><item>
     <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
     <link>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
@@ -80,7 +97,7 @@
                     <name>Mike</name>
                 </author><guid>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
     <description><![CDATA[<h1 id="creators-update" class="headerLink">
-    <a href="#creators-update" class="header-mark" aria-label="Header mark for 'Creators Update'"></a>Creators Update</h1><h2 id="het-probleem" class="headerLink">
-    <a href="#het-probleem" class="header-mark" aria-label="Header mark for 'Het probleem'"></a>Het probleem</h2><p>Vorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server. Neem contact op met uw netwerkbeheerder voor hulp.” Ik weet niet precies wat er in deze Windows-build is veranderd met betrekking tot de RDP-client, maar ik heb het omzeild door de volgende twee bestanden te herstellen naar de map Windows System32, vanuit de map Windows.old:</p>]]></description>
+    <a href="#creators-update" class="header-mark"></a>Creators Update</h1><h2 id="het-probleem" class="headerLink">
+    <a href="#het-probleem" class="header-mark"></a>Het probleem</h2><p>Vorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server. Neem contact op met uw netwerkbeheerder voor hulp.” Ik weet niet precies wat er in deze Windows-build is veranderd met betrekking tot de RDP-client, maar ik heb het omzeild door de volgende twee bestanden te herstellen naar de map Windows System32, vanuit de map Windows.old:</p>]]></description>
 </item></channel>
 </rss>

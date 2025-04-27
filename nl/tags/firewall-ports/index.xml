@@ -1,17 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Firewall-Ports - Tag - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/tags/firewall-ports/</link>
-        <description>Firewall-Ports - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/firewall-ports/" rel="self" type="application/rss+xml" /><item>
-    <title>Firewall Poort Status Test Script</title>
-    <link>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</link>
-    <pubDate>Sat, 19 Aug 2017 11:56:45 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</guid>
-    <description><![CDATA[<h1 id="firewall-port-testing" class="headerLink">
-    <a href="#firewall-port-testing" class="header-mark" aria-label="Header mark for 'Firewall port testing'"></a>Firewall port testing</h1><h2 id="intro" class="headerLink">
-    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><p>Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.</p>
-<p>Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server. Maar toen het tijd werd om het commando te herhalen op meerdere servers, begon ik dingen te automatiseren met mijn eigen script. Al snel vroeg de projectmanager me of ik de resultaten van mijn script naar Excel kon uitvoeren en hem de bestanden per mail kon sturen.</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firewall-Ports on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/tags/firewall-ports/</link>
+    <description>Recent content in Firewall-Ports on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Sat, 19 Aug 2017 11:56:45 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/tags/firewall-ports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firewall Poort Status Test Script</title>
+      <link>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/nl/2017/08/19/firewall-port-status-test-script/</guid>
+      <description>&lt;h1 id=&#34;firewall-port-testing&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#firewall-port-testing&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Firewall port testing&lt;/h1&gt;&lt;h2 id=&#34;intro&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#intro&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Intro&lt;/h2&gt;&lt;p&gt;Onlangs had ik wat problemen bij een klantproject waar, vanwege de complexiteit van de omgeving, soms firewallpoorten werden gesloten nadat ze aanvankelijk aan de regelslijst waren toegevoegd. Dit veroorzaakte onverwachte fouten voor SharePoint, waarvan we op dat moment niet wisten dat deze te wijten waren aan firewallproblemen.&lt;/p&gt;&#xA;&lt;p&gt;Tijdens het analyseren van het probleem kwam ik het Test-NetConnection PowerShell-commando tegen, dat ik gebruikte om het probleem handmatig te verifiëren op één server. Maar toen het tijd werd om het commando te herhalen op meerdere servers, begon ik dingen te automatiseren met mijn eigen script. Al snel vroeg de projectmanager me of ik de resultaten van mijn script naar Excel kon uitvoeren en hem de bestanden per mail kon sturen.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -50,51 +48,50 @@
             "name": "Mike Beerman","logo": "https://bearman.nl/images/bnl_favicon-32x32.png"},"author": [{
                         "@type": "Person",
                         "name": "Mike",
-                        "url": "https://bearman.nl/nl/authors/mike"
+                        "url": "https://bearman.nl/nl/authors/mike/"
                     }],"description": "Een verkenning van het transformatief potentieel van Generatie GovTech. Een mindset om innovators en publieke organisaties bij elkaar te brengen en publieke diensten te verbeteren."
     }</script></head>
 
 
-<body data-instant-intensity="viewport" ><script type="text/javascript">
-        function setTheme(theme) {
-          document.body.setAttribute('theme', theme); 
-          document.documentElement.className = theme;
-          document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
-          if (theme === 'light') {
-            document.documentElement.classList.remove('tw-dark')
-          } else {
-            document.documentElement.classList.add('tw-dark')
-          }
-          window.theme = theme;   
-          window.isDark = window.theme !== 'light' 
-        }
-        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
-        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
-        if (window.localStorage && localStorage.getItem('theme')) {
-            let theme = localStorage.getItem('theme');
-            if (theme === 'light' || theme === 'dark') {
-            setTheme(theme);
+<body data-instant-intensity="viewport" class="tw-flex tw-min-h-screen tw-flex-col"><script type="text/javascript">
+    function setTheme(theme) {
+      document.body.setAttribute('theme', theme); 
+      document.documentElement.className = theme;
+      document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
+      if (theme === 'light') {
+        document.documentElement.classList.remove('tw-dark')
+      } else {
+        document.documentElement.classList.add('tw-dark')
+      }
+      window.theme = theme;   
+      window.isDark = window.theme !== 'light' 
+    }
+    function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+    function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+    if (window.localStorage && localStorage.getItem('theme')) {
+        let theme = localStorage.getItem('theme');
+        if (theme === 'light' || theme === 'dark') {
+        setTheme(theme);
+        } else {
+            if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                setTheme('dark');
             } else {
-                if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                    setTheme('dark');
-                } else {
-                    setTheme('light');
-                }
+                setTheme('light');
             }
-         } else { 
-            if ('auto' === 'light' || 'auto' === 'dark') 
-                setTheme('auto'), saveTheme('auto'); 
-            else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
         }
-        let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
-        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
-        window.switchThemeEventSet = new Set()
-    </script>
-    <div id="back-to-top"></div>
-    <div id="mask"></div><div class="wrapper"><header class="desktop print:!tw-hidden" id="header-desktop">
+      } else { 
+        if ('auto' === 'light' || 'auto' === 'dark') 
+            setTheme('auto'), saveTheme('auto'); 
+        else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
+    }
+    let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
+    getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    window.switchThemeEventSet = new Set()
+</script><div id="back-to-top"></div>
+    <div id="mask"></div><header class="desktop print:!tw-hidden" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src="/images/bnl_favicon-32x32.png"    height="32" width="32">Bearman.nl [NL]</a>
+            <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src='/images/bnl_favicon-32x32.png'   alt="Bearman.nl [NL]" height="32" width="32">Bearman.nl [NL]</a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item"
@@ -118,7 +115,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src="/images/bnl_favicon-32x32.png"    height="32" width="32">Bearman.nl [NL]</a>
+                <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src='/images/bnl_favicon-32x32.png'   alt="Bearman.nl [NL]" height="32" width="32">Bearman.nl [NL]</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -139,20 +136,47 @@
 </div>
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
-</div><main class="main">
-            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title">Generatie GovTech</h1><div class="post-meta">
+</div><main class="tw-mx-4 tw-flex-1"><dialog id="toc-dialog" class="tw-max-w-full tw-w-full tw-max-h-full tw-h-full tw-ml-16">
+        <div class="toc tw-mx-4 tw-max-w-full">
+            <h2 class="tw-mx-0 tw-my-6 tw-uppercase tw-text-2xl">Contents</h2>
+            <div class="toc-content"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#inleiding">Inleiding</a>
+      <ul>
+        <li><a href="#generatie-d">Generatie D</a></li>
+        <li><a href="#govtech">GovTech</a></li>
+        <li><a href="#ecosystemen--mindset">Ecosystemen &amp; Mindset</a></li>
+      </ul>
+    </li>
+    <li><a href="#adoptie-van-generatie-govtech">Adoptie van Generatie GovTech</a>
+      <ul>
+        <li><a href="#1-visie-en-doelen">1. Visie en Doelen</a></li>
+        <li><a href="#2-betrekken-van-belanghebbenden">2. Betrekken van Belanghebbenden</a></li>
+        <li><a href="#3-cultuur-van-innovatie">3. Cultuur van Innovatie</a></li>
+        <li><a href="#4-inspireer-en-deel-succes">4. Inspireer en Deel Succes</a></li>
+        <li><a href="#5-werk-met-iteratieve-stappen">5. Werk met Iteratieve Stappen</a></li>
+        <li><a href="#6-continue-verbetering">6. Continue Verbetering</a></li>
+        <li><a href="#7-bouw-een-gemeenschap">7. Bouw een Gemeenschap</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusie">Conclusie</a></li>
+  </ul>
+</nav></div>
+        </div>
+    </dialog><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title" data-pagefind-meta="date:2024-09-08" data-pagefind-body>Generatie GovTech</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'>
-        <span class='screen-reader-text'>  </span><a href='https://bearman.nl/nl/authors/mike'>Mike</a></span>
+        <span class='screen-reader-text'>  </span><a href='https://bearman.nl/nl/authors/mike/'>Mike</a></span>
                 </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">categories <a href="/nl/categories/ecosystemen/"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>Ecosystemen</a>&nbsp;<a href="/nl/categories/govtech/"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>Govtech</a></span></div>
             <div class="post-meta-line"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2024-09-08">2024-09-08</time>&nbsp;<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2024-09-08">2024-09-08</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;783 words&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;783 words&nbsp;
+                    <svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;4 minutes&nbsp;</div>
-        </div><div class="featured-image"><img  loading="eager" src="/2024/09/08/generation-govtech/gen-gt.jpg" srcset="/2024/09/08/generation-govtech/gen-gt_hu_79117d91de2eaf09.webp 800w, /2024/09/08/generation-govtech/gen-gt_hu_55637d2b9a147550.webp 1200w, /2024/09/08/generation-govtech/gen-gt_hu_1ad05482504a906c.webp 1600w"  alt="Een verkenning van het transformatief potentieel van Generatie GovTech. Een mindset om innovators en publieke organisaties bij elkaar te brengen en publieke diensten te verbeteren." height="1024" width="1024"></div><div class="details toc print:!tw-block" id="toc-static"  kept="true">
+        </div><div class="featured-image"><img  loading="eager" src='/2024/09/08/generation-govtech/gen-gt.jpg' srcset="/2024/09/08/generation-govtech/gen-gt_hu_79117d91de2eaf09.webp 800w, /2024/09/08/generation-govtech/gen-gt_hu_55637d2b9a147550.webp 1200w, /2024/09/08/generation-govtech/gen-gt_hu_1ad05482504a906c.webp 1600w"  alt="Een verkenning van het transformatief potentieel van Generatie GovTech. Een mindset om innovators en publieke organisaties bij elkaar te brengen en publieke diensten te verbeteren." height="1024" width="1024"></div><div class="details toc print:!tw-block" id="toc-static"  kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span class="details-icon"><svg class="icon"
@@ -181,17 +205,17 @@
     <li><a href="#conclusie">Conclusie</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="generatie-govtech" class="headerLink">
-    <a href="#generatie-govtech" class="header-mark" aria-label="Header mark for 'Generatie GovTech'"></a>Generatie GovTech</h1><h2 id="inleiding" class="headerLink">
-    <a href="#inleiding" class="header-mark" aria-label="Header mark for 'Inleiding'"></a>Inleiding</h2><p>Dit bericht introduceert een nieuwe term, Generatie GovTech, of GenGT in het kort.</p>
+            </div><div class="content" id="content" data-pagefind-body><h1 id="generatie-govtech" class="headerLink">
+    <a href="#generatie-govtech" class="header-mark"></a>Generatie GovTech</h1><h2 id="inleiding" class="headerLink">
+    <a href="#inleiding" class="header-mark"></a>Inleiding</h2><p>Dit bericht introduceert een nieuwe term, Generatie GovTech, of GenGT in het kort.</p>
 <p>Hieronder vindt u een volledige beschrijving van deze term. Om het volledig uit te leggen, zullen we eerst de wervingscampagne van het Nederlandse Ministerie van Defensie behandelen: <a href="https://werkenbijdefensie.nl/generatie-d" target="_blank" rel="noopener noreferrer">Generatie D</a>.</p>
 <h3 id="generatie-d" class="headerLink">
-    <a href="#generatie-d" class="header-mark" aria-label="Header mark for 'Generatie D'"></a>Generatie D</h3><p>In 2022 lanceerde het Ministerie van Defensie de <a href="https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d" target="_blank" rel="noopener noreferrer">wervingscampagne Generatie D</a>. De campagne was gericht op het aantrekken van mensen met een specifieke mindset. Deze mindset omvat individuen die zinvol werk willen doen, geloven in samenwerking en persoonlijke groei nastreven.</p>
+    <a href="#generatie-d" class="header-mark"></a>Generatie D</h3><p>In 2022 lanceerde het Ministerie van Defensie de <a href="https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d" target="_blank" rel="noopener noreferrer">wervingscampagne Generatie D</a>. De campagne was gericht op het aantrekken van mensen met een specifieke mindset. Deze mindset omvat individuen die zinvol werk willen doen, geloven in samenwerking en persoonlijke groei nastreven.</p>
 <p>Het kernprincipe van de campagne is bewonderenswaardig. In 2023 <a href="https://www.defensie.nl/actueel/nieuws/2023/11/17/defensie-wint-effie-award-met-arbeidsmarktcampagne-generatie-d" target="_blank" rel="noopener noreferrer">won het de Effie Award</a> voor de sterke boodschap van een gedeelde mindset. De cijfers toonden een toename van 71% in webverkeer en een stijging van 30% in sollicitaties.</p>
 <p>De campagne is het onderzoeken waard vanwege de sterke boodschap, ongeacht de context van het Ministerie van Defensie. Het verenigt mensen met een gemeenschappelijk doel. De indrukwekkende cijfers benadrukken waarom het concept zo boeiend is.</p>
 <p>Aanvankelijk gericht op jongvolwassenen, is de campagne uitgegroeid tot een mindset die niet aan leeftijd gebonden is. Het inspireert iedereen om te werken aan een gemeenschappelijk doel. Dit dient als uitgangspunt voor Generatie GovTech.</p>
 <h3 id="govtech" class="headerLink">
-    <a href="#govtech" class="header-mark" aria-label="Header mark for 'GovTech'"></a>GovTech</h3><p>GovTech beschrijft technologische initiatieven en innovaties binnen de overheidssector. In tegenstelling tot Generatie D, werd het niet bedacht als een mindset. Het belichaamt echter kernprincipes zoals:</p>
+    <a href="#govtech" class="header-mark"></a>GovTech</h3><p>GovTech beschrijft technologische initiatieven en innovaties binnen de overheidssector. In tegenstelling tot Generatie D, werd het niet bedacht als een mindset. Het belichaamt echter kernprincipes zoals:</p>
 <ul>
 <li><strong>Burgergerichte Technologische Oplossingen</strong>: Het leveren van technologische oplossingen die de ervaringen en behoeften van burgers verbeteren.</li>
 <li><strong>Innovatie in Publieke Diensten</strong>: Digitale transformatie omarmen om publieke diensten te verbeteren.</li>
@@ -202,43 +226,43 @@
 <p>In 2021 publiceerden de Gemeente Den Haag en het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties <a href="https://www.government.nl/documents/reports/2021/06/30/govtech-in-the-netherlands" target="_blank" rel="noopener noreferrer">een rapport over GovTech in Nederland</a>. Het rapport toont hoe Nederland partnerschappen tussen innovators en overheidsinstanties bevordert, een trend genaamd &lsquo;GovTech.&rsquo;</p>
 <p>Om betere partnerschappen tussen innovators en overheidsinstanties te bereiken, is culturele verandering nodig. Hoewel organisaties moeten veranderen, zijn het de mensen die dit mogelijk maken.</p>
 <h3 id="ecosystemen--mindset" class="headerLink">
-    <a href="#ecosystemen--mindset" class="header-mark" aria-label="Header mark for 'Ecosystemen &amp; Mindset'"></a>Ecosystemen &amp; Mindset</h3><p>Om deze inleiding af te ronden, moeten mensen een gemeenschappelijke mindset aannemen. Innovators kunnen het voortouw nemen bij het aannemen van de GovTech-mindset, maar het doel is om betere partnerschappen tussen innovators en overheidsinstanties te creëren.</p>
+    <a href="#ecosystemen--mindset" class="header-mark"></a>Ecosystemen &amp; Mindset</h3><p>Om deze inleiding af te ronden, moeten mensen een gemeenschappelijke mindset aannemen. Innovators kunnen het voortouw nemen bij het aannemen van de GovTech-mindset, maar het doel is om betere partnerschappen tussen innovators en overheidsinstanties te creëren.</p>
 <p>In plaats van deze mindset één &lsquo;klant &amp; leverancier&rsquo; relatie tegelijk aan te nemen, moeten we werken aan het hele ecosysteem rond overheidsinstanties. Naarmate meer leden van het ecosysteem de GovTech-mindset aannemen, vormen we een generatie waarin GovTech de gemeenschappelijke mindset is.</p>
 <h2 id="adoptie-van-generatie-govtech" class="headerLink">
-    <a href="#adoptie-van-generatie-govtech" class="header-mark" aria-label="Header mark for 'Adoptie van Generatie GovTech'"></a>Adoptie van Generatie GovTech</h2><p>Het aannemen van de Generatie GovTech-mindset heeft een enorm transformatief potentieel. Door ons te richten op burgergerichte publieke diensten, een transparant ecosysteem te creëren en deze verandering te bepleiten, kunnen we mensen verenigen rond deze mindset.</p>
+    <a href="#adoptie-van-generatie-govtech" class="header-mark"></a>Adoptie van Generatie GovTech</h2><p>Het aannemen van de Generatie GovTech-mindset heeft een enorm transformatief potentieel. Door ons te richten op burgergerichte publieke diensten, een transparant ecosysteem te creëren en deze verandering te bepleiten, kunnen we mensen verenigen rond deze mindset.</p>
 <p>Om deze verandering gestructureerd te stimuleren, stel ik de volgende acties voor als onze gemeenschappelijke routekaart om GovTech nog succesvoller te maken.</p>
 <h3 id="1-visie-en-doelen" class="headerLink">
-    <a href="#1-visie-en-doelen" class="header-mark" aria-label="Header mark for '1. Visie en Doelen'"></a>1. Visie en Doelen</h3><ul>
+    <a href="#1-visie-en-doelen" class="header-mark"></a>1. Visie en Doelen</h3><ul>
 <li><strong>Visie</strong>: Generatie GovTech staat voor innovatie, efficiëntie, transparantie en burgergerichte diensten in de publieke sector.</li>
 <li><strong>Doelen</strong>: Mensen inspireren om deze mindset aan te nemen en ervoor te pleiten binnen de publieke sector.</li>
 </ul>
 <h3 id="2-betrekken-van-belanghebbenden" class="headerLink">
-    <a href="#2-betrekken-van-belanghebbenden" class="header-mark" aria-label="Header mark for '2. Betrekken van Belanghebbenden'"></a>2. Betrekken van Belanghebbenden</h3><ul>
+    <a href="#2-betrekken-van-belanghebbenden" class="header-mark"></a>2. Betrekken van Belanghebbenden</h3><ul>
 <li><strong>Betrek Sleutelspelers</strong>: Betrek overheidsinstanties en technologieleveranciers. Vorm een coalitie van voorstanders die gepassioneerd zijn over GovTech.</li>
 </ul>
 <h3 id="3-cultuur-van-innovatie" class="headerLink">
-    <a href="#3-cultuur-van-innovatie" class="header-mark" aria-label="Header mark for '3. Cultuur van Innovatie'"></a>3. Cultuur van Innovatie</h3><ul>
+    <a href="#3-cultuur-van-innovatie" class="header-mark"></a>3. Cultuur van Innovatie</h3><ul>
 <li><strong>Ervaringsgericht Leren</strong>: Lever vaak, faal veilig en leer door te doen. Creëer veilige ruimtes voor innovatie.</li>
 <li><strong>Onderwijs en Training</strong>: Bied adequate ondersteuning op alle niveaus om innovatie mogelijk te maken.</li>
 </ul>
 <h3 id="4-inspireer-en-deel-succes" class="headerLink">
-    <a href="#4-inspireer-en-deel-succes" class="header-mark" aria-label="Header mark for '4. Inspireer en Deel Succes'"></a>4. Inspireer en Deel Succes</h3><ul>
+    <a href="#4-inspireer-en-deel-succes" class="header-mark"></a>4. Inspireer en Deel Succes</h3><ul>
 <li><strong>Leid door Voorbeeld</strong>: Vier successen en inspireer mensen om zich te verenigen onder de GovTech-mindset.</li>
 </ul>
 <h3 id="5-werk-met-iteratieve-stappen" class="headerLink">
-    <a href="#5-werk-met-iteratieve-stappen" class="header-mark" aria-label="Header mark for '5. Werk met Iteratieve Stappen'"></a>5. Werk met Iteratieve Stappen</h3><ul>
+    <a href="#5-werk-met-iteratieve-stappen" class="header-mark"></a>5. Werk met Iteratieve Stappen</h3><ul>
 <li><strong>Agile Praktijken</strong>: Toon succes in incrementele stappen. Laat iteratief succes zien in een snel tempo. Maak Generatie GovTech onderdeel van de dagelijkse praktijk.</li>
 </ul>
 <h3 id="6-continue-verbetering" class="headerLink">
-    <a href="#6-continue-verbetering" class="header-mark" aria-label="Header mark for '6. Continue Verbetering'"></a>6. Continue Verbetering</h3><ul>
+    <a href="#6-continue-verbetering" class="header-mark"></a>6. Continue Verbetering</h3><ul>
 <li><strong>Regelmatige Beoordelingen</strong>: Beoordeel en verfijn strategieën regelmatig. Snelle innovatie vereist frequente beoordelingen.</li>
 </ul>
 <h3 id="7-bouw-een-gemeenschap" class="headerLink">
-    <a href="#7-bouw-een-gemeenschap" class="header-mark" aria-label="Header mark for '7. Bouw een Gemeenschap'"></a>7. Bouw een Gemeenschap</h3><ul>
+    <a href="#7-bouw-een-gemeenschap" class="header-mark"></a>7. Bouw een Gemeenschap</h3><ul>
 <li><strong>Vestig Netwerken</strong>: Creëer netwerken binnen het ecosysteem. Bevorder samenwerking tussen afdelingen en sectoren. Overheidsinstanties en technologieleveranciers moeten innovatie bevorderen en succesverhalen delen.</li>
 </ul>
 <h2 id="conclusie" class="headerLink">
-    <a href="#conclusie" class="header-mark" aria-label="Header mark for 'Conclusie'"></a>Conclusie</h2><p>Generatie GovTech vertegenwoordigt een transformatieve mindset voor publieke diensten. Door deze mindset aan te nemen, kunnen we een transparant, innovatief en burgergericht ecosysteem creëren. Het betrekken van belanghebbenden, het bevorderen van een cultuur van innovatie en het werken met iteratieve stappen zullen deze verandering stimuleren. Continue verbetering en gemeenschapsopbouw zijn essentieel om deze transformatie te ondersteunen. Samen kunnen we een generatie vormen waarin GovTech de gemeenschappelijke mindset is, wat leidt tot betere publieke diensten en sterkere partnerschappen tussen innovators en overheidsinstanties.</p>
+    <a href="#conclusie" class="header-mark"></a>Conclusie</h2><p>Generatie GovTech vertegenwoordigt een transformatieve mindset voor publieke diensten. Door deze mindset aan te nemen, kunnen we een transparant, innovatief en burgergericht ecosysteem creëren. Het betrekken van belanghebbenden, het bevorderen van een cultuur van innovatie en het werken met iteratieve stappen zullen deze verandering stimuleren. Continue verbetering en gemeenschapsopbouw zijn essentieel om deze transformatie te ondersteunen. Samen kunnen we een generatie vormen waarin GovTech de gemeenschappelijke mindset is, wat leidt tot betere publieke diensten en sterkere partnerschappen tussen innovators en overheidsinstanties.</p>
 </div>
 
         
@@ -271,8 +295,7 @@
             <a href="/nl/2024/10/13/peac-gen-ai-usage/" class="next" rel="next" title="PEaC Gen AI Gebruik">PEaC Gen AI Gebruik<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
 </div>
-</article></div>
-        </main><footer class="footer">
+</article></main><footer class="footer">
         <div class="footer-container"><div class="footer-line">
                     Hosted on <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
                 </div><div class="footer-line"><svg class="icon"
@@ -280,12 +303,16 @@
             <div class="footer-line"></div>
             <div class="footer-line">
             </div>
-        </div></footer></div>
-
-    <div id="fixed-buttons" class="print:!tw-hidden"><a href="#back-to-top" id="back-to-top-button" class="fixed-button tw-transition-opacity tw-opacity-0" title="Back to Top">
-            <svg class="icon"
+        </div></footer><div class="print:!tw-hidden tw-flex tw-flex-col tw-fixed tw-right-4 tw-bottom-4 tw-gap-2"><a href="#back-to-top" id="back-to-top-button" class="tw-transition-opacity tw-opacity-0 tw-block tw-bg-bgColor-secondary tw-rounded-full" style="padding: 0.6rem; line-height: 1.3rem; font-size: 1rem;" title="Back to Top">
+      <svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg>
-        </a></div>
+  </a>
+
+  <button id="toc-drawer-button" class="tw-block tw-bg-bgColor-secondary tw-rounded-full md:tw-hidden" style="padding: 0.6rem; line-height: 1.3rem; font-size: 1rem;">
+      <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+  </button></div>
+
 <script>window.config={"comment":{},"sharerjs":true,"table":{"sort":true}};</script><script
     src="/lib/tablesort/tablesort.min.js"
     
@@ -298,18 +325,17 @@
       defer
     
   ></script>
-    
-    <script type="speculationrules">
-        {
-          "prerender": [
-            {
-              "where": { "href_matches": "/*" },
-              "eagerness": "moderate"
-            }
-          ]
-        }
-    </script>
-      
+
+<script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": { "href_matches": "/*" },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+</script>
 </body>
 
 </html>

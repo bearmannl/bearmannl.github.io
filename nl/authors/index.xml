@@ -1,14 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>auteurs - Author - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/authors/</link>
-        <description>auteurs - Author - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/authors/" rel="self" type="application/rss+xml" /><item>
-    <title>Mike</title>
-    <link>https://bearman.nl/nl/authors/mike/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/authors/mike/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>auteurs on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/authors/</link>
+    <description>Recent content in auteurs on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Sun, 27 Apr 2025 23:00:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mike</title>
+      <link>https://bearman.nl/nl/authors/mike/</link>
+      <pubDate>Sun, 27 Apr 2025 23:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/authors/mike/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

@@ -1,17 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Microsoft-Edge - Tag - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/tags/microsoft-edge/</link>
-        <description>Microsoft-Edge - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/microsoft-edge/" rel="self" type="application/rss+xml" /><item>
-    <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
-    <link>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
-    <pubDate>Thu, 13 Apr 2017 12:12:02 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
-    <description><![CDATA[<h1 id="creators-update" class="headerLink">
-    <a href="#creators-update" class="header-mark" aria-label="Header mark for 'Creators update'"></a>Creators update</h1><h2 id="het-probleem" class="headerLink">
-    <a href="#het-probleem" class="header-mark" aria-label="Header mark for 'Het probleem'"></a>Het probleem</h2><p>Sinds de Creators Update leidt het navigeren naar een Google-site (google.com, google.co.uk, google.nl, etc.) tot een INET_E_RESOURCE_NOT_FOUND-fout, alleen op mijn werk-laptop, niet op mijn andere apparaten die ik ook heb geüpgraded.</p>
-<p>Dit gebeurde alleen met Google, geen enkele andere site had dit probleem… bovendien kon ik Google(.com) prima bereiken via Ping vanaf de commandline, Internet Explorer, FireFox en Chrome…</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft-Edge on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/tags/microsoft-edge/</link>
+    <description>Recent content in Microsoft-Edge on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Thu, 13 Apr 2017 12:12:02 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/tags/microsoft-edge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creators Update 2 Microsoft Edge Google Inet_e_resource_not_found</title>
+      <link>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/nl/2017/04/13/creators-update-2-microsoft-edge-google-inet_e_resource_not_found/</guid>
+      <description>&lt;h1 id=&#34;creators-update&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#creators-update&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Creators update&lt;/h1&gt;&lt;h2 id=&#34;het-probleem&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#het-probleem&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Het probleem&lt;/h2&gt;&lt;p&gt;Sinds de Creators Update leidt het navigeren naar een Google-site (google.com, google.co.uk, google.nl, etc.) tot een INET_E_RESOURCE_NOT_FOUND-fout, alleen op mijn werk-laptop, niet op mijn andere apparaten die ik ook heb geüpgraded.&lt;/p&gt;&#xA;&lt;p&gt;Dit gebeurde alleen met Google, geen enkele andere site had dit probleem… bovendien kon ik Google(.com) prima bereiken via Ping vanaf de commandline, Internet Explorer, FireFox en Chrome…&lt;/p&gt;&#xA;&lt;p&gt;Ik heb mijn (Edge) browsercache, geschiedenis, etc. gewist, maar zonder resultaat. Alles werkte prima tot de Creators Update.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

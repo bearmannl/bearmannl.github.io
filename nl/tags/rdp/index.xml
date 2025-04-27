@@ -1,16 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Rdp - Tag - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/tags/rdp/</link>
-        <description>Rdp - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/rdp/" rel="self" type="application/rss+xml" /><item>
-    <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
-    <link>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
-    <pubDate>Mon, 10 Apr 2017 13:11:47 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
-    <description><![CDATA[<h1 id="creators-update" class="headerLink">
-    <a href="#creators-update" class="header-mark" aria-label="Header mark for 'Creators Update'"></a>Creators Update</h1><h2 id="het-probleem" class="headerLink">
-    <a href="#het-probleem" class="header-mark" aria-label="Header mark for 'Het probleem'"></a>Het probleem</h2><p>Vorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server. Neem contact op met uw netwerkbeheerder voor hulp.” Ik weet niet precies wat er in deze Windows-build is veranderd met betrekking tot de RDP-client, maar ik heb het omzeild door de volgende twee bestanden te herstellen naar de map Windows System32, vanuit de map Windows.old:</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rdp on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/tags/rdp/</link>
+    <description>Recent content in Rdp on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Mon, 10 Apr 2017 13:11:47 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creators Update 1 Remoteapp and Desktop Connection Gateway Unavailable</title>
+      <link>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      <guid>https://bearman.nl/nl/2017/04/10/creators-update-1-remoteapp-and-desktop-connection-gateway-unavailable/</guid>
+      <description>&lt;h1 id=&#34;creators-update&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#creators-update&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Creators Update&lt;/h1&gt;&lt;h2 id=&#34;het-probleem&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#het-probleem&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Het probleem&lt;/h2&gt;&lt;p&gt;Vorige week heb ik al mijn persoonlijke Windows 10-apparaten geüpgraded naar build 1703 (Creators Update) en na een paar dagen testen was ik ervan overtuigd dat deze build stabiel genoeg was om ook mijn werk-laptop te upgraden… tot nu toe waar, op één klein probleem na! Toen ik moest verbinden met de RemoteApp en Desktop Connection gateway van een klant, die ze hosten op Windows Server 2008R2, kreeg ik de volgende foutmelding: “Uw computer kan geen verbinding maken met de Remote Desktop Gateway-server. Neem contact op met uw netwerkbeheerder voor hulp.” Ik weet niet precies wat er in deze Windows-build is veranderd met betrekking tot de RDP-client, maar ik heb het omzeild door de volgende twee bestanden te herstellen naar de map Windows System32, vanuit de map Windows.old:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

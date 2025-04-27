@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -50,51 +48,50 @@
             "name": "Mike Beerman","logo": "https://bearman.nl/images/bnl_favicon-32x32.png"},"author": [{
                         "@type": "Person",
                         "name": "Mike",
-                        "url": "https://bearman.nl/nl/authors/mike"
+                        "url": "https://bearman.nl/nl/authors/mike/"
                     }],"description": "Protected Inner Source is een nieuwe aanpak voor het delen van broncode."
     }</script></head>
 
 
-<body data-instant-intensity="viewport" ><script type="text/javascript">
-        function setTheme(theme) {
-          document.body.setAttribute('theme', theme); 
-          document.documentElement.className = theme;
-          document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
-          if (theme === 'light') {
-            document.documentElement.classList.remove('tw-dark')
-          } else {
-            document.documentElement.classList.add('tw-dark')
-          }
-          window.theme = theme;   
-          window.isDark = window.theme !== 'light' 
-        }
-        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
-        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
-        if (window.localStorage && localStorage.getItem('theme')) {
-            let theme = localStorage.getItem('theme');
-            if (theme === 'light' || theme === 'dark') {
-            setTheme(theme);
+<body data-instant-intensity="viewport" class="tw-flex tw-min-h-screen tw-flex-col"><script type="text/javascript">
+    function setTheme(theme) {
+      document.body.setAttribute('theme', theme); 
+      document.documentElement.className = theme;
+      document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
+      if (theme === 'light') {
+        document.documentElement.classList.remove('tw-dark')
+      } else {
+        document.documentElement.classList.add('tw-dark')
+      }
+      window.theme = theme;   
+      window.isDark = window.theme !== 'light' 
+    }
+    function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+    function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+    if (window.localStorage && localStorage.getItem('theme')) {
+        let theme = localStorage.getItem('theme');
+        if (theme === 'light' || theme === 'dark') {
+        setTheme(theme);
+        } else {
+            if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                setTheme('dark');
             } else {
-                if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                    setTheme('dark');
-                } else {
-                    setTheme('light');
-                }
+                setTheme('light');
             }
-         } else { 
-            if ('auto' === 'light' || 'auto' === 'dark') 
-                setTheme('auto'), saveTheme('auto'); 
-            else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
         }
-        let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
-        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
-        window.switchThemeEventSet = new Set()
-    </script>
-    <div id="back-to-top"></div>
-    <div id="mask"></div><div class="wrapper"><header class="desktop print:!tw-hidden" id="header-desktop">
+      } else { 
+        if ('auto' === 'light' || 'auto' === 'dark') 
+            setTheme('auto'), saveTheme('auto'); 
+        else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
+    }
+    let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
+    getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    window.switchThemeEventSet = new Set()
+</script><div id="back-to-top"></div>
+    <div id="mask"></div><header class="desktop print:!tw-hidden" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src="/images/bnl_favicon-32x32.png"    height="32" width="32">Bearman.nl [NL]</a>
+            <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src='/images/bnl_favicon-32x32.png'   alt="Bearman.nl [NL]" height="32" width="32">Bearman.nl [NL]</a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item"
@@ -118,7 +115,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src="/images/bnl_favicon-32x32.png"    height="32" width="32">Bearman.nl [NL]</a>
+                <a href="/nl/" title="Bearman.NL [NL]"><img class="tw-inline tw-align-text-bottom tw-mr-1"  src='/images/bnl_favicon-32x32.png'   alt="Bearman.nl [NL]" height="32" width="32">Bearman.nl [NL]</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -139,20 +136,44 @@
 </div>
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
-</div><main class="main">
-            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title">Open Source - Inner Source - Protected Inner Source</h1><div class="post-meta">
+</div><main class="tw-mx-4 tw-flex-1"><dialog id="toc-dialog" class="tw-max-w-full tw-w-full tw-max-h-full tw-h-full tw-ml-16">
+        <div class="toc tw-mx-4 tw-max-w-full">
+            <h2 class="tw-mx-0 tw-my-6 tw-uppercase tw-text-2xl">Contents</h2>
+            <div class="toc-content"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a>
+      <ul>
+        <li><a href="#inner-source">Inner source</a></li>
+        <li><a href="#access-modifiers">Access Modifiers</a></li>
+      </ul>
+    </li>
+    <li><a href="#de-analogie-source-delen-strategieën-en-access-modifiers">De analogie: source delen strategieën en access modifiers</a></li>
+    <li><a href="#protected-inner-source-1">Protected Inner Source</a>
+      <ul>
+        <li><a href="#een-nieuw-concept">Een nieuw concept</a></li>
+        <li><a href="#specifieke-toepassingen">Specifieke toepassingen</a></li>
+        <li><a href="#de-voordelen">De voordelen</a></li>
+        <li><a href="#overwegingen-voor-implementatie">Overwegingen voor implementatie</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusie">Conclusie</a></li>
+  </ul>
+</nav></div>
+        </div>
+    </dialog><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title" data-pagefind-meta="date:2024-06-20" data-pagefind-body>Open Source - Inner Source - Protected Inner Source</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'>
-        <span class='screen-reader-text'>  </span><a href='https://bearman.nl/nl/authors/mike'>Mike</a></span>
+        <span class='screen-reader-text'>  </span><a href='https://bearman.nl/nl/authors/mike/'>Mike</a></span>
                 </span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">categories <a href="/nl/categories/ontwikkeling/"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>Ontwikkeling</a>&nbsp;<a href="/nl/categories/broncode-strategie/"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>Broncode Strategie</a></span></div>
             <div class="post-meta-line"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2024-06-20">2024-06-20</time>&nbsp;<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2024-06-22">2024-06-22</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;868 words&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;5 minutes&nbsp;</div>
-        </div><div class="featured-image"><img  loading="eager" src="/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg" srcset="/2024/06/20/open-inner-protected-source/protected-inner-source-banner_hu_e6e200a91e6844fe.webp 800w, /2024/06/20/open-inner-protected-source/protected-inner-source-banner_hu_4dca01525df220eb.webp 1200w, /2024/06/20/open-inner-protected-source/protected-inner-source-banner_hu_3865a768cf0d67dd.webp 1600w"  alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="1024" width="1024"></div><div class="details toc print:!tw-block" id="toc-static"  kept="true">
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;868 words&nbsp;
+                    <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="featured-image"><img  loading="eager" src='/2024/06/20/open-inner-protected-source/protected-inner-source-banner.jpg' srcset="/2024/06/20/open-inner-protected-source/protected-inner-source-banner_hu_e6e200a91e6844fe.webp 800w, /2024/06/20/open-inner-protected-source/protected-inner-source-banner_hu_4dca01525df220eb.webp 1200w, /2024/06/20/open-inner-protected-source/protected-inner-source-banner_hu_3865a768cf0d67dd.webp 1600w"  alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="1024" width="1024"></div><div class="details toc print:!tw-block" id="toc-static"  kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span class="details-icon"><svg class="icon"
@@ -178,17 +199,17 @@
     <li><a href="#conclusie">Conclusie</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="protected-inner-source" class="headerLink">
-    <a href="#protected-inner-source" class="header-mark" aria-label="Header mark for 'Protected Inner Source'"></a>Protected Inner Source</h1><p>UPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: <a href="/nl/2024/07/21/co-source-renaming/" rel="">Co Source - Hernoemde Source Code-deelstrategie</a></p>
+            </div><div class="content" id="content" data-pagefind-body><h1 id="protected-inner-source" class="headerLink">
+    <a href="#protected-inner-source" class="header-mark"></a>Protected Inner Source</h1><p>UPDATE: Op basis van feedback verander ik de naam van deze broncode-deelstrategie naar &lsquo;Co Source&rsquo;. De directe analogie tussen Protected Internal Class en Protected Inner Source leek een gebrek aan beveiliging in traditionele Open Source-deelstrategieën te impliceren, wat niet mijn bedoeling was. Lees meer over de naamswijziging in mijn vervolgartikel hier: <a href="/nl/2024/07/21/co-source-renaming/" rel="">Co Source - Hernoemde Source Code-deelstrategie</a></p>
 <h2 id="intro" class="headerLink">
-    <a href="#intro" class="header-mark" aria-label="Header mark for 'Intro'"></a>Intro</h2><h3 id="inner-source" class="headerLink">
-    <a href="#inner-source" class="header-mark" aria-label="Header mark for 'Inner source'"></a>Inner source</h3><p>In het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid. Het leidt tot verbeterde codekwaliteit en versnelde innovatie. Door Inner Source te benutten, kunnen bedrijven de collectieve expertise van hun werknemers inzetten. Ze kunnen dit doen terwijl ze hun eigen code beschermen.</p>
+    <a href="#intro" class="header-mark"></a>Intro</h2><h3 id="inner-source" class="headerLink">
+    <a href="#inner-source" class="header-mark"></a>Inner source</h3><p>In het digitale tijdperk is softwareontwikkeling een belangrijke drijfveer van innovatie. Inner Source heeft in dit domein aan populariteit gewonnen. Het is een strategie die Open Source-praktijken toepast binnen een organisatie. In tegenstelling tot Open Source, is Inner Source niet openbaar. Het blijft beperkt tot één enkele organisatie. Deze benadering stimuleert collaboratieve softwareontwikkeling en co-creatie. Teams binnen de organisatie kunnen bijdragen, ongeacht afdelingsgrenzen. Inner Source bevordert een cultuur van transparantie en gedeelde verantwoordelijkheid. Het leidt tot verbeterde codekwaliteit en versnelde innovatie. Door Inner Source te benutten, kunnen bedrijven de collectieve expertise van hun werknemers inzetten. Ze kunnen dit doen terwijl ze hun eigen code beschermen.</p>
 <p>Als je meer wilt lezen over Inner Source, voel je vrij om dat <a href="https://en.wikipedia.org/wiki/Inner_source" target="_blank" rel="noopener noreferrer">hier op Wikipedia te doen</a>.</p>
 <h3 id="access-modifiers" class="headerLink">
-    <a href="#access-modifiers" class="header-mark" aria-label="Header mark for 'Access Modifiers'"></a>Access Modifiers</h3><p>In C# bepalen zogeheten access modifiers (toegangsmodificatoren) de toegang tot de class (klasse) en haar members (leden). Ze zijn essentieel voor inkapseling. Public, protected, internal en private zijn de primaire modifiers. Elk dient een uniek doel. Public classes zijn toegankelijk vanuit elke andere class. Protected classes zijn toegankelijk binnen hun eigen class en door instances (instanties) van derived classes (afgeleide klassen). Internal classes zijn alleen toegankelijk binnen hun eigen assembly. Private classes zijn beperkt tot de bevattende class.</p>
+    <a href="#access-modifiers" class="header-mark"></a>Access Modifiers</h3><p>In C# bepalen zogeheten access modifiers (toegangsmodificatoren) de toegang tot de class (klasse) en haar members (leden). Ze zijn essentieel voor inkapseling. Public, protected, internal en private zijn de primaire modifiers. Elk dient een uniek doel. Public classes zijn toegankelijk vanuit elke andere class. Protected classes zijn toegankelijk binnen hun eigen class en door instances (instanties) van derived classes (afgeleide klassen). Internal classes zijn alleen toegankelijk binnen hun eigen assembly. Private classes zijn beperkt tot de bevattende class.</p>
 <p>Om de exacte werking van access modifiers in C# te begrijpen, raadpleeg het <a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table" target="_blank" rel="noopener noreferrer">Microsoft Learn-artikel hier</a>.</p>
 <h2 id="de-analogie-source-delen-strategieën-en-access-modifiers" class="headerLink">
-    <a href="#de-analogie-source-delen-strategie%c3%abn-en-access-modifiers" class="header-mark" aria-label="Header mark for 'De analogie: source delen strategieën en access modifiers'"></a>De analogie: source delen strategieën en access modifiers</h2><p>Access modifiers in C# kunnen vergeleken worden met strategieën voor het delen van broncode. Interne classes lijken op Inner Source; ze zijn toegankelijk binnen een organisatie. Overweeg het volgende:</p>
+    <a href="#de-analogie-source-delen-strategie%c3%abn-en-access-modifiers" class="header-mark"></a>De analogie: source delen strategieën en access modifiers</h2><p>Access modifiers in C# kunnen vergeleken worden met strategieën voor het delen van broncode. Interne classes lijken op Inner Source; ze zijn toegankelijk binnen een organisatie. Overweeg het volgende:</p>
 <ul>
 <li>Open Source code is beschikbaar voor <em>iedereen</em>.</li>
 <li>Inner Source code is alleen beschikbaar <em>voor degenen binnen één organisatie</em>.</li>
@@ -199,25 +220,25 @@
 </ul>
 <p>Deze analogie helpt te verklaren hoe het delen van code werkt in relatie tot verschillende niveaus van toegankelijkheid.</p>
 <h2 id="protected-inner-source-1" class="headerLink">
-    <a href="#protected-inner-source-1" class="header-mark" aria-label="Header mark for 'Protected Inner Source'"></a>Protected Inner Source</h2><h3 id="een-nieuw-concept" class="headerLink">
-    <a href="#een-nieuw-concept" class="header-mark" aria-label="Header mark for 'Een nieuw concept'"></a>Een nieuw concept</h3><p>Protected Inner Source, iets wat ik tot nu toe nog nergens anders heb gezien, lijkt op Protected Internal Classes (Beschermde Interne klassen). Het is een hybride toegangsniveau. Het maakt delen mogelijk tussen bepaalde vertrouwde organisaties. Deze organisaties opereren onafhankelijk maar delen een gemeenschappelijke vertrouwensgrens.</p>
+    <a href="#protected-inner-source-1" class="header-mark"></a>Protected Inner Source</h2><h3 id="een-nieuw-concept" class="headerLink">
+    <a href="#een-nieuw-concept" class="header-mark"></a>Een nieuw concept</h3><p>Protected Inner Source, iets wat ik tot nu toe nog nergens anders heb gezien, lijkt op Protected Internal Classes (Beschermde Interne klassen). Het is een hybride toegangsniveau. Het maakt delen mogelijk tussen bepaalde vertrouwde organisaties. Deze organisaties opereren onafhankelijk maar delen een gemeenschappelijke vertrouwensgrens.</p>
 <ul>
 <li>Derived Classes uit verschillende assemblies. Vergelijkbaar met afzonderlijke organisaties die nog steeds <em>gelieerd zijn aan dezelfde moederorganisatie</em>.</li>
 <li>Non-derived classes uit verschillende assemblies, niet-gelieerde organisaties hebben <em>geen toegang</em>.</li>
 </ul>
-<p><img class="tw-inline" loading="lazy" src="/2024/06/20/open-inner-protected-source/protected-inner-source.png" srcset="/2024/06/20/open-inner-protected-source/protected-inner-source_hu_7644dbd2a920bbdf.webp 800w, /2024/06/20/open-inner-protected-source/protected-inner-source_hu_e8c8e14d5e4c46dd.webp 1200w, /2024/06/20/open-inner-protected-source/protected-inner-source_hu_ff40bdf358a35985.webp 1600w" sizes="auto" alt="protected-inner-source-diagram" height="222" width="601"></p>
+<p><img class="tw-inline" loading="lazy" src='/2024/06/20/open-inner-protected-source/protected-inner-source.png' srcset="/2024/06/20/open-inner-protected-source/protected-inner-source_hu_7644dbd2a920bbdf.webp 800w, /2024/06/20/open-inner-protected-source/protected-inner-source_hu_e8c8e14d5e4c46dd.webp 1200w, /2024/06/20/open-inner-protected-source/protected-inner-source_hu_ff40bdf358a35985.webp 1600w"  alt="protected-inner-source-diagram" height="222" width="601"></p>
 <h3 id="specifieke-toepassingen" class="headerLink">
-    <a href="#specifieke-toepassingen" class="header-mark" aria-label="Header mark for 'Specifieke toepassingen'"></a>Specifieke toepassingen</h3><p>Hoewel dit misschien niet van toepassing is op de meeste organisaties ter wereld, zijn er enkele specifieke voorbeelden:</p>
+    <a href="#specifieke-toepassingen" class="header-mark"></a>Specifieke toepassingen</h3><p>Hoewel dit misschien niet van toepassing is op de meeste organisaties ter wereld, zijn er enkele specifieke voorbeelden:</p>
 <ul>
 <li>Overheidsorganisaties (rijksoverheid, veiligheidsregio&rsquo;s, EU, enz.) delen vaak (meer) vrijelijk dan de private sector.</li>
 <li>Private organisaties met complexe juridische structuren, die nog steeds vertrouwen delen tussen zusterbedrijven.</li>
 <li>Consortiums, in elke sector, moeten mogelijk samenwerken aan specifieke source code met vergelijkbare vertrouwensniveaus.</li>
 <li>Broncode met een lage eigendomswaarde, bijvoorbeeld verouderde applicaties die niet meer worden ondersteund. Een contracterend bedrijf kan toegang krijgen om het eigendom over te nemen voor specifieke doeleinden.</li>
 </ul>
-<p><img class="tw-inline" loading="lazy" src="/2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl.png" srcset="/2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl_hu_42c0e9763594f031.webp 800w, /2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl_hu_7ecb2717e5cf94ad.webp 1200w, /2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl_hu_890f6788a7fa51e7.webp 1600w" sizes="auto" alt="protected-inner-source-gov-organogram" height="1488" width="2213">
+<p><img class="tw-inline" loading="lazy" src='/2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl.png' srcset="/2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl_hu_42c0e9763594f031.webp 800w, /2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl_hu_7ecb2717e5cf94ad.webp 1200w, /2024/06/20/open-inner-protected-source/protected-inner-source_gov-nl_hu_890f6788a7fa51e7.webp 1600w"  alt="protected-inner-source-gov-organogram" height="1488" width="2213">
 <em>Let op! Dit is een voorbeeld van gekoppelde ministeries. Er is voor de blogpost geen validatie gedaan van vertrouwensniveaus en mogelijkheid tot delen van code binnen de rijksoverheid.</em></p>
 <h3 id="de-voordelen" class="headerLink">
-    <a href="#de-voordelen" class="header-mark" aria-label="Header mark for 'De voordelen'"></a>De voordelen</h3><p>Protected Inner Source biedt meerdere voordelen:</p>
+    <a href="#de-voordelen" class="header-mark"></a>De voordelen</h3><p>Protected Inner Source biedt meerdere voordelen:</p>
 <ul>
 <li>Het bevordert samenwerking zonder de veiligheid in gevaar te brengen.</li>
 <li>Het vermindert dubbel werk over organisaties heen.</li>
@@ -227,7 +248,7 @@
 <li>Het biedt traceerbaarheid bij het wijzigen van complexe oplossingen.</li>
 </ul>
 <h3 id="overwegingen-voor-implementatie" class="headerLink">
-    <a href="#overwegingen-voor-implementatie" class="header-mark" aria-label="Header mark for 'Overwegingen voor implementatie'"></a>Overwegingen voor implementatie</h3><p>Het implementeren van Protected Inner Source vereist zorgvuldige planning:</p>
+    <a href="#overwegingen-voor-implementatie" class="header-mark"></a>Overwegingen voor implementatie</h3><p>Het implementeren van Protected Inner Source vereist zorgvuldige planning:</p>
 <ul>
 <li><strong>Vertrouwen en Veiligheid</strong>: Hoe gaan organisaties een vertrouwensrelatie opbouwen en onderhouden? Welke beveiligingsmaatregelen zijn nodig om gedeelde code tegen externe bedreigingen te beschermen?</li>
 <li><strong>Bestuur</strong>: Wie beslist wat er gedeeld wordt en hoe bijdragen worden beheerd? Er kan een bestuursmodel nodig zijn waar alle partijen het over eens zijn.</li>
@@ -235,7 +256,7 @@
 <li><strong>Juridisch en Naleving</strong>: Zijn er juridische of regelgevende overwegingen bij het delen van code tussen dergelijke entiteiten?</li>
 </ul>
 <h2 id="conclusie" class="headerLink">
-    <a href="#conclusie" class="header-mark" aria-label="Header mark for 'Conclusie'"></a>Conclusie</h2><p>Protected Inner Source kan de samenwerkende ontwikkeling voor vertrouwde organisaties revolutioneren. Het combineert de openheid van Open Source met de controle en bescherming van Inner Source. Dit model kan met name voordelig zijn voor overheidsorganisaties in de publieke sector. Het stelt hen in staat om middelen efficiënt en veilig te delen.</p>
+    <a href="#conclusie" class="header-mark"></a>Conclusie</h2><p>Protected Inner Source kan de samenwerkende ontwikkeling voor vertrouwde organisaties revolutioneren. Het combineert de openheid van Open Source met de controle en bescherming van Inner Source. Dit model kan met name voordelig zijn voor overheidsorganisaties in de publieke sector. Het stelt hen in staat om middelen efficiënt en veilig te delen.</p>
 <p>Vooral in een wereld waar ecosystemen steeds prominenter worden kan dit voordelig zijn. Stel je voor dat je geen talloze uren hoeft te besteden aan het opstellen van licentieovereenkomsten en geheimhoudingsverklaringen voor dergelijke partnerschappen. Bouw voort op vertrouwde relaties in strategieën voor het delen van broncode. Net zoals we jaren geleden begonnen met gefedereerde identiteiten in Identity and Access Management!</p>
 </div>
 
@@ -246,14 +267,21 @@
 <div class="related-container">
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/nl/2024/10/13/peac-gen-ai-usage/"><img   src="/2024/10/13/peac-gen-ai-usage/peac-banner.jpg"   alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="200" width="400"></a>
+                <a href="/nl/2025/04/27/sovereign-scale/"><img   src='/2025/04/27/sovereign-scale/sovereignty-scale-banner.jpg'   alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="200" width="400"></a>
+            </div><h2 class="related-title">
+                <a href="/nl/2025/04/27/sovereign-scale/">Soevereiniteitsschaal: Een Pad naar Digitale Onafhankelijkheid van de EU</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/nl/2024/10/13/peac-gen-ai-usage/"><img   src='/2024/10/13/peac-gen-ai-usage/peac-banner.jpg'   alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="200" width="400"></a>
             </div><h2 class="related-title">
                 <a href="/nl/2024/10/13/peac-gen-ai-usage/">PEaC Gen AI Gebruik</a>
             </h2>
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/nl/2024/07/21/co-source-renaming/"><img   src="/2024/07/21/co-source-renaming/co-source-renamed.jpg"   alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="200" width="400"></a>
+                <a href="/nl/2024/07/21/co-source-renaming/"><img   src='/2024/07/21/co-source-renaming/co-source-renamed.jpg'   alt="Protected Inner Source is een nieuwe aanpak voor het delen van broncode." height="200" width="400"></a>
             </div><h2 class="related-title">
                 <a href="/nl/2024/07/21/co-source-renaming/">Co Source - Hernoemde Source Code-deelstrategie</a>
             </h2>
@@ -290,8 +318,7 @@
             <a href="/nl/2024/07/21/co-source-renaming/" class="next" rel="next" title="Co Source - Hernoemde Source Code-deelstrategie">Co Source - Hernoemde Source Code-deelstrategie<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
 </div>
-</article></div>
-        </main><footer class="footer">
+</article></main><footer class="footer">
         <div class="footer-container"><div class="footer-line">
                     Hosted on <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
                 </div><div class="footer-line"><svg class="icon"
@@ -299,12 +326,16 @@
             <div class="footer-line"></div>
             <div class="footer-line">
             </div>
-        </div></footer></div>
-
-    <div id="fixed-buttons" class="print:!tw-hidden"><a href="#back-to-top" id="back-to-top-button" class="fixed-button tw-transition-opacity tw-opacity-0" title="Back to Top">
-            <svg class="icon"
+        </div></footer><div class="print:!tw-hidden tw-flex tw-flex-col tw-fixed tw-right-4 tw-bottom-4 tw-gap-2"><a href="#back-to-top" id="back-to-top-button" class="tw-transition-opacity tw-opacity-0 tw-block tw-bg-bgColor-secondary tw-rounded-full" style="padding: 0.6rem; line-height: 1.3rem; font-size: 1rem;" title="Back to Top">
+      <svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg>
-        </a></div>
+  </a>
+
+  <button id="toc-drawer-button" class="tw-block tw-bg-bgColor-secondary tw-rounded-full md:tw-hidden" style="padding: 0.6rem; line-height: 1.3rem; font-size: 1rem;">
+      <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+  </button></div>
+
 <script>window.config={"comment":{},"sharerjs":true,"table":{"sort":true}};</script><script
     src="/lib/tablesort/tablesort.min.js"
     
@@ -317,18 +348,17 @@
       defer
     
   ></script>
-    
-    <script type="speculationrules">
-        {
-          "prerender": [
-            {
-              "where": { "href_matches": "/*" },
-              "eagerness": "moderate"
-            }
-          ]
-        }
-    </script>
-      
+
+<script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": { "href_matches": "/*" },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+</script>
 </body>
 
 </html>

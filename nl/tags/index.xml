@@ -1,77 +1,341 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>labels - Tag - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/tags/</link>
-        <description>labels - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Best-Practices</title>
-    <link>https://bearman.nl/nl/tags/best-practices/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/best-practices/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Everything-as-Code</title>
-    <link>https://bearman.nl/nl/tags/everything-as-code/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/everything-as-code/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Ontwikkeling</title>
-    <link>https://bearman.nl/nl/tags/ontwikkeling/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/ontwikkeling/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Peac</title>
-    <link>https://bearman.nl/nl/tags/peac/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/peac/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Prompt-Engineering</title>
-    <link>https://bearman.nl/nl/tags/prompt-engineering/</link>
-    <pubDate>Sun, 13 Oct 2024 20:50:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/prompt-engineering/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Ecosysteem</title>
-    <link>https://bearman.nl/nl/tags/ecosysteem/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/ecosysteem/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Gen-Gt</title>
-    <link>https://bearman.nl/nl/tags/gen-gt/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/gen-gt/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Generatie-Govtech</title>
-    <link>https://bearman.nl/nl/tags/generatie-govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/generatie-govtech/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Generatie-Gt</title>
-    <link>https://bearman.nl/nl/tags/generatie-gt/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/generatie-gt/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Gengt</title>
-    <link>https://bearman.nl/nl/tags/gengt/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-        <name>Mike Beerman</name>
-    </author><guid>https://bearman.nl/nl/tags/gengt/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>labels on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/tags/</link>
+    <description>Recent content in labels on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Sun, 27 Apr 2025 23:00:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud</title>
+      <link>https://bearman.nl/nl/tags/cloud/</link>
+      <pubDate>Sun, 27 Apr 2025 23:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IT</title>
+      <link>https://bearman.nl/nl/tags/it/</link>
+      <pubDate>Sun, 27 Apr 2025 23:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/it/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://bearman.nl/nl/tags/open-source/</link>
+      <pubDate>Sun, 27 Apr 2025 23:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soevereiniteit</title>
+      <link>https://bearman.nl/nl/tags/soevereiniteit/</link>
+      <pubDate>Sun, 27 Apr 2025 23:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/soevereiniteit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best-Practices</title>
+      <link>https://bearman.nl/nl/tags/best-practices/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Everything-as-Code</title>
+      <link>https://bearman.nl/nl/tags/everything-as-code/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/everything-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ontwikkeling</title>
+      <link>https://bearman.nl/nl/tags/ontwikkeling/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/ontwikkeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peac</title>
+      <link>https://bearman.nl/nl/tags/peac/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/peac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Engineering</title>
+      <link>https://bearman.nl/nl/tags/prompt-engineering/</link>
+      <pubDate>Sun, 13 Oct 2024 20:50:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecosysteem</title>
+      <link>https://bearman.nl/nl/tags/ecosysteem/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/ecosysteem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gen-Gt</title>
+      <link>https://bearman.nl/nl/tags/gen-gt/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/gen-gt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generatie-Govtech</title>
+      <link>https://bearman.nl/nl/tags/generatie-govtech/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/generatie-govtech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generatie-Gt</title>
+      <link>https://bearman.nl/nl/tags/generatie-gt/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/generatie-gt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gengt</title>
+      <link>https://bearman.nl/nl/tags/gengt/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/gengt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Govtech</title>
+      <link>https://bearman.nl/nl/tags/govtech/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/govtech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mindset</title>
+      <link>https://bearman.nl/nl/tags/mindset/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/mindset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overheid</title>
+      <link>https://bearman.nl/nl/tags/overheid/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/overheid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publieke Diesntverlening</title>
+      <link>https://bearman.nl/nl/tags/publieke-diesntverlening/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/publieke-diesntverlening/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Access-Modifiers</title>
+      <link>https://bearman.nl/nl/tags/access-modifiers/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/access-modifiers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Broncode</title>
+      <link>https://bearman.nl/nl/tags/broncode/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/broncode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C-Sharp</title>
+      <link>https://bearman.nl/nl/tags/c-sharp/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/c-sharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Class</title>
+      <link>https://bearman.nl/nl/tags/class/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/class/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Classes</title>
+      <link>https://bearman.nl/nl/tags/classes/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/classes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Co-Source</title>
+      <link>https://bearman.nl/nl/tags/co-source/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/co-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>https://bearman.nl/nl/tags/code/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inner-Source</title>
+      <link>https://bearman.nl/nl/tags/inner-source/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/inner-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internal</title>
+      <link>https://bearman.nl/nl/tags/internal/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/internal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protected-Inner-Source</title>
+      <link>https://bearman.nl/nl/tags/protected-inner-source/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/protected-inner-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protected-Internal</title>
+      <link>https://bearman.nl/nl/tags/protected-internal/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/protected-internal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Public</title>
+      <link>https://bearman.nl/nl/tags/public/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/public/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Source</title>
+      <link>https://bearman.nl/nl/tags/source/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sourcecode</title>
+      <link>https://bearman.nl/nl/tags/sourcecode/</link>
+      <pubDate>Sun, 21 Jul 2024 12:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/sourcecode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automatisering</title>
+      <link>https://bearman.nl/nl/tags/automatisering/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/automatisering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firewall-Ports</title>
+      <link>https://bearman.nl/nl/tags/firewall-ports/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/firewall-ports/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructuur</title>
+      <link>https://bearman.nl/nl/tags/infrastructuur/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/infrastructuur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>https://bearman.nl/nl/tags/powershell/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scripts</title>
+      <link>https://bearman.nl/nl/tags/scripts/</link>
+      <pubDate>Sat, 19 Aug 2017 11:56:45 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/scripts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creators-Update</title>
+      <link>https://bearman.nl/nl/tags/creators-update/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/creators-update/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://bearman.nl/nl/tags/google/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft-Edge</title>
+      <link>https://bearman.nl/nl/tags/microsoft-edge/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/microsoft-edge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows-10</title>
+      <link>https://bearman.nl/nl/tags/windows-10/</link>
+      <pubDate>Thu, 13 Apr 2017 12:12:02 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/windows-10/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gateway</title>
+      <link>https://bearman.nl/nl/tags/gateway/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/gateway/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rdp</title>
+      <link>https://bearman.nl/nl/tags/rdp/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/rdp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remoteapp-and-Desktop-Connection</title>
+      <link>https://bearman.nl/nl/tags/remoteapp-and-desktop-connection/</link>
+      <pubDate>Mon, 10 Apr 2017 13:11:47 +0200</pubDate>
+      <guid>https://bearman.nl/nl/tags/remoteapp-and-desktop-connection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>configuratie</title>
+      <link>https://bearman.nl/nl/tags/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bearman.nl/nl/tags/configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>content</title>
+      <link>https://bearman.nl/nl/tags/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bearman.nl/nl/tags/content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>installatie</title>
+      <link>https://bearman.nl/nl/tags/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bearman.nl/nl/tags/installation/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

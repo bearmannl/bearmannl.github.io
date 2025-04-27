@@ -1,21 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Generatie-Gt - Tag - Bearman.NL [NL]</title>
-        <link>https://bearman.nl/nl/tags/generatie-gt/</link>
-        <description>Generatie-Gt - Tag - Bearman.NL [NL]</description>
-        <generator>Hugo -- gohugo.io</generator><language>nl</language><lastBuildDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</lastBuildDate><atom:link href="https://bearman.nl/nl/tags/generatie-gt/" rel="self" type="application/rss+xml" /><item>
-    <title>Generatie GovTech</title>
-    <link>https://bearman.nl/nl/2024/09/08/generation-govtech/</link>
-    <pubDate>Sun, 08 Sep 2024 11:00:00 &#43;0200</pubDate><author>
-                    <name>Mike</name>
-                </author><guid>https://bearman.nl/nl/2024/09/08/generation-govtech/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2024/09/08/generation-govtech/gen-gt.jpg" referrerpolicy="no-referrer">
-            </div><h1 id="generatie-govtech" class="headerLink">
-    <a href="#generatie-govtech" class="header-mark" aria-label="Header mark for 'Generatie GovTech'"></a>Generatie GovTech</h1><h2 id="inleiding" class="headerLink">
-    <a href="#inleiding" class="header-mark" aria-label="Header mark for 'Inleiding'"></a>Inleiding</h2><p>Dit bericht introduceert een nieuwe term, Generatie GovTech, of GenGT in het kort.</p>
-<p>Hieronder vindt u een volledige beschrijving van deze term. Om het volledig uit te leggen, zullen we eerst de wervingscampagne van het Nederlandse Ministerie van Defensie behandelen: <a href="https://werkenbijdefensie.nl/generatie-d" target="_blank" rel="noopener noreferrer">Generatie D</a>.</p>
-<h3 id="generatie-d" class="headerLink">
-    <a href="#generatie-d" class="header-mark" aria-label="Header mark for 'Generatie D'"></a>Generatie D</h3><p>In 2022 lanceerde het Ministerie van Defensie de <a href="https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d" target="_blank" rel="noopener noreferrer">wervingscampagne Generatie D</a>. De campagne was gericht op het aantrekken van mensen met een specifieke mindset. Deze mindset omvat individuen die zinvol werk willen doen, geloven in samenwerking en persoonlijke groei nastreven.</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generatie-Gt on Bearman.NL [NL]</title>
+    <link>https://bearman.nl/nl/tags/generatie-gt/</link>
+    <description>Recent content in Generatie-Gt on Bearman.NL [NL]</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <lastBuildDate>Sun, 08 Sep 2024 11:15:00 +0200</lastBuildDate>
+    <atom:link href="https://bearman.nl/nl/tags/generatie-gt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generatie GovTech</title>
+      <link>https://bearman.nl/nl/2024/09/08/generation-govtech/</link>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 +0200</pubDate>
+      <guid>https://bearman.nl/nl/2024/09/08/generation-govtech/</guid>
+      <description>&lt;h1 id=&#34;generatie-govtech&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#generatie-govtech&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Generatie GovTech&lt;/h1&gt;&lt;h2 id=&#34;inleiding&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#inleiding&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Inleiding&lt;/h2&gt;&lt;p&gt;Dit bericht introduceert een nieuwe term, Generatie GovTech, of GenGT in het kort.&lt;/p&gt;&#xA;&lt;p&gt;Hieronder vindt u een volledige beschrijving van deze term. Om het volledig uit te leggen, zullen we eerst de wervingscampagne van het Nederlandse Ministerie van Defensie behandelen: &lt;a href=&#34;https://werkenbijdefensie.nl/generatie-d&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Generatie D&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;generatie-d&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#generatie-d&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Generatie D&lt;/h3&gt;&lt;p&gt;In 2022 lanceerde het Ministerie van Defensie de &lt;a href=&#34;https://www.defensie.nl/actueel/nieuws/2022/04/20/wervingscampagne-richt-zich-op-generatie-d&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;wervingscampagne Generatie D&lt;/a&gt;. De campagne was gericht op het aantrekken van mensen met een specifieke mindset. Deze mindset omvat individuen die zinvol werk willen doen, geloven in samenwerking en persoonlijke groei nastreven.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
