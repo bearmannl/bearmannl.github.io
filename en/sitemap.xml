@@ -11,7 +11,7 @@
                     hreflang="en"
                     href="https://bearman.nl/posts/"
                     /></url><url>
-            <loc>https://bearman.nl/authors/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/authors/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/authors/"
@@ -20,7 +20,7 @@
                     hreflang="en"
                     href="https://bearman.nl/authors/"
                     /></url><url>
-            <loc>https://bearman.nl/categories/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/categories/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/categories/"
@@ -29,11 +29,43 @@
                     hreflang="en"
                     href="https://bearman.nl/categories/"
                     /></url><url>
-            <loc>https://bearman.nl/categories/cloud/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/cloud/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/categories/it/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/it/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/authors/mike/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/categories/cloud/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/categories/cloud/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/categories/cloud/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/cloud/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/cloud/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/cloud/"
+                    /></url><url>
+            <loc>https://bearman.nl/categories/it/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/categories/it/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/categories/it/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/it/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/tags/it/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/tags/it/"
+                    /></url><url>
+            <loc>https://bearman.nl/authors/mike/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/authors/mike/"
@@ -42,7 +74,7 @@
                     hreflang="en"
                     href="https://bearman.nl/authors/mike/"
                     /></url><url>
-            <loc>https://bearman.nl/tags/open-source/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/tags/open-source/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/tags/open-source/"
@@ -51,10 +83,18 @@
                     hreflang="en"
                     href="https://bearman.nl/tags/open-source/"
                     /></url><url>
-            <loc>https://bearman.nl/categories/sovereignty/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/sovereignty/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/2025/04/27/sovereign-scale/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://bearman.nl/tags/</loc><lastmod>2025-04-27T18:00:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://bearman.nl/categories/sovereignty/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/tags/sovereignty/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bearman.nl/2025/04/27/sovereign-scale/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="nl"
+                        href="https://bearman.nl/nl/2025/04/27/sovereign-scale/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bearman.nl/2025/04/27/sovereign-scale/"
+                    /></url><url>
+            <loc>https://bearman.nl/tags/</loc><lastmod>2025-04-27T22:45:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="nl"
                         href="https://bearman.nl/nl/tags/"

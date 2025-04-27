@@ -42,15 +42,15 @@ The following depiction illustrates how one might conceptually see the scale and
 
 Let's evaluate the sovereignty of the cloud landscape for the fictive company '**Dutch Hotels & Restaurants (DHR)**'. This company has several physical hotels across the Netherlands, each including restaurants. They service many clients, communicate internally with staff and externally with customers, process payment information, and follow stringent rules regarding physical safety and security of hotel guests. Their cloud components include:
 
-| Product                | Purpose                                      | Source       | Sovereignty Score |
-|------------------------|----------------------------------------------|--------------|-------------------|
-| SharePoint (Online)    | Administrative file sharing and storage      | Closed Source| 10%               |
-| grommunio (self-hosted)| Email server                                | Open Source  | 80%               |
-| Microsoft Outlook (Desktop client, cloud connections disabled) | Email client app on Windows | Closed Source| 45%               |
-| Azure Virtual Machines | Hosting of the public website, reservations system, and grommunio | Closed Source| 30%               |
-| Microsoft Teams        | Internal communication                      | Closed Source| 10%               |
-| PostgreSQL Database Servers (On-premises) | Hosting of databases with all customer data behind Azure hosted systems | Open Source  | 90%               |
-| Site-to-site VPN       | Connectivity between Azure applications and databases on-premises | Closed Source| 50%               |
+| Product                                                        | Purpose                                                                 | Source        | Sovereignty Score |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------- | ----------------- |
+| SharePoint (Online)                                            | Administrative file sharing and storage                                 | Closed Source | 10%               |
+| grommunio (self-hosted)                                        | Email server                                                            | Open Source   | 80%               |
+| Microsoft Outlook (Desktop client, cloud connections disabled) | Email client app on Windows                                             | Closed Source | 45%               |
+| Azure Virtual Machines                                         | Hosting of the public website, reservations system, and grommunio       | Closed Source | 30%               |
+| Microsoft Teams                                                | Internal communication                                                  | Closed Source | 10%               |
+| PostgreSQL Database Servers (On-premises)                      | Hosting of databases with all customer data behind Azure hosted systems | Open Source   | 90%               |
+| Site-to-site VPN                                               | Connectivity between Azure applications and databases on-premises       | Closed Source | 50%               |
 
 For argument's sake, let's evaluate. Averaging it out over those base scores, we get a **45% sovereignty score** for the cloud landscape overall.
 
