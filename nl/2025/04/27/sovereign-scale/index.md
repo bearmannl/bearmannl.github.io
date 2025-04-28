@@ -36,7 +36,7 @@ Verschillende componenten van het digitale systeem van een organisatie kunnen ve
 
 De volgende afbeelding illustreert hoe men conceptueel de schaal en de wegingsfactoren zou kunnen zien:
 
-![soevereiniteitsschaal.drawio.png](soevereiniteitsschaal.drawio.png)
+![sovereignty-scale.drawio.png](sovereignty-scale.drawio.nl.png)
 
 ### Praktisch Voorbeeldscenario
 
@@ -56,7 +56,7 @@ Voor het argument, laten we evalueren. Gemiddeld over deze basisscores krijgen w
 
 Alle persoonlijk identificeerbare informatie (PII) en betalingskaartnummers worden opgeslagen in de on-premises databases. Dus vanuit de behoefte om _de gegevens van hun klanten te besturen_, is de 90% soevereiniteitsscore voor databases die on-premises worden gehost geweldig. De totale soevereiniteitsscore van 45% in die zin is misschien 'precies wat DHR nodig heeft'. Evenzo zorgt de e-mailserveroplossing ervoor dat alle communicatie met de klant strikt wordt gecontroleerd door DHR zelf, ook al zijn de servers geplaatst op Azure Virtual Machines.
 
-Echter, als dit een grote federale overheidsorganisatie was, zouden ze misschien een minimale soevereiniteitsscore van 80% nodig hebben voor hun doeleinden.
+Echter, als dit een grote federale overheidsorganisatie was, zouden ze misschien een minimale soevereiniteitsscore van 50% nodig hebben voor hun doeleinden. Betreft het een nationale veiligheidsdienst, dan misschien wel minimaal 75% of hoger. Het hangt allemaal af van de context, elke organisatie moet hier een eigen richtlijn voor stellen vanuit strategische doelstellingen.
 
 De percentages zelf zijn op dit moment willekeurig, aangezien elke organisatie moet bepalen hoe ze deze in hun context berekenen. Als algemene richtlijn, overweeg de volgende aspecten voor het scoren van de soevereiniteit van een digitale oplossing:
 - Gesloten/Interne/Open Source

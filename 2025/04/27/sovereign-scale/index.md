@@ -56,7 +56,7 @@ For argument's sake, let's evaluate. Averaging it out over those base scores, we
 
 All personally identifiable information (PII) and payment card numbers are stored in the on-premises databases. So from the need to _govern_ their customer's data, the 90% sovereignty score for databases hosted on-premises is great. The total 45% sovereignty score in that sense might be 'just what DHR needs'. Similarly, the email server solution ensures all communications with the client are strictly controlled by DHR themselves, even though the servers are located on Azure Virtual Machines.
 
-However, if this were a major federal government organization, they might need a minimum 80% sovereign score for their purposes.
+However, if this were a major federal government organization, they might need a minimum 50% sovereign score for their purposes. If it concerns a national security organization, then perhaps they might need a minimum 75% or higher. It all depends on the context, every organization must establish their own guidelines based on their strategic goals.
 
 The percentages themselves are arbitrary at this point, as any organization will need to determine how to calculate them in their context. As a general guideline, consider the following aspects for scoring the sovereignty of any digital solution:
 - Closed/Inner/Open Source
